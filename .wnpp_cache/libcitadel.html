@@ -1,0 +1,1137 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>libcitadel - Debian Package Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/octicons.css" rel="stylesheet" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet" media="screen">
+        <link type="application/opensearchdescription+xml" title="Debian Package Tracker Search" rel="search" href="/search.xml"/>
+        
+
+        
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/pkg/libcitadel/rss">
+
+        
+<link href="/static/css/dense.css" rel="stylesheet" media="screen">
+
+    
+        
+        <link rel="vcs-git" href="https://salsa.debian.org/debian/libcitadel.git" title="git repository for libcitadel">
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+
+    </head>
+    <body>
+        
+        <header class="page-header">
+            <div class="container-fluid">
+                
+		<div class="row">
+		<div class="col-xs-12 text-xs-center">
+		    <div class="pull-xs-left">
+<a href="/"><img src="/static/img/logo.png" alt="Debian Package Tracker" title="Visit the main page" ></a>
+</div>
+		    <div class="pull-xs-right">
+		    
+    <div class="m-b-1">
+    <div class="text-xs-left"><form class="form-inline" id="package-search-form" action="/search" method="GET"><div class="form-group"><input type="search" class="form-control form-control-sm package-completion" name="package_name" id='package-search-input' placeholder="Jump to package..."></div><div class="form-group"><button type="submit" class="btn btn-default btn-sm">Go</button></div></form></div>
+
+    </div>
+    
+    <span><a id="account-register" href="/accounts/register/">Register</a></span>
+    <span>|</span>
+    <span><a id="account-login" href="/accounts/login/">Log in</a></span>
+
+
+
+    
+	
+	<div class="btn-group" role="group" style="margin-left: 10px;">
+	  <a href="/accounts/login/?next=/pkg/libcitadel" id='subscribe-not-logged-in-button' class="btn btn-primary">Subscribe</a>
+	</div>
+    
+
+
+		    </div>
+		    
+    <div>
+    <h1>libcitadel</h1>
+    
+    </div>
+
+		</div>
+		</div>
+                
+            </div>
+        </header>
+        
+
+	
+
+<div id="choose-email-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3>Choose email to subscribe with</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-default" id="cancel-choose-email" data-dismiss="modal" aria-hidden="true">Cancel</button></div></div></div></div>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-3" id="dtracker-package-left">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        general
+    </div>
+    <div class="panel-body">
+        
+
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>source:</b></span>
+	
+	<a href="https://packages.debian.org/src:libcitadel">libcitadel</a>
+		
+		(<span id="component" title="Repository's component">main</span>)
+		
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>version:</b></span>
+        917-5
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>maintainer:</b></span>
+	
+	
+	<a href="https://qa.debian.org/developer.php?login=packages%40qa.debian.org">Debian QA Group</a>
+	
+	
+	    
+	    
+		<small>
+		(<a href="https://udd.debian.org/dmd/?packages%40qa.debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>)
+		</small>
+	    
+	
+    </li>
+    
+
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>arch:</b></span>
+        any 
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>std-ver:</b></span>
+        4.1.3
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>VCS:</b></span>
+	
+	
+	    
+	    <a rel="vcs-git" href="https://salsa.debian.org/debian/libcitadel.git">Git</a>
+	    
+	
+	
+	(<a href="https://salsa.debian.org/debian/libcitadel">Browse</a>, <a href="https://qa.debian.org/cgi-bin/vcswatch?package=libcitadel">QA</a>)
+	
+	
+    </li>
+    
+</ul>
+
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+<div class="col-xs-12">
+    versions
+    
+    
+    <a class="m-l-1" href="https://qa.debian.org/madison.php?package=libcitadel">
+        <span role="img" aria-label="more versions can be listed by madison" class="octicon octicon-link-external" title="more versions can be listed by madison"><span class="sr-only">[more versions can be listed by madison]</span></span>
+    </a>
+    
+    <a class="m-l-1" href="https://snapshot.debian.org/package/libcitadel/">
+        <span role="img" aria-label="old versions available from snapshot.debian.org" class="octicon octicon-link-external" title="old versions available from snapshot.debian.org"><span class="sr-only">[old versions available from snapshot.debian.org]</span></span>
+    </a>
+    
+    
+    
+    <div class="pull-xs-right">
+	
+	<a href="https://deb.debian.org/debian/pool/main/libc/libcitadel"><span role="img" aria-label="pool directory" class="octicon octicon-file-directory" title="pool directory"><span class="sr-only">[pool directory]</span></span></a>
+	
+    </div>
+    
+</div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 11 (bullseye / oldoldstable)">
+	    <b>o-o-stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldoldstable/libcitadel">917-3</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 12 (bookworm / oldstable)">
+	    <b>oldstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldstable/libcitadel">917-5</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 13 (trixie / stable)">
+	    <b>stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/stable/libcitadel">917-5</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Forky (forky / testing)">
+	    <b>testing:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/testing/libcitadel">917-5</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Unstable (sid / unstable)">
+	    <b>unstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/unstable/libcitadel">917-5</a>
+	
+    </li>
+    
+
+
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        versioned links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>917-3:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/libc/libcitadel/libcitadel_917-3.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libc/libcitadel/changelog-917-3"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libc/libcitadel/copyright-917-3"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libc/libcitadel/rules-917-3"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libc/libcitadel/control-917-3"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>917-5:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/libc/libcitadel/libcitadel_917-5.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libc/libcitadel/changelog-917-5"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libc/libcitadel/copyright-917-5"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libc/libcitadel/rules-917-5"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libc/libcitadel/control-917-5"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        binaries
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libcitadel-dev" title="">libcitadel-dev</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libcitadel4" title="">libcitadel4</a>
+        
+
+        
+    </li>
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-6 col-xl-7" id="dtracker-package-center">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        action needed
+    </div>
+    <div class="panel-body">
+        
+<div class="list-group list-group-flush" id="action-needed-list" role="list">
+    
+    <div class="card list-group-item action-item-watch-failure" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                Problems while searching for a new upstream version
+                
+                <span class="label label-warning pull-xs-right">high</span>
+                
+            </summary>
+            <div class="card-block">
+                <span>uscan had problems while searching for a new upstream version:</span>
+<pre>In watchfile debian/watch, reading webpage
+  https://easyinstall.citadel.org/manifest.html failed: 404 Not Found</pre>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-11-27
+                <span class="pull-xs-right">
+                    Last update: 2025-12-23
+                    00:31
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-lintian-warnings-and-errors" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                lintian reports <a href="https://udd.debian.org/lintian/?packages=libcitadel">1 warning</a>
+                
+                <span class="label label-warning pull-xs-right">high</span>
+                
+            </summary>
+            <div class="card-block">
+                
+
+Lintian reports
+<a href="https://udd.debian.org/lintian/?packages=libcitadel">
+
+
+<span>1 warning</span>
+
+</a>
+about this package. You should make the package <i>lintian clean</i> getting rid of them.
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2024-02-29
+                <span class="pull-xs-right">
+                    Last update: 2024-11-15
+                    08:03
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-vcswatch-warnings-and-errors" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://qa.debian.org/cgi-bin/vcswatch?package=libcitadel">1 new commit</a> since last upload, is it time to release?
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                
+
+<a href="https://qa.debian.org/cgi-bin/vcswatch?package=libcitadel">vcswatch</a> reports that
+
+this package seems to have new commits in its VCS but has
+not yet updated debian/changelog. You should consider updating
+the Debian changelog and uploading this new version into the archive.
+<br/><br/>
+Here are the relevant commit logs:
+<pre>
+commit 071d675e77ff501100ef6ea802d24df221222b55
+Author: Alexandre Detiste &lt;alexandre.detiste@gmail.com&gt;
+Date:   Wed Sep 3 23:59:15 2025 +0200
+
+    remove obsolete debian/README.source
+    
+    it is the default workflow now
+</pre>
+
+
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-09-04
+                <span class="pull-xs-right">
+                    Last update: 2025-12-15
+                    15:00
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-wnpp-issue" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://bugs.debian.org/931868">O: This package has been orphaned and needs a maintainer.</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div><span><span style="font-weight: bold">This package has been
+        orphaned</span>.  This means that it does not have a real
+        maintainer at the moment. Please consider adopting this package
+        if you are interested in it.</span><span> Please see bug number <a href="https://bugs.debian.org/931868">#931868</a> for more information.</span></div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2019-07-11
+                <span class="pull-xs-right">
+                    Last update: 2019-07-11
+                    19:31
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-patches" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                debian/patches: <a href="https://udd.debian.org/patches.cgi?src=libcitadel&version=917-5">1 patch</a> to forward upstream
+                
+                <span class="label label-default pull-xs-right">low</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<p>Among the <a href="https://udd.debian.org/patches.cgi?src=libcitadel&amp;version=917-5">1 debian patch</a>
+available in version 917-5 of the package,
+we noticed the following issues:</p>
+<ul>
+
+
+<li>1 patch
+    where the metadata indicates that the patch has not yet been forwarded
+    upstream. You should either forward the patch upstream or update the
+    metadata to document its real status.</li>
+
+</ul>
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2023-02-26
+                <span class="pull-xs-right">
+                    Last update: 2023-02-26
+                    15:54
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-std-ver-outdated" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                Standards version of the package is outdated.
+                
+                <span class="label label-info pull-xs-right">wishlist</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<span>The package should be updated to follow the last version of <a href="https://www.debian.org/doc/debian-policy/">Debian Policy</a>
+(Standards-Version <a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-4-7-2">4.7.2</a> instead of
+<a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-4-1-3">4.1.3</a>).
+</span>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2018-04-16
+                <span class="pull-xs-right">
+                    Last update: 2025-02-27
+                    13:25
+                </span>
+            </div>
+        </details>
+    </div>
+    
+</div>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+    <div class="col-xs-12">
+	<a href="/pkg/libcitadel/news/">news</a>
+	<div class="pull-xs-right">
+	    <a href="/pkg/libcitadel/rss">
+	    <span role="img" aria-label="rss feed" class="octicon octicon-rss" title="rss feed"><span class="sr-only">[rss feed]</span></span>
+	    </a>
+	</div>
+    </div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+
+    <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-12-03</span>]
+        <a href="/news/1392948/libcitadel-917-5-migrated-to-testing/">
+            <span class="news-title">libcitadel 917-5 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-11-27</span>]
+        <a href="/news/1390844/accepted-libcitadel-917-5-source-into-unstable/">
+            <span class="news-title">Accepted libcitadel 917-5 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Jelmer Vernooĳ</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Jelmer Vernooij</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-08-30</span>]
+        <a href="/news/1358182/libcitadel-917-4-migrated-to-testing/">
+            <span class="news-title">libcitadel 917-4 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-08-25</span>]
+        <a href="/news/1357368/accepted-libcitadel-917-4-source-into-unstable/">
+            <span class="news-title">Accepted libcitadel 917-4 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Bastian Germann</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">bage@debian.org</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-08-20</span>]
+        <a href="/news/1056077/libcitadel-917-3-migrated-to-testing/">
+            <span class="news-title">libcitadel 917-3 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-07-11</span>]
+        <a href="/news/1043943/accepted-libcitadel-917-3-source-amd64-into-unstable/">
+            <span class="news-title">Accepted libcitadel 917-3 (source amd64) into unstable</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2018-01-11</span>]
+        <a href="/news/900667/libcitadel-917-2-migrated-to-testing/">
+            <span class="news-title">libcitadel 917-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2018-01-06</span>]
+        <a href="/news/899600/accepted-libcitadel-917-2-source-amd64-into-unstable/">
+            <span class="news-title">Accepted libcitadel 917-2 (source amd64) into unstable</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2018-01-05</span>]
+        <a href="/news/899333/accepted-libcitadel-917-1-source-amd64-into-unstable/">
+            <span class="news-title">Accepted libcitadel 917-1 (source amd64) into unstable</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2018-01-03</span>]
+        <a href="/news/898620/accepted-libcitadel-916-1-source-amd64-into-unstable/">
+            <span class="news-title">Accepted libcitadel 916-1 (source amd64) into unstable</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2017-06-20</span>]
+        <a href="/news/849972/libcitadel-904-1-migrated-to-testing/">
+            <span class="news-title">libcitadel 904-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2017-06-06</span>]
+        <a href="/news/846991/accepted-libcitadel-904-1-source-amd64-into-unstable/">
+            <span class="news-title">Accepted libcitadel 904-1 (source amd64) into unstable</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2016-05-21</span>]
+        <a href="/news/769701/libcitadel-902-1-migrated-to-testing/">
+            <span class="news-title">libcitadel 902-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2016-05-15</span>]
+        <a href="/news/768368/accepted-libcitadel-902-1-source-amd64-into-unstable/">
+            <span class="news-title">Accepted libcitadel 902-1 (source amd64) into unstable</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2015-07-13</span>]
+        <a href="/news/697736/libcitadel-901-1-migrated-to-testing/">
+            <span class="news-title">libcitadel 9.01-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Britney</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2015-07-07</span>]
+        <a href="/news/695995/accepted-libcitadel-901-1-source-amd64-into-unstable/">
+            <span class="news-title">Accepted libcitadel 9.01-1 (source amd64) into unstable</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2014-02-03</span>]
+        <a href="/news/525991/libcitadel-824-1-migrated-to-testing/">
+            <span class="news-title">libcitadel 8.24-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2014-01-28</span>]
+        <a href="/news/525990/accepted-libcitadel-824-1-source-amd64/">
+            <span class="news-title">Accepted libcitadel 8.24-1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2013-11-18</span>]
+        <a href="/news/525989/libcitadel-822-1-migrated-to-testing/">
+            <span class="news-title">libcitadel 8.22-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2013-11-04</span>]
+        <a href="/news/525988/accepted-libcitadel-822-1-source-amd64/">
+            <span class="news-title">Accepted libcitadel 8.22-1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2013-09-06</span>]
+        <a href="/news/525987/accepted-libcitadel-820-1-source-amd64/">
+            <span class="news-title">Accepted libcitadel 8.20-1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2013-05-05</span>]
+        <a href="/news/525986/libcitadel-816-1-migrated-to-testing/">
+            <span class="news-title">libcitadel 8.16-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2013-03-10</span>]
+        <a href="/news/525985/accepted-libcitadel-816-1-source-amd64/">
+            <span class="news-title">Accepted libcitadel 8.16-1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-11-27</span>]
+        <a href="/news/525984/accepted-libcitadel-814-2-source-amd64/">
+            <span class="news-title">Accepted libcitadel 8.14-2 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Wilfried Goesgens</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Michael Meskes</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-09-06</span>]
+        <a href="/news/525983/libcitadel-814-1-migrated-to-testing/">
+            <span class="news-title">libcitadel 8.14-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-08-18</span>]
+        <a href="/news/525982/accepted-libcitadel-814-1-source-amd64/">
+            <span class="news-title">Accepted libcitadel 8.14-1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-07-02</span>]
+        <a href="/news/525981/accepted-libcitadel-812-1-source-amd64/">
+            <span class="news-title">Accepted libcitadel 8.12-1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-06-16</span>]
+        <a href="/news/525980/libcitadel-811-2-migrated-to-testing/">
+            <span class="news-title">libcitadel 8.11-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-06-05</span>]
+        <a href="/news/525979/accepted-libcitadel-811-2-source-amd64/">
+            <span class="news-title">Accepted libcitadel 8.11-2 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-05-31</span>]
+        <a href="/news/525978/accepted-libcitadel-811-1-source-amd64/">
+            <span class="news-title">Accepted libcitadel 8.11-1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Michael Meskes</span>)
+        
+        
+        
+    </li>
+    
+</ul>
+
+
+
+
+<div class="text-xs-center" style="margin-bottom: -1rem">
+    <ul class="pagination m-b-0">
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/libcitadel/news/">1</a>
+	</li>
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/libcitadel/news/?page=2">2</a>
+	</li>
+    </ul>
+</div>
+
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-3 col-xl-2" id="dtracker-package-right">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+bugs
+<a class="m-l-1" href="https://qa.debian.org/data/bts/graphs/libc/libcitadel.png"><span role="img" aria-label="bug history graph" class="octicon octicon-graph" title="bug history graph"><span class="sr-only">[bug history graph]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="">all:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&amp;src=libcitadel">0</a>
+	
+	
+    </li>
+    
+
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        
+            <a href="https://www.citadel.org/" title="upstream web homepage">homepage</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<a href="https://udd.debian.org/lintian/?packages=libcitadel" title="report about packaging issues spotted by lintian">lintian</a>
+
+
+
+<small>(<span title="errors">0</span>, <span title="warnings">1</span>)</small>
+
+
+
+
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<span>buildd: </span><span><a title="buildd.debian.org build logs" href="https://buildd.debian.org/status/package.php?p=libcitadel">logs</a></span><span>, </span><span><a title="report about build reproducibility (reproducible)" href="https://tests.reproducible-builds.org/debian/rb-pkg/libcitadel.html">reproducibility</a></span><span>, </span><span><a title="Cross build logs" href="http://crossqa.debian.net/src/libcitadel">cross</a></span>
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://qa.debian.org/popcon.php?package=libcitadel">popcon</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://sources.debian.org/src/libcitadel/unstable/">browse source code</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <form class="code-search-form" action="/codesearch/" method="get" target="_blank"><input type="hidden" name="package" value="libcitadel"><input type="search" name="query" placeholder="search source code"></form>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://debtags.debian.org/rep/todo/maint/packages%40qa.debian.org#libcitadel">edit tags</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://repology.org/tools/project-by?name_type=srcname&noautoresolve=on&repo=debian_unstable&target_page=project_packages&name=libcitadel" title="provided by Repology">other distros</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://udd.debian.org/patches.cgi?src=libcitadel&version=917-5" title="1 patch in debian/patches">debian patches</a>
+        
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+ubuntu
+<img class="m-l-1" src="/static/img/ubuntu.png" alt="Ubuntu logo" title="Ubuntu logo">
+<a class="pull-xs-right" href="https://wiki.ubuntu.com/Ubuntu/ForDebianDevelopers"><span role="img" aria-label="Information about Ubuntu for Debian Developers" class="octicon octicon-info" title="Information about Ubuntu for Debian Developers"><span class="sr-only">[Information about Ubuntu for Debian Developers]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush"><li class="list-group-item"><span class="list-item-key"><b>version:</b></span>
+	&#32;<a href="https://launchpad.net/ubuntu/+source/libcitadel">917-5build1</a></li></ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+    </div>
+</div>
+
+
+        <footer id="footer" class="footer">
+            <hr>
+            <div class="container-fluid">
+                <div class="text-xs-center p-b-1">
+                    
+                                        <div id="footer-title"><a href="https://www.debian.org">Debian</a> Package Tracker — <a href="https://deb.li/DTAuthors">Copyright</a> 2013-2025 The Distro Tracker Developers</div>
+                    <div id="footer-bugs">
+			Report problems to the <a href="https://bugs.debian.org/tracker.debian.org">tracker.debian.org pseudo-package</a> in the <a href="https://bugs.debian.org">Debian <acronym title="Bug Tracking System">BTS</acronym></a>.
+		    </div>
+                    <div id="footer-help">
+                        <a href="https://qa.pages.debian.net/distro-tracker/">Documentation</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker/issues">Bugs</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker">Git Repository</a> —
+                        <a href="https://qa.pages.debian.net/distro-tracker/contributing.html">Contributing</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery.cookie.js"></script>
+        <script src="/static/js/tether.min.js"></script>
+        <script src="/static/js/popper.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/typeahead.bundle.min.js"></script>
+        <script src="/static/js/main.js"></script>
+        
+    </body>
+</html>

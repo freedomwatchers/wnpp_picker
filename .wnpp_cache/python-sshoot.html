@@ -1,0 +1,914 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>python-sshoot - Debian Package Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/octicons.css" rel="stylesheet" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet" media="screen">
+        <link type="application/opensearchdescription+xml" title="Debian Package Tracker Search" rel="search" href="/search.xml"/>
+        
+
+        
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/pkg/python-sshoot/rss">
+
+        
+<link href="/static/css/dense.css" rel="stylesheet" media="screen">
+
+    
+        
+        <link rel="vcs-git" href="https://salsa.debian.org/debian/python-sshoot.git" title="git repository for python-sshoot">
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+
+    </head>
+    <body>
+        
+        <header class="page-header">
+            <div class="container-fluid">
+                
+		<div class="row">
+		<div class="col-xs-12 text-xs-center">
+		    <div class="pull-xs-left">
+<a href="/"><img src="/static/img/logo.png" alt="Debian Package Tracker" title="Visit the main page" ></a>
+</div>
+		    <div class="pull-xs-right">
+		    
+    <div class="m-b-1">
+    <div class="text-xs-left"><form class="form-inline" id="package-search-form" action="/search" method="GET"><div class="form-group"><input type="search" class="form-control form-control-sm package-completion" name="package_name" id='package-search-input' placeholder="Jump to package..."></div><div class="form-group"><button type="submit" class="btn btn-default btn-sm">Go</button></div></form></div>
+
+    </div>
+    
+    <span><a id="account-register" href="/accounts/register/">Register</a></span>
+    <span>|</span>
+    <span><a id="account-login" href="/accounts/login/">Log in</a></span>
+
+
+
+    
+	
+	<div class="btn-group" role="group" style="margin-left: 10px;">
+	  <a href="/accounts/login/?next=/pkg/python-sshoot" id='subscribe-not-logged-in-button' class="btn btn-primary">Subscribe</a>
+	</div>
+    
+
+
+		    </div>
+		    
+    <div>
+    <h1>python-sshoot</h1>
+    
+    <h5>manage multiple sshuttle VPN sessions</h5>
+    
+    </div>
+
+		</div>
+		</div>
+                
+            </div>
+        </header>
+        
+
+	
+
+<div id="choose-email-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3>Choose email to subscribe with</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-default" id="cancel-choose-email" data-dismiss="modal" aria-hidden="true">Cancel</button></div></div></div></div>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-3" id="dtracker-package-left">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        general
+    </div>
+    <div class="panel-body">
+        
+
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>source:</b></span>
+	
+	<a href="https://packages.debian.org/src:python-sshoot">python-sshoot</a>
+		
+		(<span id="component" title="Repository's component">main</span>)
+		
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>version:</b></span>
+        1.6.0-2
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>maintainer:</b></span>
+	
+	
+	<a href="https://qa.debian.org/developer.php?login=packages%40qa.debian.org">Debian QA Group</a>
+	
+	
+	    
+	    
+		<small>
+		(<a href="https://udd.debian.org/dmd/?packages%40qa.debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>)
+		</small>
+	    
+	
+    </li>
+    
+
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>arch:</b></span>
+        all 
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>std-ver:</b></span>
+        4.7.0
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>VCS:</b></span>
+	
+	
+	    
+	    <a rel="vcs-git" href="https://salsa.debian.org/debian/python-sshoot.git">Git</a>
+	    
+	
+	
+	(<a href="https://salsa.debian.org/debian/python-sshoot">Browse</a>, <a href="https://qa.debian.org/cgi-bin/vcswatch?package=python-sshoot">QA</a>)
+	
+	
+    </li>
+    
+</ul>
+
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+<div class="col-xs-12">
+    versions
+    
+    
+    <a class="m-l-1" href="https://qa.debian.org/madison.php?package=python-sshoot">
+        <span role="img" aria-label="more versions can be listed by madison" class="octicon octicon-link-external" title="more versions can be listed by madison"><span class="sr-only">[more versions can be listed by madison]</span></span>
+    </a>
+    
+    <a class="m-l-1" href="https://snapshot.debian.org/package/python-sshoot/">
+        <span role="img" aria-label="old versions available from snapshot.debian.org" class="octicon octicon-link-external" title="old versions available from snapshot.debian.org"><span class="sr-only">[old versions available from snapshot.debian.org]</span></span>
+    </a>
+    
+    
+    
+    <div class="pull-xs-right">
+	
+	<a href="https://deb.debian.org/debian/pool/main/p/python-sshoot"><span role="img" aria-label="pool directory" class="octicon octicon-file-directory" title="pool directory"><span class="sr-only">[pool directory]</span></span></a>
+	
+    </div>
+    
+</div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 11 (bullseye / oldoldstable)">
+	    <b>o-o-stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldoldstable/python-sshoot">1.4.2-1</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 13 (trixie / stable)">
+	    <b>stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/stable/python-sshoot">1.6.0-2</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Forky (forky / testing)">
+	    <b>testing:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/testing/python-sshoot">1.6.0-2</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Unstable (sid / unstable)">
+	    <b>unstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/unstable/python-sshoot">1.6.0-2</a>
+	
+    </li>
+    
+
+
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        versioned links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>1.4.2-1:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/p/python-sshoot/python-sshoot_1.4.2-1.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/p/python-sshoot/changelog-1.4.2-1"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/p/python-sshoot/copyright-1.4.2-1"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/p/python-sshoot/rules-1.4.2-1"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/p/python-sshoot/control-1.4.2-1"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>1.6.0-2:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/p/python-sshoot/python-sshoot_1.6.0-2.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/p/python-sshoot/changelog-1.6.0-2"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/p/python-sshoot/copyright-1.6.0-2"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/p/python-sshoot/rules-1.6.0-2"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/p/python-sshoot/control-1.6.0-2"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        binaries
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/sshoot" title="">sshoot</a>
+        
+
+        
+    </li>
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-6 col-xl-7" id="dtracker-package-center">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        action needed
+    </div>
+    <div class="panel-body">
+        
+<div class="list-group list-group-flush" id="action-needed-list" role="list">
+    
+    <div class="card list-group-item action-item-debian-wnpp-issue" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://bugs.debian.org/998227">O: This package has been orphaned and needs a maintainer.</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div><span><span style="font-weight: bold">This package has been
+        orphaned</span>.  This means that it does not have a real
+        maintainer at the moment. Please consider adopting this package
+        if you are interested in it.</span><span> Please see bug number <a href="https://bugs.debian.org/998227">#998227</a> for more information.</span></div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2021-11-01
+                <span class="pull-xs-right">
+                    Last update: 2021-11-01
+                    13:06
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-patches" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                debian/patches: <a href="https://udd.debian.org/patches.cgi?src=python-sshoot&version=1.6.0-2">2 patches</a> to forward upstream
+                
+                <span class="label label-default pull-xs-right">low</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<p>Among the <a href="https://udd.debian.org/patches.cgi?src=python-sshoot&amp;version=1.6.0-2">2 debian patches</a>
+available in version 1.6.0-2 of the package,
+we noticed the following issues:</p>
+<ul>
+
+
+<li>2 patches
+    where the metadata indicates that the patch has not yet been forwarded
+    upstream. You should either forward the patch upstream or update the
+    metadata to document its real status.</li>
+
+</ul>
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2023-02-26
+                <span class="pull-xs-right">
+                    Last update: 2025-02-10
+                    06:31
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-std-ver-outdated" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                Standards version of the package is outdated.
+                
+                <span class="label label-info pull-xs-right">wishlist</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<span>The package should be updated to follow the last version of <a href="https://www.debian.org/doc/debian-policy/">Debian Policy</a>
+(Standards-Version <a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-4-7-2">4.7.2</a> instead of
+<a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-4-7-0">4.7.0</a>).
+</span>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-02-21
+                <span class="pull-xs-right">
+                    Last update: 2025-02-27
+                    13:24
+                </span>
+            </div>
+        </details>
+    </div>
+    
+</div>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+    <div class="col-xs-12">
+	<a href="/pkg/python-sshoot/news/">news</a>
+	<div class="pull-xs-right">
+	    <a href="/pkg/python-sshoot/rss">
+	    <span role="img" aria-label="rss feed" class="octicon octicon-rss" title="rss feed"><span class="sr-only">[rss feed]</span></span>
+	    </a>
+	</div>
+    </div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+
+    <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-02-12</span>]
+        <a href="/news/1615943/python-sshoot-160-2-migrated-to-testing/">
+            <span class="news-title">python-sshoot 1.6.0-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-02-09</span>]
+        <a href="/news/1614476/accepted-python-sshoot-160-2-source-into-unstable/">
+            <span class="news-title">Accepted python-sshoot 1.6.0-2 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Alexandre Detiste</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-07-03</span>]
+        <a href="/news/1541524/python-sshoot-160-1-migrated-to-testing/">
+            <span class="news-title">python-sshoot 1.6.0-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-06-30</span>]
+        <a href="/news/1540977/accepted-python-sshoot-160-1-source-into-unstable/">
+            <span class="news-title">Accepted python-sshoot 1.6.0-1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Alexandre Detiste</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-04-19</span>]
+        <a href="/news/1519994/python-sshoot-142-3-migrated-to-testing/">
+            <span class="news-title">python-sshoot 1.4.2-3 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-04-17</span>]
+        <a href="/news/1519623/accepted-python-sshoot-142-3-source-into-unstable/">
+            <span class="news-title">Accepted python-sshoot 1.4.2-3 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Andreas Beckmann</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-07-25</span>]
+        <a href="/news/1348908/python-sshoot-removed-from-testing/">
+            <span class="news-title">python-sshoot REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-11-03</span>]
+        <a href="/news/1272869/python-sshoot-142-2-migrated-to-testing/">
+            <span class="news-title">python-sshoot 1.4.2-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-11-01</span>]
+        <a href="/news/1272343/accepted-python-sshoot-142-2-source-into-unstable/">
+            <span class="news-title">Accepted python-sshoot 1.4.2-2 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Jonas Smedegaard</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-10-04</span>]
+        <a href="/news/1069285/python-sshoot-142-1-migrated-to-testing/">
+            <span class="news-title">python-sshoot 1.4.2-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-10-02</span>]
+        <a href="/news/1068904/accepted-python-sshoot-142-1-source-into-unstable/">
+            <span class="news-title">Accepted python-sshoot 1.4.2-1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Jonas Smedegaard</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-02-24</span>]
+        <a href="/news/1032061/python-sshoot-141-7-migrated-to-testing/">
+            <span class="news-title">python-sshoot 1.4.1-7 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-02-12</span>]
+        <a href="/news/1030148/accepted-python-sshoot-141-7-source-into-unstable/">
+            <span class="news-title">Accepted python-sshoot 1.4.1-7 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Jonas Smedegaard</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-02-11</span>]
+        <a href="/news/1029890/accepted-python-sshoot-141-6-source-into-unstable/">
+            <span class="news-title">Accepted python-sshoot 1.4.1-6 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Jonas Smedegaard</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-02-11</span>]
+        <a href="/news/1029886/accepted-python-sshoot-141-5-source-into-unstable/">
+            <span class="news-title">Accepted python-sshoot 1.4.1-5 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Jonas Smedegaard</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-01-12</span>]
+        <a href="/news/1019920/python-sshoot-141-4-migrated-to-testing/">
+            <span class="news-title">python-sshoot 1.4.1-4 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-01-07</span>]
+        <a href="/news/1018406/accepted-python-sshoot-141-4-source-into-unstable/">
+            <span class="news-title">Accepted python-sshoot 1.4.1-4 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Jonas Smedegaard</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-01-07</span>]
+        <a href="/news/1018398/accepted-python-sshoot-141-3-source-into-unstable/">
+            <span class="news-title">Accepted python-sshoot 1.4.1-3 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Jonas Smedegaard</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2018-12-28</span>]
+        <a href="/news/1015195/python-sshoot-141-2-migrated-to-testing/">
+            <span class="news-title">python-sshoot 1.4.1-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2018-12-22</span>]
+        <a href="/news/1013593/accepted-python-sshoot-141-2-source-into-unstable/">
+            <span class="news-title">Accepted python-sshoot 1.4.1-2 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Jonas Smedegaard</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2018-12-21</span>]
+        <a href="/news/1013300/accepted-python-sshoot-141-1-source-all-into-unstable-unstable/">
+            <span class="news-title">Accepted python-sshoot 1.4.1-1 (source all) into unstable, unstable</span>
+        </a>
+        (<span class="news-creator">Jonas Smedegaard</span>)
+        
+        
+        
+    </li>
+    
+</ul>
+
+
+
+
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-3 col-xl-2" id="dtracker-package-right">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+bugs
+<a class="m-l-1" href="https://qa.debian.org/data/bts/graphs/p/python-sshoot.png"><span role="img" aria-label="bug history graph" class="octicon octicon-graph" title="bug history graph"><span class="sr-only">[bug history graph]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="">all:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&amp;src=python-sshoot">0</a>
+	
+	
+    </li>
+    
+
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        
+            <a href="https://github.com/albertodonato/sshoot" title="upstream web homepage">homepage</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<a href="https://udd.debian.org/lintian/?packages=python-sshoot" title="report about packaging issues spotted by lintian">lintian</a>
+
+
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<span>buildd: </span><span><a title="buildd.debian.org build logs" href="https://buildd.debian.org/status/package.php?p=python-sshoot">logs</a></span><span>, </span><span><a title="report about build reproducibility (reproducible)" href="https://tests.reproducible-builds.org/debian/rb-pkg/python-sshoot.html">reproducibility</a></span>
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://qa.debian.org/popcon.php?package=python-sshoot">popcon</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://sources.debian.org/src/python-sshoot/unstable/">browse source code</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <form class="code-search-form" action="/codesearch/" method="get" target="_blank"><input type="hidden" name="package" value="python-sshoot"><input type="search" name="query" placeholder="search source code"></form>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://debtags.debian.org/rep/todo/maint/packages%40qa.debian.org#python-sshoot">edit tags</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://repology.org/tools/project-by?name_type=srcname&noautoresolve=on&repo=debian_unstable&target_page=project_packages&name=python-sshoot" title="provided by Repology">other distros</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<span><a title="translation status" href="https://i18n.debian.org/l10n-pkg-status/p/python-sshoot.html">l10n</a></span>
+<small>(<span title="completeness of Debian string translation">-</span>,
+<span title="completeness of non-Debian string translation">100</span>)
+</small>
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://udd.debian.org/patches.cgi?src=python-sshoot&version=1.6.0-2" title="2 patches in debian/patches">debian patches</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://ci.debian.net/packages/p/python-sshoot">debci</a>
+        
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+ubuntu
+<img class="m-l-1" src="/static/img/ubuntu.png" alt="Ubuntu logo" title="Ubuntu logo">
+<a class="pull-xs-right" href="https://wiki.ubuntu.com/Ubuntu/ForDebianDevelopers"><span role="img" aria-label="Information about Ubuntu for Debian Developers" class="octicon octicon-info" title="Information about Ubuntu for Debian Developers"><span class="sr-only">[Information about Ubuntu for Debian Developers]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush"><li class="list-group-item"><span class="list-item-key"><b>version:</b></span>
+	&#32;<a href="https://launchpad.net/ubuntu/+source/python-sshoot">1.6.0-2</a></li></ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+    </div>
+</div>
+
+
+        <footer id="footer" class="footer">
+            <hr>
+            <div class="container-fluid">
+                <div class="text-xs-center p-b-1">
+                    
+                                        <div id="footer-title"><a href="https://www.debian.org">Debian</a> Package Tracker — <a href="https://deb.li/DTAuthors">Copyright</a> 2013-2025 The Distro Tracker Developers</div>
+                    <div id="footer-bugs">
+			Report problems to the <a href="https://bugs.debian.org/tracker.debian.org">tracker.debian.org pseudo-package</a> in the <a href="https://bugs.debian.org">Debian <acronym title="Bug Tracking System">BTS</acronym></a>.
+		    </div>
+                    <div id="footer-help">
+                        <a href="https://qa.pages.debian.net/distro-tracker/">Documentation</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker/issues">Bugs</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker">Git Repository</a> —
+                        <a href="https://qa.pages.debian.net/distro-tracker/contributing.html">Contributing</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery.cookie.js"></script>
+        <script src="/static/js/tether.min.js"></script>
+        <script src="/static/js/popper.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/typeahead.bundle.min.js"></script>
+        <script src="/static/js/main.js"></script>
+        
+    </body>
+</html>

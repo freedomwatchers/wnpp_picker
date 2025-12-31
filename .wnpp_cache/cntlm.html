@@ -1,0 +1,1332 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>cntlm - Debian Package Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/octicons.css" rel="stylesheet" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet" media="screen">
+        <link type="application/opensearchdescription+xml" title="Debian Package Tracker Search" rel="search" href="/search.xml"/>
+        
+
+        
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/pkg/cntlm/rss">
+
+        
+<link href="/static/css/dense.css" rel="stylesheet" media="screen">
+
+    
+        
+        <link rel="vcs-git" href="https://salsa.debian.org/debian/cntlm.git" title="git repository for cntlm">
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+
+    </head>
+    <body>
+        
+        <header class="page-header">
+            <div class="container-fluid">
+                
+		<div class="row">
+		<div class="col-xs-12 text-xs-center">
+		    <div class="pull-xs-left">
+<a href="/"><img src="/static/img/logo.png" alt="Debian Package Tracker" title="Visit the main page" ></a>
+</div>
+		    <div class="pull-xs-right">
+		    
+    <div class="m-b-1">
+    <div class="text-xs-left"><form class="form-inline" id="package-search-form" action="/search" method="GET"><div class="form-group"><input type="search" class="form-control form-control-sm package-completion" name="package_name" id='package-search-input' placeholder="Jump to package..."></div><div class="form-group"><button type="submit" class="btn btn-default btn-sm">Go</button></div></form></div>
+
+    </div>
+    
+    <span><a id="account-register" href="/accounts/register/">Register</a></span>
+    <span>|</span>
+    <span><a id="account-login" href="/accounts/login/">Log in</a></span>
+
+
+
+    
+	
+	<div class="btn-group" role="group" style="margin-left: 10px;">
+	  <a href="/accounts/login/?next=/pkg/cntlm" id='subscribe-not-logged-in-button' class="btn btn-primary">Subscribe</a>
+	</div>
+    
+
+
+		    </div>
+		    
+    <div>
+    <h1>cntlm</h1>
+    
+    <h5>Fast NTLM authentication proxy with tunneling</h5>
+    
+    </div>
+
+		</div>
+		</div>
+                
+            </div>
+        </header>
+        
+
+	
+
+<div id="choose-email-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3>Choose email to subscribe with</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-default" id="cancel-choose-email" data-dismiss="modal" aria-hidden="true">Cancel</button></div></div></div></div>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-3" id="dtracker-package-left">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        general
+    </div>
+    <div class="panel-body">
+        
+
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>source:</b></span>
+	
+	<a href="https://packages.debian.org/src:cntlm">cntlm</a>
+		
+		(<span id="component" title="Repository's component">main</span>)
+		
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>version:</b></span>
+        0.<wbr>94.<wbr>0+<wbr>dfsg-<wbr>1
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>maintainer:</b></span>
+	
+	
+	<a href="https://qa.debian.org/developer.php?login=packages%40qa.debian.org">Debian QA Group</a>
+	
+	
+	    
+	    
+		<small>
+		(<a href="https://udd.debian.org/dmd/?packages%40qa.debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>)
+		</small>
+	    
+	
+    </li>
+    
+
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>arch:</b></span>
+        any 
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>std-ver:</b></span>
+        4.7.2
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>VCS:</b></span>
+	
+	
+	    
+	    <a rel="vcs-git" href="https://salsa.debian.org/debian/cntlm.git">Git</a>
+	    
+	
+	
+	(<a href="https://salsa.debian.org/debian/cntlm">Browse</a>, <a href="https://qa.debian.org/cgi-bin/vcswatch?package=cntlm">QA</a>)
+	
+	
+    </li>
+    
+</ul>
+
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+<div class="col-xs-12">
+    versions
+    
+    
+    <a class="m-l-1" href="https://qa.debian.org/madison.php?package=cntlm">
+        <span role="img" aria-label="more versions can be listed by madison" class="octicon octicon-link-external" title="more versions can be listed by madison"><span class="sr-only">[more versions can be listed by madison]</span></span>
+    </a>
+    
+    <a class="m-l-1" href="https://snapshot.debian.org/package/cntlm/">
+        <span role="img" aria-label="old versions available from snapshot.debian.org" class="octicon octicon-link-external" title="old versions available from snapshot.debian.org"><span class="sr-only">[old versions available from snapshot.debian.org]</span></span>
+    </a>
+    
+    
+    
+    <div class="pull-xs-right">
+	
+	<a href="https://deb.debian.org/debian/pool/main/c/cntlm"><span role="img" aria-label="pool directory" class="octicon octicon-file-directory" title="pool directory"><span class="sr-only">[pool directory]</span></span></a>
+	
+    </div>
+    
+</div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 11 (bullseye / oldoldstable)">
+	    <b>o-o-stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldoldstable/cntlm">0.92.3-1</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 12 (bookworm / oldstable)">
+	    <b>oldstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldstable/cntlm">0.<wbr>92.<wbr>3-<wbr>1.<wbr>2</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 13 (trixie / stable)">
+	    <b>stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/stable/cntlm">0.<wbr>92.<wbr>3-<wbr>1.<wbr>3</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Forky (forky / testing)">
+	    <b>testing:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/testing/cntlm">0.<wbr>94.<wbr>0+<wbr>dfsg-<wbr>1</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Unstable (sid / unstable)">
+	    <b>unstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/unstable/cntlm">0.<wbr>94.<wbr>0+<wbr>dfsg-<wbr>1</a>
+	
+    </li>
+    
+
+
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        versioned links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.92.3-1:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/c/cntlm/cntlm_0.92.3-1.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/changelog-0.92.3-1"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/copyright-0.92.3-1"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/rules-0.92.3-1"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/control-0.92.3-1"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.<wbr>92.<wbr>3-<wbr>1.<wbr>2:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/c/cntlm/cntlm_0.92.3-1.2.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/changelog-0.92.3-1.2"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/copyright-0.92.3-1.2"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/rules-0.92.3-1.2"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/control-0.92.3-1.2"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.<wbr>92.<wbr>3-<wbr>1.<wbr>3:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/c/cntlm/cntlm_0.92.3-1.3.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/changelog-0.92.3-1.3"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/copyright-0.92.3-1.3"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/rules-0.92.3-1.3"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/control-0.92.3-1.3"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.<wbr>94.<wbr>0+<wbr>dfsg-<wbr>1:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/c/cntlm/cntlm_0.94.0+dfsg-1.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/changelog-0.94.0dfsg-1"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/copyright-0.94.0dfsg-1"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/rules-0.94.0dfsg-1"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/c/cntlm/control-0.94.0dfsg-1"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        binaries
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/cntlm" title="">cntlm</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/cntlm">1 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=cntlm" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=cntlm" title="important and normal">1</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=cntlm" title="wishlist and minor">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=cntlm" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-6 col-xl-7" id="dtracker-package-center">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        action needed
+    </div>
+    <div class="panel-body">
+        
+<div class="list-group list-group-flush" id="action-needed-list" role="list">
+    
+    <div class="card list-group-item action-item-debian-patch-bugs-warning" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?include=tags%3Apatch&exclude=tags%3Apending&pend-exc=done&repeatmerged=no&src=cntlm">1 bug</a> tagged patch in the <abbr title="Bug Tracking System">BTS</abbr>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <span>The <abbr title="Bug Tracking System">BTS</abbr> contains </span><span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?include=tags%3Apatch&amp;exclude=tags%3Apending&amp;pend-exc=done&amp;repeatmerged=no&amp;src=cntlm">patches fixing 1 bug</a><span></span>, consider including or untagging them.</span>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-10-28
+                <span class="pull-xs-right">
+                    Last update: 2025-12-23
+                    00:00
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-vcswatch-warnings-and-errors" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://qa.debian.org/cgi-bin/vcswatch?package=cntlm">37 new commits</a> since last upload, is it time to release?
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                
+
+<a href="https://qa.debian.org/cgi-bin/vcswatch?package=cntlm">vcswatch</a> reports that
+
+this package seems to have new commits in its VCS but has
+not yet updated debian/changelog. You should consider updating
+the Debian changelog and uploading this new version into the archive.
+<br/><br/>
+Here are the relevant commit logs:
+<pre>
+commit 15cc3bdf6c0f5af784770a61c96021e1c1fbff8a
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Mon Oct 6 16:01:37 2025 +0200
+
+    Upload to unstable
+
+commit a5f05489e7db6063ec04f6b3f54f435e4cb85539
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Sun Sep 14 08:57:18 2025 +0200
+
+    No human uploader interested - rather orphan package
+
+commit d028d60e1b08d6a7659f85cdb54d31c65f111ee5
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Tue Aug 26 10:48:41 2025 +0200
+
+    Force-commit logrotate file
+
+commit 02cb92ba60941418641544ee3e4580d5f777a30a
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Tue Aug 26 09:59:12 2025 +0200
+
+    Permit failure of blhc in Salsa CI
+
+commit 6f6a5d58bd86714a00d6ab336bd1c7083831ed7f
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Tue Aug 26 09:56:21 2025 +0200
+
+    Add systemd unit Closes: #1039151
+
+commit ad2de6cd9cd0856127f18913b1b4c011e826fdf1
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Tue Aug 19 21:34:26 2025 +0200
+
+    New upstream version 0.94.0+dfsg
+
+commit 4de5d45b6ad5687e618ad349a8fb380d6f3a33ed
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Tue Aug 19 21:30:47 2025 +0200
+
+    Fix watch file
+
+commit 2e2e7a8220e2a3c57d582dbe1588a877e45b158e
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Tue Aug 19 15:21:57 2025 +0200
+
+    Enhance DEP3 fields
+
+commit 377e7fe9a2df37b09c3e9092d08e3a11b711187f
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Tue Aug 19 15:19:42 2025 +0200
+
+    Drop manually edited sections from maintainer scripts
+
+commit eec4b216459cfaa05547b5ebeb241546510a46c3
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Tue Aug 19 15:16:50 2025 +0200
+
+    rotate cntlm logs
+
+commit cd89fc5b976f06a7d76dbd7d921cd58b7f8068cd
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Tue Aug 19 15:13:12 2025 +0200
+
+    Fix typo
+
+commit 34486872b84200413fb14bc15dd450e27560f8f2
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 11:04:36 2025 +0200
+
+    Close bugs asking for new upstream version
+
+commit a8069e16004e0d1ef7a754ecd3189158ef07bf33
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 11:03:58 2025 +0200
+
+    Use LSB logging function in init script Closes: #730699
+
+commit 90940302c6875983161130138ae43dc75bf607c5
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 11:00:17 2025 +0200
+
+    Fix build with short dh
+
+commit 947165f00e060381adea4b4028cba777bb4edf06
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 09:53:10 2025 +0200
+
+    Add debian/upstream/metadata
+
+commit e9528ffeae4a4cd56f317fca5de295429aa8a40e
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 08:41:07 2025 +0100
+
+    Fix day-of-week for changelog entry 0.35.1-1.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: debian-changelog-has-wrong-day-of-week
+    See-also: https://lintian.debian.org/tags/debian-changelog-has-wrong-day-of-week.html
+
+commit 3015a0a7f371f4f0b91881405504a587ec2fe471
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 08:41:03 2025 +0100
+
+    Update lintian override info format in d/sntlm.lintian-overrides on line 2.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: mismatched-override
+    See-also: https://lintian.debian.org/tags/mismatched-override.html
+
+commit b9dba17151b01affa3474c9775957aa9f20150e5
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 09:41:02 2025 +0200
+
+    Remove trailing whitespace in debian/rules (routine-update)
+
+commit 726bc26ed3376640344303661302d980bef7c4da
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 09:41:02 2025 +0200
+
+    Remove trailing whitespace in debian/control (routine-update)
+
+commit 45dad851a7cdf80d7fa33bccaede435655a2d3f8
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 09:41:02 2025 +0200
+
+    Remove trailing whitespace in debian/changelog (routine-update)
+
+commit e052017a2a0dabce01a52afac6e5a13408dda696
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 09:40:59 2025 +0200
+
+    Standards-Version: 4.7.2 (routine-update)
+
+commit 418e06a1a0d94d1618b4189380bbb559611d7606
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 09:40:43 2025 +0200
+
+    debian/dirs: removed
+
+commit d5ee395e66a6c40aeed78235d61e3f33f8d4c681
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 09:39:55 2025 +0200
+
+    Short dh
+
+commit 2ce481f62482818791df9bf7b3df634fff832dbd
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 09:38:28 2025 +0200
+
+    Rename d/lintian-override to d/cntlm.lintian-overrides
+
+commit e935f75396a0702466e41ee662f675270012a281
+Merge: 7680d11 da0e405
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 09:25:02 2025 +0200
+
+    Update upstream source from tag &#x27;upstream/0.94_git20250613.faa0a5f+dfsg&#x27;
+    
+    Update to upstream version &#x27;0.94~git20250613.faa0a5f+dfsg&#x27;
+    with Debian dir e093e2b87de83e3c54e5a3024f9cbfd0830d59a0
+
+commit da0e405d6e26f6b88605a94e7097cde357c759e3
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 09:25:00 2025 +0200
+
+    New upstream version 0.94~git20250613.faa0a5f+dfsg
+
+commit 7680d113ffa163edc30686a5966c7a6e4ae234f0
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 09:23:45 2025 +0200
+
+    Excluded win binaries and not needed rpm
+
+commit 10089fd7432eaf7fc498b15321a816d092fcc829
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 08:18:08 2025 +0200
+
+    d/copyright:
+       - review
+
+commit 3ce40a29e77f7242f447277b81a1ef242193e940
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 08:06:09 2025 +0200
+
+    Please review patches!
+
+commit 470c00b9132a60325938561d9c45c344b2577aa9
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 07:33:44 2025 +0200
+
+    d/rules:
+       - Its not a sample
+
+commit 78bf9ca4480494538d88ef1482f9841774bed6f4
+Merge: 131e5a4 84fb8eb
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 07:33:07 2025 +0200
+
+    Update upstream source from tag &#x27;upstream/0.94_git20250613.faa0a5f&#x27;
+    
+    Update to upstream version &#x27;0.94~git20250613.faa0a5f&#x27;
+    with Debian dir 8e66dd1976f443c087871aaf71c3fd7af3d2fda6
+
+commit 84fb8eb81f5979d4e8f9ac1af9481a91946d6fed
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 07:33:05 2025 +0200
+
+    New upstream version 0.94~git20250613.faa0a5f
+
+commit 131e5a4cbf800e8b30b0ca338da0013b6cbab693
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 07:32:55 2025 +0200
+
+    d/watch: point to latest Git commit (asked upstream for release tags)
+
+commit b0ac84cca06caa74556eb653b6e5d8b07aaba9ee
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 07:27:46 2025 +0200
+
+    Point Homepage to Github
+
+commit 305bdbaebb98059d4c9878af51f824b1a04e59ed
+Author: Andreas Tille &lt;tille@debian.org&gt;
+Date:   Fri Aug 8 07:25:44 2025 +0200
+
+    Maintain package in Salvage team
+</pre>
+
+
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2017-12-03
+                <span class="pull-xs-right">
+                    Last update: 2025-12-22
+                    07:32
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-wnpp-issue" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://bugs.debian.org/1123484">O: This package has been orphaned and needs a maintainer.</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div><span><span style="font-weight: bold">This package has been
+        orphaned</span>.  This means that it does not have a real
+        maintainer at the moment. Please consider adopting this package
+        if you are interested in it.</span><span> Please see bug number <a href="https://bugs.debian.org/1123484">#1123484</a> for more information.</span></div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-12-16
+                <span class="pull-xs-right">
+                    Last update: 2025-12-16
+                    22:17
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-lintian-warnings-and-errors" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                lintian reports <a href="https://udd.debian.org/lintian/?packages=cntlm">8 warnings</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                
+
+Lintian reports
+<a href="https://udd.debian.org/lintian/?packages=cntlm">
+
+
+<span>8 warnings</span>
+
+</a>
+about this package. You should make the package <i>lintian clean</i> getting rid of them.
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-10-17
+                <span class="pull-xs-right">
+                    Last update: 2025-11-03
+                    23:17
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-patches" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                debian/patches: <a href="https://udd.debian.org/patches.cgi?src=cntlm&version=0.94.0%2Bdfsg-1">3 patches</a> to forward upstream
+                
+                <span class="label label-default pull-xs-right">low</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<p>Among the <a href="https://udd.debian.org/patches.cgi?src=cntlm&amp;version=0.94.0%2Bdfsg-1">3 debian patches</a>
+available in version 0.94.0+dfsg-1 of the package,
+we noticed the following issues:</p>
+<ul>
+
+
+<li>3 patches
+    where the metadata indicates that the patch has not yet been forwarded
+    upstream. You should either forward the patch upstream or update the
+    metadata to document its real status.</li>
+
+</ul>
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2024-02-29
+                <span class="pull-xs-right">
+                    Last update: 2025-10-17
+                    09:34
+                </span>
+            </div>
+        </details>
+    </div>
+    
+</div>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+    <div class="col-xs-12">
+	<a href="/pkg/cntlm/news/">news</a>
+	<div class="pull-xs-right">
+	    <a href="/pkg/cntlm/rss">
+	    <span role="img" aria-label="rss feed" class="octicon octicon-rss" title="rss feed"><span class="sr-only">[rss feed]</span></span>
+	    </a>
+	</div>
+    </div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+
+    <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-10-22</span>]
+        <a href="/news/1681506/cntlm-0940dfsg-1-migrated-to-testing/">
+            <span class="news-title">cntlm 0.94.0+dfsg-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-10-16</span>]
+        <a href="/news/1679539/accepted-cntlm-0940dfsg-1-source-into-unstable/">
+            <span class="news-title">Accepted cntlm 0.94.0+dfsg-1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Andreas Tille</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-03-05</span>]
+        <a href="/news/1509727/cntlm-0923-13-migrated-to-testing/">
+            <span class="news-title">cntlm 0.92.3-1.3 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-02-28</span>]
+        <a href="/news/1507725/accepted-cntlm-0923-13-source-into-unstable/">
+            <span class="news-title">Accepted cntlm 0.92.3-1.3 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Bastian Germann</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">bage@debian.org</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-05-05</span>]
+        <a href="/news/1322813/cntlm-0923-12-migrated-to-testing/">
+            <span class="news-title">cntlm 0.92.3-1.2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-04-30</span>]
+        <a href="/news/1321756/accepted-cntlm-0923-12-source-into-unstable/">
+            <span class="news-title">Accepted cntlm 0.92.3-1.2 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Gianfranco Costamagna</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-04-28</span>]
+        <a href="/news/1321296/cntlm-0923-11-migrated-to-testing/">
+            <span class="news-title">cntlm 0.92.3-1.1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-04-22</span>]
+        <a href="/news/1320305/accepted-cntlm-0923-11-source-into-unstable/">
+            <span class="news-title">Accepted cntlm 0.92.3-1.1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Joao Eriberto Mota Filho</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-01-06</span>]
+        <a href="/news/1292486/cntlm-removed-from-testing/">
+            <span class="news-title">cntlm REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-05-08</span>]
+        <a href="/news/147073/cntlm-0923-1-migrated-to-testing/">
+            <span class="news-title">cntlm 0.92.3-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-04-27</span>]
+        <a href="/news/147072/accepted-cntlm-0923-1-source-amd64/">
+            <span class="news-title">Accepted cntlm 0.92.3-1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">David Watson</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2009-09-13</span>]
+        <a href="/news/147071/cntlm-0351-5-migrated-to-testing/">
+            <span class="news-title">cntlm 0.35.1-5 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2009-09-02</span>]
+        <a href="/news/147070/accepted-cntlm-0351-5-source-amd64/">
+            <span class="news-title">Accepted cntlm 0.35.1-5 (source amd64)</span>
+        </a>
+        (<span class="news-creator">David Watson</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2009-02-16</span>]
+        <a href="/news/147069/cntlm-0351-4-migrated-to-testing/">
+            <span class="news-title">cntlm 0.35.1-4 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2008-10-10</span>]
+        <a href="/news/147068/accepted-cntlm-0351-4-source-amd64/">
+            <span class="news-title">Accepted cntlm 0.35.1-4 (source amd64)</span>
+        </a>
+        (<span class="news-creator">David Watson</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2008-04-01</span>]
+        <a href="/news/147067/cntlm-0351-3-migrated-to-testing/">
+            <span class="news-title">cntlm 0.35.1-3 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2008-03-22</span>]
+        <a href="/news/147066/accepted-cntlm-0351-3-source-i386/">
+            <span class="news-title">Accepted cntlm 0.35.1-3 (source i386)</span>
+        </a>
+        (<span class="news-creator">David Watson</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2008-01-19</span>]
+        <a href="/news/147065/cntlm-0351-2-migrated-to-testing/">
+            <span class="news-title">cntlm 0.35.1-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2008-01-09</span>]
+        <a href="/news/147064/accepted-cntlm-0351-2-source-i386/">
+            <span class="news-title">Accepted cntlm 0.35.1-2 (source i386)</span>
+        </a>
+        (<span class="news-creator">David Watson</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2007-11-25</span>]
+        <a href="/news/147063/accepted-cntlm-0351-1-source-i386/">
+            <span class="news-title">Accepted cntlm 0.35.1-1 (source i386)</span>
+        </a>
+        (<span class="news-creator">David Watson</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2007-10-29</span>]
+        <a href="/news/147062/accepted-cntlm-0341-1-source-i386/">
+            <span class="news-title">Accepted cntlm 0.34.1-1 (source i386)</span>
+        </a>
+        (<span class="news-creator">David Watson</span>)
+        
+        
+        
+    </li>
+    
+</ul>
+
+
+
+
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-3 col-xl-2" id="dtracker-package-right">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+bugs
+<a class="m-l-1" href="https://qa.debian.org/data/bts/graphs/c/cntlm.png"><span role="img" aria-label="bug history graph" class="octicon octicon-graph" title="bug history graph"><span class="sr-only">[bug history graph]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="">all:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&amp;src=cntlm">1</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Release Critical">RC:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;src=cntlm">0</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Important and Normal">I&amp;N:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;src=cntlm">1</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Minor and Wishlist">M&amp;W:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;src=cntlm">0</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Fixed and Pending">F&amp;P:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;src=cntlm">0</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Patch">patch:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?include=tags%3Apatch&amp;exclude=tags%3Apending&amp;pend-exc=done&amp;repeatmerged=no&amp;src=cntlm">1</a>
+	
+	
+    </li>
+    
+
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        
+            <a href="https://github.com/versat/cntlm/" title="upstream web homepage">homepage</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<a href="https://udd.debian.org/lintian/?packages=cntlm" title="report about packaging issues spotted by lintian">lintian</a>
+
+
+
+<small>(<span title="errors">0</span>, <span title="warnings">8</span>)</small>
+
+
+
+
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<span>buildd: </span><span><a title="buildd.debian.org build logs" href="https://buildd.debian.org/status/package.php?p=cntlm">logs</a></span><span>, </span><span><a title="report about build reproducibility (reproducible)" href="https://tests.reproducible-builds.org/debian/rb-pkg/cntlm.html">reproducibility</a></span><span>, </span><span><a title="Cross build logs" href="http://crossqa.debian.net/src/cntlm">cross</a></span>
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://qa.debian.org/popcon.php?package=cntlm">popcon</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://sources.debian.org/src/cntlm/unstable/">browse source code</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <form class="code-search-form" action="/codesearch/" method="get" target="_blank"><input type="hidden" name="package" value="cntlm"><input type="search" name="query" placeholder="search source code"></form>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://debtags.debian.org/rep/todo/maint/packages%40qa.debian.org#cntlm">edit tags</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://repology.org/tools/project-by?name_type=srcname&noautoresolve=on&repo=debian_unstable&target_page=project_packages&name=cntlm" title="provided by Repology">other distros</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://screenshots.debian.net/package/cntlm">screenshots</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://udd.debian.org/patches.cgi?src=cntlm&version=0.94.0%2Bdfsg-1" title="3 patches in debian/patches">debian patches</a>
+        
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+ubuntu
+<img class="m-l-1" src="/static/img/ubuntu.png" alt="Ubuntu logo" title="Ubuntu logo">
+<a class="pull-xs-right" href="https://wiki.ubuntu.com/Ubuntu/ForDebianDevelopers"><span role="img" aria-label="Information about Ubuntu for Debian Developers" class="octicon octicon-info" title="Information about Ubuntu for Debian Developers"><span class="sr-only">[Information about Ubuntu for Debian Developers]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush"><li class="list-group-item"><span class="list-item-key"><b>version:</b></span>
+	&#32;<a href="https://launchpad.net/ubuntu/+source/cntlm">0.92.3-1.3build1</a></li><li class="list-group-item"><a href="https://bugs.launchpad.net/ubuntu/+source/cntlm"><span>1 bug</span></a></li></ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+    </div>
+</div>
+
+
+        <footer id="footer" class="footer">
+            <hr>
+            <div class="container-fluid">
+                <div class="text-xs-center p-b-1">
+                    
+                                        <div id="footer-title"><a href="https://www.debian.org">Debian</a> Package Tracker — <a href="https://deb.li/DTAuthors">Copyright</a> 2013-2025 The Distro Tracker Developers</div>
+                    <div id="footer-bugs">
+			Report problems to the <a href="https://bugs.debian.org/tracker.debian.org">tracker.debian.org pseudo-package</a> in the <a href="https://bugs.debian.org">Debian <acronym title="Bug Tracking System">BTS</acronym></a>.
+		    </div>
+                    <div id="footer-help">
+                        <a href="https://qa.pages.debian.net/distro-tracker/">Documentation</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker/issues">Bugs</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker">Git Repository</a> —
+                        <a href="https://qa.pages.debian.net/distro-tracker/contributing.html">Contributing</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery.cookie.js"></script>
+        <script src="/static/js/tether.min.js"></script>
+        <script src="/static/js/popper.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/typeahead.bundle.min.js"></script>
+        <script src="/static/js/main.js"></script>
+        
+    </body>
+</html>

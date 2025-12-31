@@ -1,0 +1,1222 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>trueprint - Debian Package Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/octicons.css" rel="stylesheet" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet" media="screen">
+        <link type="application/opensearchdescription+xml" title="Debian Package Tracker Search" rel="search" href="/search.xml"/>
+        
+
+        
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/pkg/trueprint/rss">
+
+        
+<link href="/static/css/dense.css" rel="stylesheet" media="screen">
+
+    
+        
+        <link rel="vcs-git" href="https://salsa.debian.org/debian/trueprint.git" title="git repository for trueprint">
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+
+    </head>
+    <body>
+        
+        <header class="page-header">
+            <div class="container-fluid">
+                
+		<div class="row">
+		<div class="col-xs-12 text-xs-center">
+		    <div class="pull-xs-left">
+<a href="/"><img src="/static/img/logo.png" alt="Debian Package Tracker" title="Visit the main page" ></a>
+</div>
+		    <div class="pull-xs-right">
+		    
+    <div class="m-b-1">
+    <div class="text-xs-left"><form class="form-inline" id="package-search-form" action="/search" method="GET"><div class="form-group"><input type="search" class="form-control form-control-sm package-completion" name="package_name" id='package-search-input' placeholder="Jump to package..."></div><div class="form-group"><button type="submit" class="btn btn-default btn-sm">Go</button></div></form></div>
+
+    </div>
+    
+    <span><a id="account-register" href="/accounts/register/">Register</a></span>
+    <span>|</span>
+    <span><a id="account-login" href="/accounts/login/">Log in</a></span>
+
+
+
+    
+	
+	<div class="btn-group" role="group" style="margin-left: 10px;">
+	  <a href="/accounts/login/?next=/pkg/trueprint" id='subscribe-not-logged-in-button' class="btn btn-primary">Subscribe</a>
+	</div>
+    
+
+
+		    </div>
+		    
+    <div>
+    <h1>trueprint</h1>
+    
+    <h5>pretty printing of source code</h5>
+    
+    </div>
+
+		</div>
+		</div>
+                
+            </div>
+        </header>
+        
+
+	
+
+<div id="choose-email-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3>Choose email to subscribe with</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-default" id="cancel-choose-email" data-dismiss="modal" aria-hidden="true">Cancel</button></div></div></div></div>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-3" id="dtracker-package-left">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        general
+    </div>
+    <div class="panel-body">
+        
+
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>source:</b></span>
+	
+	<a href="https://packages.debian.org/src:trueprint">trueprint</a>
+		
+		(<span id="component" title="Repository's component">main</span>)
+		
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>version:</b></span>
+        5.4-8
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>maintainer:</b></span>
+	
+	
+	<a href="https://qa.debian.org/developer.php?login=packages%40qa.debian.org">Debian QA Group</a>
+	
+	
+	    
+	    
+		<small>
+		(<a href="https://udd.debian.org/dmd/?packages%40qa.debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>)
+		</small>
+	    
+	
+    </li>
+    
+
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>arch:</b></span>
+        any 
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>std-ver:</b></span>
+        4.7.2
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>VCS:</b></span>
+	
+	
+	    
+	    <a rel="vcs-git" href="https://salsa.debian.org/debian/trueprint.git">Git</a>
+	    
+	
+	
+	(<a href="https://salsa.debian.org/debian/trueprint">Browse</a>, <a href="https://qa.debian.org/cgi-bin/vcswatch?package=trueprint">QA</a>)
+	
+	
+    </li>
+    
+</ul>
+
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+<div class="col-xs-12">
+    versions
+    
+    
+    <a class="m-l-1" href="https://qa.debian.org/madison.php?package=trueprint">
+        <span role="img" aria-label="more versions can be listed by madison" class="octicon octicon-link-external" title="more versions can be listed by madison"><span class="sr-only">[more versions can be listed by madison]</span></span>
+    </a>
+    
+    <a class="m-l-1" href="https://snapshot.debian.org/package/trueprint/">
+        <span role="img" aria-label="old versions available from snapshot.debian.org" class="octicon octicon-link-external" title="old versions available from snapshot.debian.org"><span class="sr-only">[old versions available from snapshot.debian.org]</span></span>
+    </a>
+    
+    
+    
+    <div class="pull-xs-right">
+	
+	<a href="https://deb.debian.org/debian/pool/main/t/trueprint"><span role="img" aria-label="pool directory" class="octicon octicon-file-directory" title="pool directory"><span class="sr-only">[pool directory]</span></span></a>
+	
+    </div>
+    
+</div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 11 (bullseye / oldoldstable)">
+	    <b>o-o-stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldoldstable/trueprint">5.4-4</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 12 (bookworm / oldstable)">
+	    <b>oldstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldstable/trueprint">5.4-5</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 13 (trixie / stable)">
+	    <b>stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/stable/trueprint">5.4-6</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Forky (forky / testing)">
+	    <b>testing:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/testing/trueprint">5.4-8</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Unstable (sid / unstable)">
+	    <b>unstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/unstable/trueprint">5.4-8</a>
+	
+    </li>
+    
+
+
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        versioned links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>5.4-4:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/t/trueprint/trueprint_5.4-4.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/changelog-5.4-4"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/copyright-5.4-4"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/rules-5.4-4"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/control-5.4-4"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>5.4-5:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/t/trueprint/trueprint_5.4-5.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/changelog-5.4-5"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/copyright-5.4-5"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/rules-5.4-5"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/control-5.4-5"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>5.4-6:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/t/trueprint/trueprint_5.4-6.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/changelog-5.4-6"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/copyright-5.4-6"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/rules-5.4-6"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/control-5.4-6"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>5.4-8:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/t/trueprint/trueprint_5.4-8.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/changelog-5.4-8"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/copyright-5.4-8"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/rules-5.4-8"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/t/trueprint/control-5.4-8"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        binaries
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/trueprint" title="">trueprint</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/trueprint">4 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=trueprint" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=trueprint" title="important and normal">4</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=trueprint" title="wishlist and minor">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=trueprint" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-6 col-xl-7" id="dtracker-package-center">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        action needed
+    </div>
+    <div class="panel-body">
+        
+<div class="list-group list-group-flush" id="action-needed-list" role="list">
+    
+    <div class="card list-group-item action-item-debian-depneedsmaint" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                Depends on packages which need a new maintainer
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div>The packages that trueprint depends on which need a new maintainer are:</div>
+<ul>
+
+<li>
+<a href="/pkg/lpr">lpr</a>
+(<a href="https://bugs.debian.org/1121611">#1121611</a>)
+<ul>
+
+<li>Recommends:
+
+lpr
+
+</li>
+
+<li>Build-Depends:
+
+lpr
+
+</li>
+
+</ul>
+</span>
+</li>
+
+</ul>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-11-29
+                <span class="pull-xs-right">
+                    Last update: 2025-12-23
+                    00:01
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-lintian-warnings-and-errors" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                lintian reports <a href="https://udd.debian.org/lintian/?packages=trueprint">1 warning</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                
+
+Lintian reports
+<a href="https://udd.debian.org/lintian/?packages=trueprint">
+
+
+<span>1 warning</span>
+
+</a>
+about this package. You should make the package <i>lintian clean</i> getting rid of them.
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-11-15
+                <span class="pull-xs-right">
+                    Last update: 2025-11-15
+                    18:30
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-wnpp-issue" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://bugs.debian.org/747965">O: This package has been orphaned and needs a maintainer.</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div><span><span style="font-weight: bold">This package has been
+        orphaned</span>.  This means that it does not have a real
+        maintainer at the moment. Please consider adopting this package
+        if you are interested in it.</span><span> Please see bug number <a href="https://bugs.debian.org/747965">#747965</a> for more information.</span></div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2017-12-02
+                <span class="pull-xs-right">
+                    Last update: 2017-12-02
+                    00:26
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-patches" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                debian/patches: <a href="https://udd.debian.org/patches.cgi?src=trueprint&version=5.4-8">4 patches</a> to forward upstream
+                
+                <span class="label label-default pull-xs-right">low</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<p>Among the <a href="https://udd.debian.org/patches.cgi?src=trueprint&amp;version=5.4-8">4 debian patches</a>
+available in version 5.4-8 of the package,
+we noticed the following issues:</p>
+<ul>
+
+
+<li>4 patches
+    where the metadata indicates that the patch has not yet been forwarded
+    upstream. You should either forward the patch upstream or update the
+    metadata to document its real status.</li>
+
+</ul>
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2023-02-26
+                <span class="pull-xs-right">
+                    Last update: 2025-11-15
+                    15:30
+                </span>
+            </div>
+        </details>
+    </div>
+    
+</div>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+    <div class="col-xs-12">
+	<a href="/pkg/trueprint/news/">news</a>
+	<div class="pull-xs-right">
+	    <a href="/pkg/trueprint/rss">
+	    <span role="img" aria-label="rss feed" class="octicon octicon-rss" title="rss feed"><span class="sr-only">[rss feed]</span></span>
+	    </a>
+	</div>
+    </div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+
+    <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-11-20</span>]
+        <a href="/news/1691033/trueprint-54-8-migrated-to-testing/">
+            <span class="news-title">trueprint 5.4-8 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-11-18</span>]
+        <a href="/news/1690233/trueprint-removed-from-testing/">
+            <span class="news-title">trueprint REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-11-15</span>]
+        <a href="/news/1689361/accepted-trueprint-54-8-source-into-unstable/">
+            <span class="news-title">Accepted trueprint 5.4-8 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Marcos Talau</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-06-17</span>]
+        <a href="/news/1649048/accepted-trueprint-54-7-source-into-experimental/">
+            <span class="news-title">Accepted trueprint 5.4-7 (source) into experimental</span>
+        </a>
+        (<span class="news-creator">Flávia Monique Corsi Rodrigues</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Marcos Talau</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-04-15</span>]
+        <a href="/news/1519142/trueprint-54-6-migrated-to-testing/">
+            <span class="news-title">trueprint 5.4-6 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-04-10</span>]
+        <a href="/news/1518173/accepted-trueprint-54-6-source-into-unstable/">
+            <span class="news-title">Accepted trueprint 5.4-6 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Andreas Beckmann</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-01-28</span>]
+        <a href="/news/1414351/trueprint-54-5-migrated-to-testing/">
+            <span class="news-title">trueprint 5.4-5 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-01-26</span>]
+        <a href="/news/1413395/accepted-trueprint-54-5-source-into-unstable/">
+            <span class="news-title">Accepted trueprint 5.4-5 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Paulo Henrique de Lima Santana (phls)</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Paulo Henrique de Lima Santana</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-12-26</span>]
+        <a href="/news/1089316/trueprint-54-4-migrated-to-testing/">
+            <span class="news-title">trueprint 5.4-4 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-12-23</span>]
+        <a href="/news/1088625/accepted-trueprint-54-4-source-into-unstable/">
+            <span class="news-title">Accepted trueprint 5.4-4 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Paulo Henrique de Lima Santana (phls)</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Paulo Henrique de Lima Santana</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-02-06</span>]
+        <a href="/news/1027869/trueprint-54-3-migrated-to-testing/">
+            <span class="news-title">trueprint 5.4-3 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-01-31</span>]
+        <a href="/news/1026138/accepted-trueprint-54-3-source-into-unstable/">
+            <span class="news-title">Accepted trueprint 5.4-3 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Paulo Henrique de Lima Santana (phls)</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Paulo Henrique de Lima Santana</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2016-11-11</span>]
+        <a href="/news/814456/trueprint-54-2-migrated-to-testing/">
+            <span class="news-title">trueprint 5.4-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2016-11-05</span>]
+        <a href="/news/812681/accepted-trueprint-54-2-source-into-unstable/">
+            <span class="news-title">Accepted trueprint 5.4-2 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Paulo Henrique de Lima Santana (phls)</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Joao Eriberto Mota Filho</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2014-10-29</span>]
+        <a href="/news/582394/trueprint-54-1-migrated-to-testing/">
+            <span class="news-title">trueprint 5.4-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Britney</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2014-10-18</span>]
+        <a href="/news/578916/accepted-trueprint-54-1-source-amd64-into-unstable/">
+            <span class="news-title">Accepted trueprint 5.4-1 (source amd64) into unstable</span>
+        </a>
+        (<span class="news-creator">Andreas Beckmann</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2014-01-29</span>]
+        <a href="/news/229757/trueprint-53-41-migrated-to-testing/">
+            <span class="news-title">trueprint 5.3-4.1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2014-01-23</span>]
+        <a href="/news/229756/accepted-trueprint-53-41-source-amd64/">
+            <span class="news-title">Accepted trueprint 5.3-4.1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Andreas Beckmann</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2013-10-15</span>]
+        <a href="/news/229755/trueprint-removed-from-testing/">
+            <span class="news-title">trueprint REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-10-24</span>]
+        <a href="/news/229754/trueprint-53-4-migrated-to-testing/">
+            <span class="news-title">trueprint 5.3-4 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-10-11</span>]
+        <a href="/news/229753/accepted-trueprint-53-4-source-i386/">
+            <span class="news-title">Accepted trueprint 5.3-4 (source i386)</span>
+        </a>
+        (<span class="news-creator">Henrique Haas</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Oleksandr V. Moskalenko</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-07-18</span>]
+        <a href="/news/229752/trueprint-53-3-migrated-to-testing/">
+            <span class="news-title">trueprint 5.3-3 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-07-06</span>]
+        <a href="/news/229751/accepted-trueprint-53-3-source-amd64/">
+            <span class="news-title">Accepted trueprint 5.3-3 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Michael Ablassmeier</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2002-07-16</span>]
+        <a href="/news/229750/accepted-trueprint-53-2-i386-source/">
+            <span class="news-title">Accepted trueprint 5.3-2 (i386 source)</span>
+        </a>
+        (<span class="news-creator">Othmar Pasteka</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2001-10-21</span>]
+        <a href="/news/229749/installed-trueprint-53-11-hppa-source/">
+            <span class="news-title">Installed trueprint 5.3-1.1 (hppa source)</span>
+        </a>
+        (<span class="news-creator">LaMont Jones</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2001-10-16</span>]
+        <a href="/news/229748/installed-trueprint-53-1-i386-source/">
+            <span class="news-title">Installed trueprint 5.3-1 (i386 source)</span>
+        </a>
+        (<span class="news-creator">Othmar Pasteka</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2000-09-11</span>]
+        <a href="/news/229747/installed-trueprint-521-5-source-i386/">
+            <span class="news-title">Installed trueprint 5.2.1-5 (source i386)</span>
+        </a>
+        (<span class="news-creator">Othmar Pasteka</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2000-08-19</span>]
+        <a href="/news/229746/installed-trueprint-521-4-source-i386/">
+            <span class="news-title">Installed trueprint 5.2.1-4 (source i386)</span>
+        </a>
+        (<span class="news-creator">Othmar Pasteka</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2000-03-24</span>]
+        <a href="/news/229745/installed-trueprint-521-3-source-i386/">
+            <span class="news-title">Installed trueprint 5.2.1-3 (source i386)</span>
+        </a>
+        
+        
+        
+        <span>(signed by: </span><span class="news-signer">Edward Betts</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2000-03-15</span>]
+        <a href="/news/229744/installed-trueprint-521-1-source-i386/">
+            <span class="news-title">Installed trueprint 5.2.1-1 (source i386)</span>
+        </a>
+        
+        
+        
+        <span>(signed by: </span><span class="news-signer">Edward Betts</span><span>)</span>
+        
+        
+    </li>
+    
+</ul>
+
+
+
+
+<div class="text-xs-center" style="margin-bottom: -1rem">
+    <ul class="pagination m-b-0">
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/trueprint/news/">1</a>
+	</li>
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/trueprint/news/?page=2">2</a>
+	</li>
+    </ul>
+</div>
+
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-3 col-xl-2" id="dtracker-package-right">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+bugs
+<a class="m-l-1" href="https://qa.debian.org/data/bts/graphs/t/trueprint.png"><span role="img" aria-label="bug history graph" class="octicon octicon-graph" title="bug history graph"><span class="sr-only">[bug history graph]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="">all:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&amp;src=trueprint">4</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Release Critical">RC:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;src=trueprint">0</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Important and Normal">I&amp;N:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;src=trueprint">4</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Minor and Wishlist">M&amp;W:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;src=trueprint">0</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Fixed and Pending">F&amp;P:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;src=trueprint">0</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Patch">patch:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?include=tags%3Apatch&amp;exclude=tags%3Apending&amp;pend-exc=done&amp;repeatmerged=no&amp;src=trueprint">0</a>
+	
+	
+    </li>
+    
+
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        
+            <a href="https://www.gnu.org/software/trueprint/trueprint.html" title="upstream web homepage">homepage</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<a href="https://udd.debian.org/lintian/?packages=trueprint" title="report about packaging issues spotted by lintian">lintian</a>
+
+
+
+<small>(<span title="errors">0</span>, <span title="warnings">1</span>)</small>
+
+
+
+
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<span>buildd: </span><span><a title="buildd.debian.org build logs" href="https://buildd.debian.org/status/package.php?p=trueprint">logs</a></span><span>, </span><span><a title="report about build reproducibility (reproducible)" href="https://tests.reproducible-builds.org/debian/rb-pkg/trueprint.html">reproducibility</a></span><span>, </span><span><a title="Cross build logs" href="http://crossqa.debian.net/src/trueprint">cross</a></span>
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://qa.debian.org/popcon.php?package=trueprint">popcon</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://sources.debian.org/src/trueprint/unstable/">browse source code</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <form class="code-search-form" action="/codesearch/" method="get" target="_blank"><input type="hidden" name="package" value="trueprint"><input type="search" name="query" placeholder="search source code"></form>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://debtags.debian.org/rep/todo/maint/packages%40qa.debian.org#trueprint">edit tags</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://repology.org/tools/project-by?name_type=srcname&noautoresolve=on&repo=debian_unstable&target_page=project_packages&name=trueprint" title="provided by Repology">other distros</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://screenshots.debian.net/package/trueprint">screenshots</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://udd.debian.org/patches.cgi?src=trueprint&version=5.4-8" title="4 patches in debian/patches">debian patches</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://ci.debian.net/packages/t/trueprint">debci</a>
+        
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+ubuntu
+<img class="m-l-1" src="/static/img/ubuntu.png" alt="Ubuntu logo" title="Ubuntu logo">
+<a class="pull-xs-right" href="https://wiki.ubuntu.com/Ubuntu/ForDebianDevelopers"><span role="img" aria-label="Information about Ubuntu for Debian Developers" class="octicon octicon-info" title="Information about Ubuntu for Debian Developers"><span class="sr-only">[Information about Ubuntu for Debian Developers]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush"><li class="list-group-item"><span class="list-item-key"><b>version:</b></span>
+	&#32;<a href="https://launchpad.net/ubuntu/+source/trueprint">5.4-8</a></li><li class="list-group-item"><a href="https://bugs.launchpad.net/ubuntu/+source/trueprint"><span>1 bug</span></a></li></ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+    </div>
+</div>
+
+
+        <footer id="footer" class="footer">
+            <hr>
+            <div class="container-fluid">
+                <div class="text-xs-center p-b-1">
+                    
+                                        <div id="footer-title"><a href="https://www.debian.org">Debian</a> Package Tracker — <a href="https://deb.li/DTAuthors">Copyright</a> 2013-2025 The Distro Tracker Developers</div>
+                    <div id="footer-bugs">
+			Report problems to the <a href="https://bugs.debian.org/tracker.debian.org">tracker.debian.org pseudo-package</a> in the <a href="https://bugs.debian.org">Debian <acronym title="Bug Tracking System">BTS</acronym></a>.
+		    </div>
+                    <div id="footer-help">
+                        <a href="https://qa.pages.debian.net/distro-tracker/">Documentation</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker/issues">Bugs</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker">Git Repository</a> —
+                        <a href="https://qa.pages.debian.net/distro-tracker/contributing.html">Contributing</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery.cookie.js"></script>
+        <script src="/static/js/tether.min.js"></script>
+        <script src="/static/js/popper.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/typeahead.bundle.min.js"></script>
+        <script src="/static/js/main.js"></script>
+        
+    </body>
+</html>

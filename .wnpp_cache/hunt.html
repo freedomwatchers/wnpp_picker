@@ -1,0 +1,1006 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>hunt - Debian Package Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/octicons.css" rel="stylesheet" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet" media="screen">
+        <link type="application/opensearchdescription+xml" title="Debian Package Tracker Search" rel="search" href="/search.xml"/>
+        
+
+        
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/pkg/hunt/rss">
+
+        
+<link href="/static/css/dense.css" rel="stylesheet" media="screen">
+
+    
+        
+        <link rel="vcs-git" href="https://salsa.debian.org/debian/hunt.git" title="git repository for hunt">
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+
+    </head>
+    <body>
+        
+        <header class="page-header">
+            <div class="container-fluid">
+                
+		<div class="row">
+		<div class="col-xs-12 text-xs-center">
+		    <div class="pull-xs-left">
+<a href="/"><img src="/static/img/logo.png" alt="Debian Package Tracker" title="Visit the main page" ></a>
+</div>
+		    <div class="pull-xs-right">
+		    
+    <div class="m-b-1">
+    <div class="text-xs-left"><form class="form-inline" id="package-search-form" action="/search" method="GET"><div class="form-group"><input type="search" class="form-control form-control-sm package-completion" name="package_name" id='package-search-input' placeholder="Jump to package..."></div><div class="form-group"><button type="submit" class="btn btn-default btn-sm">Go</button></div></form></div>
+
+    </div>
+    
+    <span><a id="account-register" href="/accounts/register/">Register</a></span>
+    <span>|</span>
+    <span><a id="account-login" href="/accounts/login/">Log in</a></span>
+
+
+
+    
+	
+	<div class="btn-group" role="group" style="margin-left: 10px;">
+	  <a href="/accounts/login/?next=/pkg/hunt" id='subscribe-not-logged-in-button' class="btn btn-primary">Subscribe</a>
+	</div>
+    
+
+
+		    </div>
+		    
+    <div>
+    <h1>hunt</h1>
+    
+    <h5>advanced packet sniffer and connection intrusion</h5>
+    
+    </div>
+
+		</div>
+		</div>
+                
+            </div>
+        </header>
+        
+
+	
+
+<div id="choose-email-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3>Choose email to subscribe with</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-default" id="cancel-choose-email" data-dismiss="modal" aria-hidden="true">Cancel</button></div></div></div></div>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-3" id="dtracker-package-left">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        general
+    </div>
+    <div class="panel-body">
+        
+
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>source:</b></span>
+	
+	<a href="https://packages.debian.org/src:hunt">hunt</a>
+		
+		(<span id="component" title="Repository's component">main</span>)
+		
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>version:</b></span>
+        1.5-10
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>maintainer:</b></span>
+	
+	
+	<a href="https://qa.debian.org/developer.php?login=packages%40qa.debian.org">Debian QA Group</a>
+	
+	
+	    
+	    
+		<small>
+		(<a href="https://udd.debian.org/dmd/?packages%40qa.debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>)
+		</small>
+	    
+	
+    </li>
+    
+
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>arch:</b></span>
+        any 
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>std-ver:</b></span>
+        4.6.1
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>VCS:</b></span>
+	
+	
+	    
+	    <a rel="vcs-git" href="https://salsa.debian.org/debian/hunt.git">Git</a>
+	    
+	
+	
+	(<a href="https://salsa.debian.org/debian/hunt">Browse</a>, <a href="https://qa.debian.org/cgi-bin/vcswatch?package=hunt">QA</a>)
+	
+	
+    </li>
+    
+</ul>
+
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+<div class="col-xs-12">
+    versions
+    
+    
+    <a class="m-l-1" href="https://qa.debian.org/madison.php?package=hunt">
+        <span role="img" aria-label="more versions can be listed by madison" class="octicon octicon-link-external" title="more versions can be listed by madison"><span class="sr-only">[more versions can be listed by madison]</span></span>
+    </a>
+    
+    <a class="m-l-1" href="https://snapshot.debian.org/package/hunt/">
+        <span role="img" aria-label="old versions available from snapshot.debian.org" class="octicon octicon-link-external" title="old versions available from snapshot.debian.org"><span class="sr-only">[old versions available from snapshot.debian.org]</span></span>
+    </a>
+    
+    
+    
+    <div class="pull-xs-right">
+	
+	<a href="https://deb.debian.org/debian/pool/main/h/hunt"><span role="img" aria-label="pool directory" class="octicon octicon-file-directory" title="pool directory"><span class="sr-only">[pool directory]</span></span></a>
+	
+    </div>
+    
+</div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 11 (bullseye / oldoldstable)">
+	    <b>o-o-stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldoldstable/hunt">1.5-6.1</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 12 (bookworm / oldstable)">
+	    <b>oldstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldstable/hunt">1.5-8</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 13 (trixie / stable)">
+	    <b>stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/stable/hunt">1.5-10</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Forky (forky / testing)">
+	    <b>testing:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/testing/hunt">1.5-10</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Unstable (sid / unstable)">
+	    <b>unstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/unstable/hunt">1.5-10</a>
+	
+    </li>
+    
+
+
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        versioned links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>1.5-6.1:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/h/hunt/hunt_1.5-6.1.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/h/hunt/changelog-1.5-6.1"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/h/hunt/copyright-1.5-6.1"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/h/hunt/rules-1.5-6.1"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/h/hunt/control-1.5-6.1"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>1.5-8:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/h/hunt/hunt_1.5-8.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/h/hunt/changelog-1.5-8"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/h/hunt/copyright-1.5-8"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/h/hunt/rules-1.5-8"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/h/hunt/control-1.5-8"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>1.5-10:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/h/hunt/hunt_1.5-10.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/h/hunt/changelog-1.5-10"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/h/hunt/copyright-1.5-10"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/h/hunt/rules-1.5-10"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/h/hunt/control-1.5-10"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        binaries
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/hunt" title="">hunt</a>
+        
+
+        
+    </li>
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-6 col-xl-7" id="dtracker-package-center">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        action needed
+    </div>
+    <div class="panel-body">
+        
+<div class="list-group list-group-flush" id="action-needed-list" role="list">
+    
+    <div class="card list-group-item action-item-debian-patches" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                debian/patches: <a href="https://udd.debian.org/patches.cgi?src=hunt&version=1.5-10">6 patches</a> with invalid metadata, <a href="https://udd.debian.org/patches.cgi?src=hunt&version=1.5-10">2 patches</a> to forward upstream
+                
+                <span class="label label-warning pull-xs-right">high</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<p>Among the <a href="https://udd.debian.org/patches.cgi?src=hunt&amp;version=1.5-10">8 debian patches</a>
+available in version 1.5-10 of the package,
+we noticed the following issues:</p>
+<ul>
+
+<li>6 patches with
+    invalid metadata that ought to be fixed.
+
+
+<li>2 patches
+    where the metadata indicates that the patch has not yet been forwarded
+    upstream. You should either forward the patch upstream or update the
+    metadata to document its real status.</li>
+
+</ul>
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2023-02-26
+                <span class="pull-xs-right">
+                    Last update: 2024-08-28
+                    18:30
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-wnpp-issue" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://bugs.debian.org/981676">O: This package has been orphaned and needs a maintainer.</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div><span><span style="font-weight: bold">This package has been
+        orphaned</span>.  This means that it does not have a real
+        maintainer at the moment. Please consider adopting this package
+        if you are interested in it.</span><span> Please see bug number <a href="https://bugs.debian.org/981676">#981676</a> for more information.</span></div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2021-02-03
+                <span class="pull-xs-right">
+                    Last update: 2021-02-03
+                    00:06
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-std-ver-outdated" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                Standards version of the package is outdated.
+                
+                <span class="label label-info pull-xs-right">wishlist</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<span>The package should be updated to follow the last version of <a href="https://www.debian.org/doc/debian-policy/">Debian Policy</a>
+(Standards-Version <a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-4-7-2">4.7.2</a> instead of
+<a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-4-6-1">4.6.1</a>).
+</span>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2022-12-17
+                <span class="pull-xs-right">
+                    Last update: 2025-02-27
+                    13:25
+                </span>
+            </div>
+        </details>
+    </div>
+    
+</div>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+    <div class="col-xs-12">
+	<a href="/pkg/hunt/news/">news</a>
+	<div class="pull-xs-right">
+	    <a href="/pkg/hunt/rss">
+	    <span role="img" aria-label="rss feed" class="octicon octicon-rss" title="rss feed"><span class="sr-only">[rss feed]</span></span>
+	    </a>
+	</div>
+    </div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+
+    <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-08-30</span>]
+        <a href="/news/1560429/hunt-15-10-migrated-to-testing/">
+            <span class="news-title">hunt 1.5-10 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-08-28</span>]
+        <a href="/news/1559972/accepted-hunt-15-10-source-into-unstable/">
+            <span class="news-title">Accepted hunt 1.5-10 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Andreas Beckmann</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-08-10</span>]
+        <a href="/news/1553567/hunt-removed-from-testing/">
+            <span class="news-title">hunt REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-04-12</span>]
+        <a href="/news/1518487/hunt-15-9-migrated-to-testing/">
+            <span class="news-title">hunt 1.5-9 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-04-10</span>]
+        <a href="/news/1518164/accepted-hunt-15-9-source-into-unstable/">
+            <span class="news-title">Accepted hunt 1.5-9 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Andreas Beckmann</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-12-08</span>]
+        <a href="/news/1396132/accepted-hunt-15-8bpo111-source-amd64-into-bullseye-backports/">
+            <span class="news-title">Accepted hunt 1.5-8~bpo11+1 (source amd64) into bullseye-backports</span>
+        </a>
+        (<span class="news-creator">Debian FTP Masters</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Joao Eriberto Mota Filho</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-11-21</span>]
+        <a href="/news/1387306/hunt-15-8-migrated-to-testing/">
+            <span class="news-title">hunt 1.5-8 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-11-18</span>]
+        <a href="/news/1385691/accepted-hunt-15-8-source-into-unstable/">
+            <span class="news-title">Accepted hunt 1.5-8 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Braulio Henrique Marques Souto</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Joao Eriberto Mota Filho</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-11-18</span>]
+        <a href="/news/1385557/hunt-15-7-migrated-to-testing/">
+            <span class="news-title">hunt 1.5-7 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-11-13</span>]
+        <a href="/news/1384126/accepted-hunt-15-7-source-into-unstable/">
+            <span class="news-title">Accepted hunt 1.5-7 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Marcos Talau</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-09-13</span>]
+        <a href="/news/1361933/hunt-15-62-migrated-to-testing/">
+            <span class="news-title">hunt 1.5-6.2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-09-07</span>]
+        <a href="/news/1360678/accepted-hunt-15-62-source-into-unstable/">
+            <span class="news-title">Accepted hunt 1.5-6.2 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Braulio Henrique Marques Souto</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Joao Eriberto Mota Filho</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-12-29</span>]
+        <a href="/news/1290100/hunt-removed-from-testing/">
+            <span class="news-title">hunt REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2015-07-31</span>]
+        <a href="/news/701724/hunt-15-61-migrated-to-testing/">
+            <span class="news-title">hunt 1.5-6.1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Britney</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2015-07-25</span>]
+        <a href="/news/700293/accepted-hunt-15-61-source-into-unstable/">
+            <span class="news-title">Accepted hunt 1.5-6.1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">gregor herrmann</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2015-07-11</span>]
+        <a href="/news/696991/hunt-removed-from-testing/">
+            <span class="news-title">hunt REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Britney</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2009-05-27</span>]
+        <a href="/news/126297/hunt-15-6-migrated-to-testing/">
+            <span class="news-title">hunt 1.5-6 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2009-05-07</span>]
+        <a href="/news/126296/accepted-hunt-15-6-source-i386/">
+            <span class="news-title">Accepted hunt 1.5-6 (source i386)</span>
+        </a>
+        (<span class="news-creator">Angel Ramos</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2009-02-16</span>]
+        <a href="/news/126295/hunt-15-5-migrated-to-testing/">
+            <span class="news-title">hunt 1.5-5 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2009-01-27</span>]
+        <a href="/news/126294/accepted-hunt-15-5-source-i386/">
+            <span class="news-title">Accepted hunt 1.5-5 (source i386)</span>
+        </a>
+        (<span class="news-creator">Barry deFreese</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2004-09-07</span>]
+        <a href="/news/126293/accepted-hunt-15-4-i386-source/">
+            <span class="news-title">Accepted hunt 1.5-4 (i386 source)</span>
+        </a>
+        (<span class="news-creator">Adrian Bridgett</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2002-02-25</span>]
+        <a href="/news/126292/accepted-hunt-15-3-i386-source/">
+            <span class="news-title">Accepted hunt 1.5-3 (i386 source)</span>
+        </a>
+        (<span class="news-creator">Adrian Bridgett</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2001-12-02</span>]
+        <a href="/news/126291/installed-hunt-15-2-i386-source/">
+            <span class="news-title">Installed hunt 1.5-2 (i386 source)</span>
+        </a>
+        (<span class="news-creator">Adrian Bridgett</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2000-06-16</span>]
+        <a href="/news/126290/installed-hunt-15-1-source-i386/">
+            <span class="news-title">Installed hunt 1.5-1 (source i386)</span>
+        </a>
+        (<span class="news-creator">Adrian Bridgett</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">1999-10-19</span>]
+        <a href="/news/126289/installed-hunt-14-1-source-i386/">
+            <span class="news-title">Installed hunt 1.4-1 (source i386)</span>
+        </a>
+        (<span class="news-creator">Adrian Bridgett</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">1999-07-12</span>]
+        <a href="/news/126288/installed-hunt-13-2-source-i386/">
+            <span class="news-title">Installed hunt 1.3-2 (source i386)</span>
+        </a>
+        (<span class="news-creator">Adrian Bridgett</span>)
+        
+        
+        
+    </li>
+    
+</ul>
+
+
+
+
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-3 col-xl-2" id="dtracker-package-right">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+bugs
+<a class="m-l-1" href="https://qa.debian.org/data/bts/graphs/h/hunt.png"><span role="img" aria-label="bug history graph" class="octicon octicon-graph" title="bug history graph"><span class="sr-only">[bug history graph]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="">all:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&amp;src=hunt">0</a>
+	
+	
+    </li>
+    
+
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        
+            <a href="http://lin.fsid.cvut.cz/~kra/hunt/" title="upstream web homepage">homepage</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<a href="https://udd.debian.org/lintian/?packages=hunt" title="report about packaging issues spotted by lintian">lintian</a>
+
+
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<span>buildd: </span><span><a title="buildd.debian.org build logs" href="https://buildd.debian.org/status/package.php?p=hunt">logs</a></span><span>, </span><span><a title="report about build reproducibility (reproducible)" href="https://tests.reproducible-builds.org/debian/rb-pkg/hunt.html">reproducibility</a></span><span>, </span><span><a title="Cross build logs" href="http://crossqa.debian.net/src/hunt">cross</a></span>
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://qa.debian.org/popcon.php?package=hunt">popcon</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://sources.debian.org/src/hunt/unstable/">browse source code</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <form class="code-search-form" action="/codesearch/" method="get" target="_blank"><input type="hidden" name="package" value="hunt"><input type="search" name="query" placeholder="search source code"></form>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://debtags.debian.org/rep/todo/maint/packages%40qa.debian.org#hunt">edit tags</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://repology.org/tools/project-by?name_type=srcname&noautoresolve=on&repo=debian_unstable&target_page=project_packages&name=hunt" title="provided by Repology">other distros</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://screenshots.debian.net/package/hunt">screenshots</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://udd.debian.org/patches.cgi?src=hunt&version=1.5-10" title="8 patches in debian/patches">debian patches</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://ci.debian.net/packages/h/hunt">debci</a>
+        
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+ubuntu
+<img class="m-l-1" src="/static/img/ubuntu.png" alt="Ubuntu logo" title="Ubuntu logo">
+<a class="pull-xs-right" href="https://wiki.ubuntu.com/Ubuntu/ForDebianDevelopers"><span role="img" aria-label="Information about Ubuntu for Debian Developers" class="octicon octicon-info" title="Information about Ubuntu for Debian Developers"><span class="sr-only">[Information about Ubuntu for Debian Developers]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush"><li class="list-group-item"><span class="list-item-key"><b>version:</b></span>
+	&#32;<a href="https://launchpad.net/ubuntu/+source/hunt">1.5-10</a></li><li class="list-group-item"><a href="https://bugs.launchpad.net/ubuntu/+source/hunt"><span>1 bug</span></a></li></ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+    </div>
+</div>
+
+
+        <footer id="footer" class="footer">
+            <hr>
+            <div class="container-fluid">
+                <div class="text-xs-center p-b-1">
+                    
+                                        <div id="footer-title"><a href="https://www.debian.org">Debian</a> Package Tracker — <a href="https://deb.li/DTAuthors">Copyright</a> 2013-2025 The Distro Tracker Developers</div>
+                    <div id="footer-bugs">
+			Report problems to the <a href="https://bugs.debian.org/tracker.debian.org">tracker.debian.org pseudo-package</a> in the <a href="https://bugs.debian.org">Debian <acronym title="Bug Tracking System">BTS</acronym></a>.
+		    </div>
+                    <div id="footer-help">
+                        <a href="https://qa.pages.debian.net/distro-tracker/">Documentation</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker/issues">Bugs</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker">Git Repository</a> —
+                        <a href="https://qa.pages.debian.net/distro-tracker/contributing.html">Contributing</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery.cookie.js"></script>
+        <script src="/static/js/tether.min.js"></script>
+        <script src="/static/js/popper.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/typeahead.bundle.min.js"></script>
+        <script src="/static/js/main.js"></script>
+        
+    </body>
+</html>

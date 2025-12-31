@@ -1,0 +1,1925 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>xmms2 - Debian Package Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/octicons.css" rel="stylesheet" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet" media="screen">
+        <link type="application/opensearchdescription+xml" title="Debian Package Tracker Search" rel="search" href="/search.xml"/>
+        
+
+        
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/pkg/xmms2/rss">
+
+        
+<link href="/static/css/dense.css" rel="stylesheet" media="screen">
+
+    
+        
+        <link rel="vcs-git" href="https://salsa.debian.org/debian/xmms2.git" title="git repository for xmms2">
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+
+    </head>
+    <body>
+        
+        <header class="page-header">
+            <div class="container-fluid">
+                
+		<div class="row">
+		<div class="col-xs-12 text-xs-center">
+		    <div class="pull-xs-left">
+<a href="/"><img src="/static/img/logo.png" alt="Debian Package Tracker" title="Visit the main page" ></a>
+</div>
+		    <div class="pull-xs-right">
+		    
+    <div class="m-b-1">
+    <div class="text-xs-left"><form class="form-inline" id="package-search-form" action="/search" method="GET"><div class="form-group"><input type="search" class="form-control form-control-sm package-completion" name="package_name" id='package-search-input' placeholder="Jump to package..."></div><div class="form-group"><button type="submit" class="btn btn-default btn-sm">Go</button></div></form></div>
+
+    </div>
+    
+    <span><a id="account-register" href="/accounts/register/">Register</a></span>
+    <span>|</span>
+    <span><a id="account-login" href="/accounts/login/">Log in</a></span>
+
+
+
+    
+	
+	<div class="btn-group" role="group" style="margin-left: 10px;">
+	  <a href="/accounts/login/?next=/pkg/xmms2" id='subscribe-not-logged-in-button' class="btn btn-primary">Subscribe</a>
+	</div>
+    
+
+
+		    </div>
+		    
+    <div>
+    <h1>xmms2</h1>
+    
+    <h5>Client/server based media player system</h5>
+    
+    </div>
+
+		</div>
+		</div>
+                
+            </div>
+        </header>
+        
+
+	
+
+<div id="choose-email-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3>Choose email to subscribe with</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-default" id="cancel-choose-email" data-dismiss="modal" aria-hidden="true">Cancel</button></div></div></div></div>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-3" id="dtracker-package-left">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        general
+    </div>
+    <div class="panel-body">
+        
+
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>source:</b></span>
+	
+	<a href="https://packages.debian.org/src:xmms2">xmms2</a>
+		
+		(<span id="component" title="Repository's component">main</span>)
+		
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>version:</b></span>
+        0.<wbr>8+<wbr>dfsg-<wbr>29
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>maintainer:</b></span>
+	
+	
+	<a href="https://qa.debian.org/developer.php?login=packages%40qa.debian.org">Debian QA Group</a>
+	
+	
+	    
+	    
+		<small>
+		(<a href="https://udd.debian.org/dmd/?packages%40qa.debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>)
+		</small>
+	    
+	
+    </li>
+    
+
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>arch:</b></span>
+        all any 
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>std-ver:</b></span>
+        3.9.8
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>VCS:</b></span>
+	
+	
+	    
+	    <a rel="vcs-git" href="https://salsa.debian.org/debian/xmms2.git">Git</a>
+	    
+	
+	
+	(<a href="https://salsa.debian.org/debian/xmms2">Browse</a>, <a href="https://qa.debian.org/cgi-bin/vcswatch?package=xmms2">QA</a>)
+	
+	
+    </li>
+    
+</ul>
+
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+<div class="col-xs-12">
+    versions
+    
+    
+    <a class="m-l-1" href="https://qa.debian.org/madison.php?package=xmms2">
+        <span role="img" aria-label="more versions can be listed by madison" class="octicon octicon-link-external" title="more versions can be listed by madison"><span class="sr-only">[more versions can be listed by madison]</span></span>
+    </a>
+    
+    <a class="m-l-1" href="https://snapshot.debian.org/package/xmms2/">
+        <span role="img" aria-label="old versions available from snapshot.debian.org" class="octicon octicon-link-external" title="old versions available from snapshot.debian.org"><span class="sr-only">[old versions available from snapshot.debian.org]</span></span>
+    </a>
+    
+    
+    
+    <div class="pull-xs-right">
+	
+	<a href="https://deb.debian.org/debian/pool/main/x/xmms2"><span role="img" aria-label="pool directory" class="octicon octicon-file-directory" title="pool directory"><span class="sr-only">[pool directory]</span></span></a>
+	
+    </div>
+    
+</div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 11 (bullseye / oldoldstable)">
+	    <b>o-o-stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldoldstable/xmms2">0.<wbr>8+<wbr>dfsg-<wbr>21</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 13 (trixie / stable)">
+	    <b>stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/stable/xmms2">0.<wbr>8+<wbr>dfsg-<wbr>28</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Forky (forky / testing)">
+	    <b>testing:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/testing/xmms2">0.<wbr>8+<wbr>dfsg-<wbr>29</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Unstable (sid / unstable)">
+	    <b>unstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/unstable/xmms2">0.<wbr>8+<wbr>dfsg-<wbr>29</a>
+	
+    </li>
+    
+
+
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        versioned links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.<wbr>8+<wbr>dfsg-<wbr>21:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/x/xmms2/xmms2_0.8+dfsg-21.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/x/xmms2/changelog-0.8dfsg-21"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/x/xmms2/copyright-0.8dfsg-21"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/x/xmms2/rules-0.8dfsg-21"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/x/xmms2/control-0.8dfsg-21"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.<wbr>8+<wbr>dfsg-<wbr>28:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/x/xmms2/xmms2_0.8+dfsg-28.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/x/xmms2/changelog-0.8dfsg-28"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/x/xmms2/copyright-0.8dfsg-28"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/x/xmms2/rules-0.8dfsg-28"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/x/xmms2/control-0.8dfsg-28"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.<wbr>8+<wbr>dfsg-<wbr>29:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/x/xmms2/xmms2_0.8+dfsg-29.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/x/xmms2/changelog-0.8dfsg-29"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/x/xmms2/copyright-0.8dfsg-29"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/x/xmms2/rules-0.8dfsg-29"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/x/xmms2/control-0.8dfsg-29"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        binaries
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libaudio-xmmsclient-perl" title="">libaudio-xmmsclient-perl</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libxmmsclient++-dev" title="">libxmmsclient++-dev</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libxmmsclient++-glib-dev" title="">libxmmsclient++-glib-dev</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libxmmsclient++-glib1v5" title="">libxmmsclient++-glib1v5</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libxmmsclient++4v5" title="">libxmmsclient++4v5</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libxmmsclient-dev" title="">libxmmsclient-dev</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libxmmsclient-glib-dev" title="">libxmmsclient-glib-dev</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libxmmsclient-glib1" title="">libxmmsclient-glib1</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libxmmsclient6" title="">libxmmsclient6</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/libxmmsclient6">1 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=libxmmsclient6" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=libxmmsclient6" title="important and normal">1</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=libxmmsclient6" title="wishlist and minor">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=libxmmsclient6" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/ruby-xmmsclient" title="">ruby-xmmsclient</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2" title="">xmms2</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/xmms2">13 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2" title="important and normal">6</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2" title="wishlist and minor">7</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-client-avahi" title="">xmms2-client-avahi</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-client-cli" title="">xmms2-client-cli</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/xmms2-client-cli">4 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-client-cli" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-client-cli" title="important and normal">2</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-client-cli" title="wishlist and minor">2</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-client-cli" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-client-medialib-updater" title="">xmms2-client-medialib-updater</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-client-nycli" title="">xmms2-client-nycli</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/xmms2-client-nycli">3 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-client-nycli" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-client-nycli" title="important and normal">2</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-client-nycli" title="wishlist and minor">1</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-client-nycli" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-core" title="">xmms2-core</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/xmms2-core">3 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-core" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-core" title="important and normal">3</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-core" title="wishlist and minor">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-core" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-dev" title="">xmms2-dev</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-icon" title="">xmms2-icon</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-airplay" title="">xmms2-plugin-airplay</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-all" title="">xmms2-plugin-all</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-alsa" title="">xmms2-plugin-alsa</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-ao" title="">xmms2-plugin-ao</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-apefile" title="">xmms2-plugin-apefile</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/xmms2-plugin-apefile">1 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-apefile" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-apefile" title="important and normal">1</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-apefile" title="wishlist and minor">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-apefile" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-asf" title="">xmms2-plugin-asf</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-asx" title="">xmms2-plugin-asx</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-avcodec" title="">xmms2-plugin-avcodec</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-cdda" title="">xmms2-plugin-cdda</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/xmms2-plugin-cdda">1 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-cdda" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-cdda" title="important and normal">1</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-cdda" title="wishlist and minor">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-cdda" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-cue" title="">xmms2-plugin-cue</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/xmms2-plugin-cue">2 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-cue" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-cue" title="important and normal">2</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-cue" title="wishlist and minor">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-cue" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-curl" title="">xmms2-plugin-curl</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/xmms2-plugin-curl">1 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-curl" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-curl" title="important and normal">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-curl" title="wishlist and minor">1</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-curl" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-daap" title="">xmms2-plugin-daap</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/xmms2-plugin-daap">2 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-daap" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-daap" title="important and normal">2</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-daap" title="wishlist and minor">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-daap" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-faad" title="">xmms2-plugin-faad</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-flac" title="">xmms2-plugin-flac</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-flv" title="">xmms2-plugin-flv</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-gme" title="">xmms2-plugin-gme</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-gvfs" title="">xmms2-plugin-gvfs</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-html" title="">xmms2-plugin-html</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-ices" title="">xmms2-plugin-ices</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-icymetaint" title="">xmms2-plugin-icymetaint</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-id3v2" title="">xmms2-plugin-id3v2</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-jack" title="">xmms2-plugin-jack</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/xmms2-plugin-jack">1 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-jack" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-jack" title="important and normal">1</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-jack" title="wishlist and minor">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-jack" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-karaoke" title="">xmms2-plugin-karaoke</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-m3u" title="">xmms2-plugin-m3u</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-mad" title="">xmms2-plugin-mad</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-mms" title="">xmms2-plugin-mms</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-modplug" title="">xmms2-plugin-modplug</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-mp4" title="">xmms2-plugin-mp4</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-mpg123" title="">xmms2-plugin-mpg123</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-musepack" title="">xmms2-plugin-musepack</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-normalize" title="">xmms2-plugin-normalize</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-ofa" title="">xmms2-plugin-ofa</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-oss" title="">xmms2-plugin-oss</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-pls" title="">xmms2-plugin-pls</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/xmms2-plugin-pls">1 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-pls" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-pls" title="important and normal">1</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-pls" title="wishlist and minor">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=xmms2-plugin-pls" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-pulse" title="">xmms2-plugin-pulse</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-rss" title="">xmms2-plugin-rss</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-sid" title="">xmms2-plugin-sid</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-smb" title="">xmms2-plugin-smb</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-sndfile" title="">xmms2-plugin-sndfile</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-speex" title="">xmms2-plugin-speex</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-tta" title="">xmms2-plugin-tta</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-vocoder" title="">xmms2-plugin-vocoder</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-vorbis" title="">xmms2-plugin-vorbis</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-wavpack" title="">xmms2-plugin-wavpack</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-xml" title="">xmms2-plugin-xml</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/xmms2-plugin-xspf" title="">xmms2-plugin-xspf</a>
+        
+
+        
+    </li>
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-6 col-xl-7" id="dtracker-package-center">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        action needed
+    </div>
+    <div class="panel-body">
+        
+<div class="list-group list-group-flush" id="action-needed-list" role="list">
+    
+    <div class="card list-group-item action-item-debci-failed-tests" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://ci.debian.net">Debci</a> reports <a href="https://ci.debian.net/packages/x/xmms2">failed tests</a> 
+                
+                <span class="label label-warning pull-xs-right">high</span>
+                
+            </summary>
+            <div class="card-block">
+                <ul>
+
+<li>
+<b>unstable</b>: <b class='alert-danger'>fail</b> (<a href="https://ci.debian.net/data/packages/unstable/amd64/x/xmms2/latest-autopkgtest/log.gz">log</a>)
+<br/>The tests ran in 0:00:35
+<br/>Last run: 2024-08-07T19:41:58.000Z
+<br/>Previous status: <b>unknown</b>
+</li>
+<br/>
+
+</ul>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2024-08-07
+                <span class="pull-xs-right">
+                    Last update: 2025-12-23
+                    01:02
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-new-upstream-version" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                A new upstream version is available: <a href="https://github.com/xmms2/xmms2-devel/archive/refs/tags/0.9.6.tar.gz">0.9.6</a>
+                
+                <span class="label label-warning pull-xs-right">high</span>
+                
+            </summary>
+            <div class="card-block">
+                <span>A new upstream version <a href="https://github.com/xmms2/xmms2-devel/archive/refs/tags/0.9.6.tar.gz">0.9.6</a> is available, you should consider packaging it.</span>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-11-26
+                <span class="pull-xs-right">
+                    Last update: 2025-12-23
+                    00:31
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-autoremoval" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                Marked for autoremoval on 07 January: <a href="https://bugs.debian.org/1115046">#1115046</a>
+                
+                <span class="label label-warning pull-xs-right">high</span>
+                
+            </summary>
+            <div class="card-block">
+                <div><span>Version 0.8+dfsg-29 of xmms2 is marked for autoremoval from testing on Wed 07 Jan 2026. </span><span>It is affected by <a href="https://bugs.debian.org/1115046">#1115046</a>. </span><span>The removal of xmms2 will also cause the removal of (transitive) reverse dependencies: <a href="/pkg/lxmusic">lxmusic</a>, <a href="/pkg/wmxmms2">wmxmms2</a>. </span></span>You should try to prevent the removal by fixing these RC bugs.</span></div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-12-08
+                <span class="pull-xs-right">
+                    Last update: 2025-12-23
+                    00:01
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-patches" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                debian/patches: <a href="https://udd.debian.org/patches.cgi?src=xmms2&version=0.8%2Bdfsg-29">1 patch</a> with invalid metadata, <a href="https://udd.debian.org/patches.cgi?src=xmms2&version=0.8%2Bdfsg-29">24 patches</a> to forward upstream
+                
+                <span class="label label-warning pull-xs-right">high</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<p>Among the <a href="https://udd.debian.org/patches.cgi?src=xmms2&amp;version=0.8%2Bdfsg-29">30 debian patches</a>
+available in version 0.8+dfsg-29 of the package,
+we noticed the following issues:</p>
+<ul>
+
+<li>1 patch with
+    invalid metadata that ought to be fixed.
+
+
+<li>24 patches
+    where the metadata indicates that the patch has not yet been forwarded
+    upstream. You should either forward the patch upstream or update the
+    metadata to document its real status.</li>
+
+</ul>
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2023-02-26
+                <span class="pull-xs-right">
+                    Last update: 2025-09-26
+                    19:31
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-std-ver-outdated" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                Standards version of the package is outdated.
+                
+                <span class="label label-warning pull-xs-right">high</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<span>The package is severely out of date with respect to the Debian Policy.</span>
+
+<span>The package should be updated to follow the last version of <a href="https://www.debian.org/doc/debian-policy/">Debian Policy</a>
+(Standards-Version <a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-4-7-2">4.7.2</a> instead of
+<a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-3-9-8">3.9.8</a>).
+</span>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2017-11-16
+                <span class="pull-xs-right">
+                    Last update: 2025-09-26
+                    19:00
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-depneedsmaint" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                Depends on packages which need a new maintainer
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div>The packages that xmms2 depends on which need a new maintainer are:</div>
+<ul>
+
+<li>
+<a href="/pkg/libofa">libofa</a>
+(<a href="https://bugs.debian.org/951277">#951277</a>)
+<ul>
+
+<li>Depends:
+
+libofa0
+
+</li>
+
+<li>Build-Depends:
+
+libofa0-dev
+
+</li>
+
+</ul>
+</span>
+</li>
+
+</ul>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2019-11-22
+                <span class="pull-xs-right">
+                    Last update: 2025-12-23
+                    00:01
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-multiarch-hints" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://wiki.debian.org/MultiArch/Hints">Multiarch hinter</a> reports 1 issue(s)
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div>
+There are issues with the <a href="https://wiki.debian.org/MultiArch">multiarch</a> metadata for this package.
+<ul>
+
+<li><a href="https://wiki.debian.org/MultiArch/Hints#ma-foreign">xmms2-icon could be marked Multi-Arch: foreign</a></li>
+
+</ul>
+</div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2016-09-14
+                <span class="pull-xs-right">
+                    Last update: 2025-12-22
+                    19:31
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-lintian-warnings-and-errors" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                lintian reports <a href="https://udd.debian.org/lintian/?packages=xmms2">7 warnings</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                
+
+Lintian reports
+<a href="https://udd.debian.org/lintian/?packages=xmms2">
+
+
+<span>7 warnings</span>
+
+</a>
+about this package. You should make the package <i>lintian clean</i> getting rid of them.
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-09-26
+                <span class="pull-xs-right">
+                    Last update: 2025-09-26
+                    22:32
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-wnpp-issue" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://bugs.debian.org/931412">O: This package has been orphaned and needs a maintainer.</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div><span><span style="font-weight: bold">This package has been
+        orphaned</span>.  This means that it does not have a real
+        maintainer at the moment. Please consider adopting this package
+        if you are interested in it.</span><span> Please see bug number <a href="https://bugs.debian.org/931412">#931412</a> for more information.</span></div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2019-07-04
+                <span class="pull-xs-right">
+                    Last update: 2019-07-04
+                    13:32
+                </span>
+            </div>
+        </details>
+    </div>
+    
+</div>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+    <div class="col-xs-12">
+	<a href="/pkg/xmms2/news/">news</a>
+	<div class="pull-xs-right">
+	    <a href="/pkg/xmms2/rss">
+	    <span role="img" aria-label="rss feed" class="octicon octicon-rss" title="rss feed"><span class="sr-only">[rss feed]</span></span>
+	    </a>
+	</div>
+    </div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+
+    <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-10-01</span>]
+        <a href="/news/1673151/xmms2-08dfsg-29-migrated-to-testing/">
+            <span class="news-title">xmms2 0.8+dfsg-29 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-09-26</span>]
+        <a href="/news/1670936/accepted-xmms2-08dfsg-29-source-into-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-29 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Sebastian Ramacher</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-12-17</span>]
+        <a href="/news/1594864/xmms2-08dfsg-28-migrated-to-testing/">
+            <span class="news-title">xmms2 0.8+dfsg-28 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-12-11</span>]
+        <a href="/news/1593531/accepted-xmms2-08dfsg-28-source-into-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-28 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Bastian Germann</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">bage@debian.org</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-11-21</span>]
+        <a href="/news/1586950/xmms2-removed-from-testing/">
+            <span class="news-title">xmms2 REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-09-25</span>]
+        <a href="/news/1569282/xmms2-08dfsg-27-migrated-to-testing/">
+            <span class="news-title">xmms2 0.8+dfsg-27 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-09-19</span>]
+        <a href="/news/1567544/accepted-xmms2-08dfsg-27-source-into-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-27 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Paul Mars</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Benjamin Drung</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-08-25</span>]
+        <a href="/news/1558758/xmms2-removed-from-testing/">
+            <span class="news-title">xmms2 REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-06-30</span>]
+        <a href="/news/1540848/xmms2-08dfsg-26-migrated-to-testing/">
+            <span class="news-title">xmms2 0.8+dfsg-26 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-06-30</span>]
+        <a href="/news/1540815/xmms2-08dfsg-26-migrated-to-testing/">
+            <span class="news-title">xmms2 0.8+dfsg-26 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-06-25</span>]
+        <a href="/news/1539862/accepted-xmms2-08dfsg-26-source-into-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-26 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Gianfranco Costamagna</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-06-22</span>]
+        <a href="/news/1539022/accepted-xmms2-08dfsg-25-source-into-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-25 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Bastian Germann</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">bage@debian.org</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-12-01</span>]
+        <a href="/news/1482355/xmms2-08dfsg-24-migrated-to-testing/">
+            <span class="news-title">xmms2 0.8+dfsg-24 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-11-26</span>]
+        <a href="/news/1480984/accepted-xmms2-08dfsg-24-source-into-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-24 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Matthias Klose</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-06-13</span>]
+        <a href="/news/1434113/xmms2-08dfsg-23-migrated-to-testing/">
+            <span class="news-title">xmms2 0.8+dfsg-23 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-06-02</span>]
+        <a href="/news/1432827/accepted-xmms2-08dfsg-23-source-into-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-23 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Andreas Beckmann</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-04-03</span>]
+        <a href="/news/1315746/xmms2-removed-from-testing/">
+            <span class="news-title">xmms2 REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-11-23</span>]
+        <a href="/news/1279811/xmms2-08dfsg-22-migrated-to-testing/">
+            <span class="news-title">xmms2 0.8+dfsg-22 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-11-18</span>]
+        <a href="/news/1278101/accepted-xmms2-08dfsg-22-source-into-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-22 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Steve Langasek</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-02-11</span>]
+        <a href="/news/1230868/xmms2-08dfsg-21-migrated-to-testing/">
+            <span class="news-title">xmms2 0.8+dfsg-21 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-02-06</span>]
+        <a href="/news/1228727/accepted-xmms2-08dfsg-21-source-into-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-21 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Chris Hofstaedtler</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Christian Hofstaedtler</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2020-06-25</span>]
+        <a href="/news/1155702/xmms2-08dfsg-20-migrated-to-testing/">
+            <span class="news-title">xmms2 0.8+dfsg-20 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2020-06-19</span>]
+        <a href="/news/1154564/accepted-xmms2-08dfsg-20-source-into-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-20 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Scott Talbert</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2020-06-19</span>]
+        <a href="/news/1154476/accepted-xmms2-08dfsg-19-source-amd64-all-into-unstable-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-19 (source amd64 all) into unstable, unstable</span>
+        </a>
+        (<span class="news-creator">Debian FTP Masters</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Scott Talbert</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2020-06-14</span>]
+        <a href="/news/1152947/xmms2-08dfsg-183-migrated-to-testing/">
+            <span class="news-title">xmms2 0.8+dfsg-18.3 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2020-06-08</span>]
+        <a href="/news/1151612/accepted-xmms2-08dfsg-183-source-into-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-18.3 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Sebastian Ramacher</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-03-07</span>]
+        <a href="/news/1034301/xmms2-08dfsg-182-migrated-to-testing/">
+            <span class="news-title">xmms2 0.8+dfsg-18.2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-02-25</span>]
+        <a href="/news/1032318/accepted-xmms2-08dfsg-182-source-amd64-all-into-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-18.2 (source amd64 all) into unstable</span>
+        </a>
+        (<span class="news-creator">Emanuele Rocca</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2017-11-21</span>]
+        <a href="/news/888358/xmms2-08dfsg-181-migrated-to-testing/">
+            <span class="news-title">xmms2 0.8+dfsg-18.1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2017-11-16</span>]
+        <a href="/news/887015/accepted-xmms2-08dfsg-181-source-into-unstable/">
+            <span class="news-title">Accepted xmms2 0.8+dfsg-18.1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Matthias Klose</span>)
+        
+        
+        
+    </li>
+    
+</ul>
+
+
+
+
+<div class="text-xs-center" style="margin-bottom: -1rem">
+    <ul class="pagination m-b-0">
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/xmms2/news/">1</a>
+	</li>
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/xmms2/news/?page=2">2</a>
+	</li>
+    </ul>
+</div>
+
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-3 col-xl-2" id="dtracker-package-right">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+bugs
+<a class="m-l-1" href="https://qa.debian.org/data/bts/graphs/x/xmms2.png"><span role="img" aria-label="bug history graph" class="octicon octicon-graph" title="bug history graph"><span class="sr-only">[bug history graph]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="">all:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&amp;src=xmms2">37</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Release Critical">RC:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;src=xmms2">1</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Important and Normal">I&amp;N:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;src=xmms2">24</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Minor and Wishlist">M&amp;W:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;src=xmms2">12</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Fixed and Pending">F&amp;P:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;src=xmms2">0</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Patch">patch:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?include=tags%3Apatch&amp;exclude=tags%3Apending&amp;pend-exc=done&amp;repeatmerged=no&amp;src=xmms2">0</a>
+	
+	
+    </li>
+    
+
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        
+            
+<a href="https://udd.debian.org/lintian/?packages=xmms2" title="report about packaging issues spotted by lintian">lintian</a>
+
+
+
+<small>(<span title="errors">0</span>, <span title="warnings">7</span>)</small>
+
+
+
+
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<span>buildd: </span><span><a title="buildd.debian.org build logs" href="https://buildd.debian.org/status/package.php?p=xmms2">logs</a></span><span>, </span><span><a title="report about build reproducibility (reproducible)" href="https://tests.reproducible-builds.org/debian/rb-pkg/xmms2.html">reproducibility</a></span><span>, </span><span><a title="Cross build logs" href="http://crossqa.debian.net/src/xmms2">cross</a></span>
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://qa.debian.org/popcon.php?package=xmms2">popcon</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://sources.debian.org/src/xmms2/unstable/">browse source code</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <form class="code-search-form" action="/codesearch/" method="get" target="_blank"><input type="hidden" name="package" value="xmms2"><input type="search" name="query" placeholder="search source code"></form>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://debtags.debian.org/rep/todo/maint/packages%40qa.debian.org#xmms2">edit tags</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://repology.org/tools/project-by?name_type=srcname&noautoresolve=on&repo=debian_unstable&target_page=project_packages&name=xmms2" title="provided by Repology">other distros</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://screenshots.debian.net/package/xmms2">screenshots</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://udd.debian.org/patches.cgi?src=xmms2&version=0.8%2Bdfsg-29" title="30 patches in debian/patches">debian patches</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://ci.debian.net/packages/x/xmms2">debci</a>
+        
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+ubuntu
+<img class="m-l-1" src="/static/img/ubuntu.png" alt="Ubuntu logo" title="Ubuntu logo">
+<a class="pull-xs-right" href="https://wiki.ubuntu.com/Ubuntu/ForDebianDevelopers"><span role="img" aria-label="Information about Ubuntu for Debian Developers" class="octicon octicon-info" title="Information about Ubuntu for Debian Developers"><span class="sr-only">[Information about Ubuntu for Debian Developers]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush"><li class="list-group-item"><span class="list-item-key"><b>version:</b></span>
+	&#32;<a href="https://launchpad.net/ubuntu/+source/xmms2">0.8+dfsg-29</a></li><li class="list-group-item"><a href="https://bugs.launchpad.net/ubuntu/+source/xmms2"><span>7 bugs</span></a><span> (</span><a href="https://bugs.launchpad.net/ubuntu/+source/xmms2/+patches"><span>2 patches</span></a><span>)</span></li></ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+    </div>
+</div>
+
+
+        <footer id="footer" class="footer">
+            <hr>
+            <div class="container-fluid">
+                <div class="text-xs-center p-b-1">
+                    
+                                        <div id="footer-title"><a href="https://www.debian.org">Debian</a> Package Tracker — <a href="https://deb.li/DTAuthors">Copyright</a> 2013-2025 The Distro Tracker Developers</div>
+                    <div id="footer-bugs">
+			Report problems to the <a href="https://bugs.debian.org/tracker.debian.org">tracker.debian.org pseudo-package</a> in the <a href="https://bugs.debian.org">Debian <acronym title="Bug Tracking System">BTS</acronym></a>.
+		    </div>
+                    <div id="footer-help">
+                        <a href="https://qa.pages.debian.net/distro-tracker/">Documentation</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker/issues">Bugs</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker">Git Repository</a> —
+                        <a href="https://qa.pages.debian.net/distro-tracker/contributing.html">Contributing</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery.cookie.js"></script>
+        <script src="/static/js/tether.min.js"></script>
+        <script src="/static/js/popper.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/typeahead.bundle.min.js"></script>
+        <script src="/static/js/main.js"></script>
+        
+    </body>
+</html>

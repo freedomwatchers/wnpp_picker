@@ -1,0 +1,1602 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>lltag - Debian Package Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/octicons.css" rel="stylesheet" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet" media="screen">
+        <link type="application/opensearchdescription+xml" title="Debian Package Tracker Search" rel="search" href="/search.xml"/>
+        
+
+        
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/pkg/lltag/rss">
+
+        
+<link href="/static/css/dense.css" rel="stylesheet" media="screen">
+
+    
+        
+        <link rel="vcs-git" href="https://github.com/bgoglin/lltag.git" title="git repository for lltag">
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+
+    </head>
+    <body>
+        
+        <header class="page-header">
+            <div class="container-fluid">
+                
+		<div class="row">
+		<div class="col-xs-12 text-xs-center">
+		    <div class="pull-xs-left">
+<a href="/"><img src="/static/img/logo.png" alt="Debian Package Tracker" title="Visit the main page" ></a>
+</div>
+		    <div class="pull-xs-right">
+		    
+    <div class="m-b-1">
+    <div class="text-xs-left"><form class="form-inline" id="package-search-form" action="/search" method="GET"><div class="form-group"><input type="search" class="form-control form-control-sm package-completion" name="package_name" id='package-search-input' placeholder="Jump to package..."></div><div class="form-group"><button type="submit" class="btn btn-default btn-sm">Go</button></div></form></div>
+
+    </div>
+    
+    <span><a id="account-register" href="/accounts/register/">Register</a></span>
+    <span>|</span>
+    <span><a id="account-login" href="/accounts/login/">Log in</a></span>
+
+
+
+    
+	
+	<div class="btn-group" role="group" style="margin-left: 10px;">
+	  <a href="/accounts/login/?next=/pkg/lltag" id='subscribe-not-logged-in-button' class="btn btn-primary">Subscribe</a>
+	</div>
+    
+
+
+		    </div>
+		    
+    <div>
+    <h1>lltag</h1>
+    
+    <h5>Automatic command-line mp3/ogg/flac file tagger and renamer</h5>
+    
+    </div>
+
+		</div>
+		</div>
+                
+            </div>
+        </header>
+        
+
+	
+
+<div id="choose-email-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3>Choose email to subscribe with</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-default" id="cancel-choose-email" data-dismiss="modal" aria-hidden="true">Cancel</button></div></div></div></div>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-3" id="dtracker-package-left">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        general
+    </div>
+    <div class="panel-body">
+        
+
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>source:</b></span>
+	
+	<a href="https://packages.debian.org/src:lltag">lltag</a>
+		
+		(<span id="component" title="Repository's component">main</span>)
+		
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>version:</b></span>
+        0.<wbr>14.<wbr>6-<wbr>1.<wbr>1
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>maintainer:</b></span>
+	
+	
+	<a href="https://qa.debian.org/developer.php?login=bgoglin%40debian.org">Brice Goglin</a>
+	
+	
+	    
+	    
+		<small>
+		(<a href="https://udd.debian.org/dmd/?bgoglin%40debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>)
+		</small>
+	    
+		<small>
+		(<a href="https://wiki.debian.org/LowThresholdNmu" title="maintainer agrees with Low Threshold NMU">LowNMU</a>)
+		</small>
+	    
+	
+    </li>
+    
+
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>arch:</b></span>
+        all 
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>std-ver:</b></span>
+        4.0.1
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>VCS:</b></span>
+	
+	
+	    
+	    <a rel="vcs-git" href="https://github.com/bgoglin/lltag.git">Git</a>
+	    
+	
+	
+	(<a href="https://github.com/bgoglin/lltag">Browse</a>, <a href="https://qa.debian.org/cgi-bin/vcswatch?package=lltag">QA</a>)
+	
+	
+    </li>
+    
+</ul>
+
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+<div class="col-xs-12">
+    versions
+    
+    
+    <a class="m-l-1" href="https://qa.debian.org/madison.php?package=lltag">
+        <span role="img" aria-label="more versions can be listed by madison" class="octicon octicon-link-external" title="more versions can be listed by madison"><span class="sr-only">[more versions can be listed by madison]</span></span>
+    </a>
+    
+    <a class="m-l-1" href="https://snapshot.debian.org/package/lltag/">
+        <span role="img" aria-label="old versions available from snapshot.debian.org" class="octicon octicon-link-external" title="old versions available from snapshot.debian.org"><span class="sr-only">[old versions available from snapshot.debian.org]</span></span>
+    </a>
+    
+    
+    
+    <div class="pull-xs-right">
+	
+	<a href="https://deb.debian.org/debian/pool/main/l/lltag"><span role="img" aria-label="pool directory" class="octicon octicon-file-directory" title="pool directory"><span class="sr-only">[pool directory]</span></span></a>
+	
+    </div>
+    
+</div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 11 (bullseye / oldoldstable)">
+	    <b>o-o-stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldoldstable/lltag">0.<wbr>14.<wbr>6-<wbr>1.<wbr>1</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 12 (bookworm / oldstable)">
+	    <b>oldstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldstable/lltag">0.<wbr>14.<wbr>6-<wbr>1.<wbr>1</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 13 (trixie / stable)">
+	    <b>stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/stable/lltag">0.<wbr>14.<wbr>6-<wbr>1.<wbr>1</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Forky (forky / testing)">
+	    <b>testing:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/testing/lltag">0.<wbr>14.<wbr>6-<wbr>1.<wbr>1</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Unstable (sid / unstable)">
+	    <b>unstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/unstable/lltag">0.<wbr>14.<wbr>6-<wbr>1.<wbr>1</a>
+	
+    </li>
+    
+
+
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        versioned links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.<wbr>14.<wbr>6-<wbr>1.<wbr>1:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/l/lltag/lltag_0.14.6-1.1.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/l/lltag/changelog-0.14.6-1.1"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/l/lltag/copyright-0.14.6-1.1"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/l/lltag/rules-0.14.6-1.1"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/l/lltag/control-0.14.6-1.1"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        binaries
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/lltag" title="">lltag</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/lltag">3 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=lltag" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=lltag" title="important and normal">1</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=lltag" title="wishlist and minor">2</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=lltag" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-6 col-xl-7" id="dtracker-package-center">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        action needed
+    </div>
+    <div class="panel-body">
+        
+<div class="list-group list-group-flush" id="action-needed-list" role="list">
+    
+    <div class="card list-group-item action-item-debian-depneedsmaint" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                Depends on packages which need a new maintainer
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div>The packages that lltag depends on which need a new maintainer are:</div>
+<ul>
+
+<li>
+<a href="/pkg/mp3info">mp3info</a>
+(<a href="https://bugs.debian.org/1123846">#1123846</a>)
+<ul>
+
+<li>Recommends:
+
+mp3info
+
+</li>
+
+</ul>
+</span>
+</li>
+
+</ul>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-12-22
+                <span class="pull-xs-right">
+                    Last update: 2025-12-23
+                    00:01
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-vcswatch-warnings-and-errors" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://qa.debian.org/cgi-bin/vcswatch?package=lltag">version in VCS is newer</a> than in repository, is it time to upload?
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                
+
+<a href="https://qa.debian.org/cgi-bin/vcswatch?package=lltag">vcswatch</a> reports that
+
+this package seems to have a new changelog entry (version
+0.14.6-2, distribution
+UNRELEASED) and new commits
+in its VCS. You should consider whether it's time to make
+an upload.
+
+<br/><br/>
+Here are the relevant commit messages:
+<pre>
+commit 0b2c18ae3bc074cea70da2eb4daebcfb46a61b6c
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Sat Feb 5 05:57:02 2022 +0000
+
+    Set upstream metadata fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: upstream-metadata-file-is-missing
+    See-also: https://lintian.debian.org/tags/upstream-metadata-file-is-missing.html
+    Fixes: lintian: upstream-metadata-missing-bug-tracking
+    See-also: https://lintian.debian.org/tags/upstream-metadata-missing-bug-tracking.html
+    Fixes: lintian: upstream-metadata-missing-repository
+    See-also: https://lintian.debian.org/tags/upstream-metadata-missing-repository.html
+
+commit 614a2f0418464dcddadb006dc1f7d66e87286bc2
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Sat Feb 5 05:56:58 2022 +0000
+
+    Re-export upstream signing key without extra signatures.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: public-upstream-key-not-minimal
+    See-also: https://lintian.debian.org/tags/public-upstream-key-not-minimal.html
+
+commit ad599c6c756a1bd67484759aae895a96ec1904e2
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Sat Feb 5 05:56:57 2022 +0000
+
+    Change priority extra to priority optional.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: priority-extra-is-replaced-by-priority-optional
+    See-also: https://lintian.debian.org/tags/priority-extra-is-replaced-by-priority-optional.html
+
+commit 74a639b74f32b15557cef74e0b077537d7e9f5fc
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Sat Feb 5 05:56:57 2022 +0000
+
+    Set debhelper-compat version in Build-Depends.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: uses-debhelper-compat-file
+    See-also: https://lintian.debian.org/tags/uses-debhelper-compat-file.html
+
+commit 2b30228a811ebac60a708ca0c2c535e54f59390b
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Sat Feb 5 05:56:57 2022 +0000
+
+    Bump debhelper from deprecated 9 to 13.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: package-uses-deprecated-debhelper-compat-version
+    See-also: https://lintian.debian.org/tags/package-uses-deprecated-debhelper-compat-version.html
+
+commit b449f19170e426b087926897f0298c1e20c7ca4a
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Sat Feb 5 05:56:57 2022 +0000
+
+    Bump debhelper dependency to &gt;= 9, since that&#x27;s what is used in debian/compat.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: no-versioned-debhelper-prerequisite
+    See-also: https://lintian.debian.org/tags/no-versioned-debhelper-prerequisite.html
+
+commit 4326c84337635f444698813adbf199d64806031d
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Sat Feb 5 05:56:53 2022 +0000
+
+    Trim trailing whitespace.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: trailing-whitespace
+    See-also: https://lintian.debian.org/tags/trailing-whitespace.html
+
+commit 57b01593b810e29b955b4c0cf55f397e151126dd
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Fri May 21 21:25:56 2021 +0100
+
+    Remove constraints unnecessary since stretch
+    
+    * Build-Depends: Drop versioned constraint on debhelper.
+    
+    Changes-By: deb-scrub-obsolete
+
+commit d4f7e80f09c9333f68b29ff50bfe91b15eed54c8
+Author: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+Date:   Fri Aug 11 09:33:15 2017 +0200
+
+    Reenable release signature, now on github
+    
+    Signed-off-by: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+
+commit e501df05fc4126910a5670fabcb6081df5934bb6
+Author: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+Date:   Sun Aug 6 21:54:44 2017 +0200
+
+    Debian package 0.14.6-1
+    
+    Signed-off-by: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+
+commit fc39b9c75691ca999672f3300ef144e99c95040e
+Author: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+Date:   Sun Aug 6 21:54:14 2017 +0200
+
+    Bump Standards-Version to 4.0.1, no changes needed.
+    
+    Signed-off-by: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+
+commit bbffa407cf5e3b10774796f4ff530853c1bd95b0
+Merge: b89c9af b66a289
+Author: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+Date:   Sun Aug 6 21:53:00 2017 +0200
+
+    Merge tag &#x27;lltag-0.14.6&#x27; into debian
+    
+    Signed-off-by: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+
+commit b89c9af29b55bdb5a14f36b5af313a47792a0315
+Author: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+Date:   Sat Jul 15 11:26:28 2017 +0200
+
+    Remove obsolete patches and series symlinks
+    
+    Signed-off-by: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+
+commit befc8cdec2bbb18cc4402deb4d3012d9372aa449
+Author: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+Date:   Sat Jul 15 11:25:55 2017 +0200
+
+    debian: Update to new webpage and repository URLs.
+    
+    Disable release signature for now, not done on github yet.
+    
+    Signed-off-by: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+
+commit b954555165c5230c11f1cc763386dae2ad1f972e
+Author: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+Date:   Thu Jul 6 00:19:36 2017 +0200
+
+    Import pending Debian changes
+    
+    Signed-off-by: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+
+commit 6a9ed3480865284d6dbfd549eba6bcc451a83e78
+Author: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+Date:   Thu Jul 6 00:19:18 2017 +0200
+
+    Import Debian package 0.14.5-1
+    
+    Signed-off-by: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+
+commit 01f798c88990690c084b39a0139cf2dce3481085
+Merge: d00802b 6096662
+Author: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+Date:   Sat Jul 15 11:16:56 2017 +0200
+
+    Merge tag &#x27;lltag-0.14.5&#x27; into debian
+
+commit d00802b4e48317a66ee2a73ccdb078eca63a5a6f
+Merge: c659fa8 ab433aa
+Author: Brice Goglin &lt;Brice.Goglin@ens-lyon.org&gt;
+Date:   Sat Jul 15 11:16:50 2017 +0200
+
+    Merge tag &#x27;lltag-0.14.4&#x27; into debian
+
+commit c659fa818ce4c56fbc8ffb4bf9a55cc7f0a5d18a
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Nov 15 17:00:57 2014 +0000
+
+    debian: description on top of 01 and 02 patches
+
+commit 5663bd1b04002583f6247c844023ec0bdbfe15e2
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sun Apr 15 07:22:02 2012 +0000
+
+    Release Debian 0.14.4-2
+
+commit 2e40d0e763287545807d4e34a9511d68da9b3fb3
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sun Apr 15 07:21:01 2012 +0000
+
+    Add 02-howto_fixes.patch
+
+commit 2e8cef2177317ec033b17d2c0ac6db8ee4fd6998
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sun Apr 15 07:19:53 2012 +0000
+
+    Add 01-fix_rename_case.patch
+
+commit a082073162b6e4edf899187ad020eb9d0aed946c
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Apr 14 06:23:42 2012 +0000
+
+    debian: Bump Standards-Version to 3.9.3
+
+commit 05f75c74d3641b26fccfad4b1e525986c40fb1db
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Apr 14 06:22:47 2012 +0000
+
+    debian: Fix copyright-refers-to-symlink-license
+
+commit 88c1e899a8491ecb6f1d5ea44c12d6272499fb8b
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Tue Aug 2 11:37:19 2011 +0000
+
+    Finalize Debian 0.14.4-1
+
+commit cfb736eede426c3d72891d10a09db4976373db94
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Tue Aug 2 11:36:58 2011 +0000
+
+    Add dummy build-indep and build-arch rules to fix Lintian warnings
+
+commit 06b030a765e3c7c83545971e54f3d696ac5a819d
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Tue Aug 2 11:35:47 2011 +0000
+
+    Drop obsolete patches
+
+commit 8960989849e94a9604364da7a19667e76362ac9f
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Tue Aug 2 11:35:04 2011 +0000
+
+    merge upstream 0.14.4 into debian branch
+
+commit e96bb8a1f646e1fe0f9f246dcdb4f0685aea4817
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Jul 3 16:20:24 2010 +0000
+
+    Release Debian 0.14.3-2 to make lintian happy
+
+commit d8fd3bfdae7183bf7a8315e480890434444a3b37
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Jul 3 16:18:29 2010 +0000
+
+    Add 01_fix_typos.patch to make lintian happy
+
+commit eb42e395e52950accfa3632a61302f6f3ae4e780
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Jul 3 15:56:45 2010 +0000
+
+    Fix debian doc-base file
+
+commit e218677d64a6dfd26566655596614188caa00c8e
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Jul 3 15:37:40 2010 +0000
+
+    Register howto.html to doc-base
+
+commit 0a50d63c1fc14d548fccae1596cc5e6f0d5f36bb
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Jul 3 15:04:18 2010 +0000
+
+    Bump Standards-Version to 3.9.0, no changes needed.
+
+commit 30c62d21afa1627079938852783937074d2f921c
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Jul 3 14:53:19 2010 +0000
+
+    Switch to dpkg-source 3.0 (quilt) format
+
+commit 10340bbd657c2b56fcc72c21c8ebfdeaebd7895a
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Jul 3 14:32:17 2010 +0000
+
+    Add descriptions to patches
+
+commit 9fbf264c04e0f04180be7b9ab9d7ade77c207589
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Mar 20 23:12:43 2010 +0000
+
+    Add bug closers before uploading the actual Debian 0.14.3-1 package
+
+commit 70805940d3a51a8f16b8a8c735ea4a43a029dfeb
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Mar 20 23:08:44 2010 +0000
+
+    Release Debian 0.14.3-1
+
+commit d3e12abf44d87c65f45562e3b2cc1f9ed8f5f7e1
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Mar 20 23:08:26 2010 +0000
+
+    Merge upstream 0.14.3 changes into Debian branch
+
+commit 15764e6bbe9258afd6be4f46352d1946ce78c443
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sun Feb 28 07:58:18 2010 +0000
+
+    Wrap Build-Depends, Depends and Recommends
+
+commit 2a8eb550e168a0f5e875124d3afe2c2743e30421
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sun Feb 28 07:57:19 2010 +0000
+
+    Add ${misc:Depends} to Depends
+
+commit 68a68b2329ee13cee2d8d60c6865b992ad461d9e
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sun Feb 28 07:55:30 2010 +0000
+
+    Bump Standards-Version to 3.8.4, no changes needed
+
+commit b2bb0ca34c7b0ad34e4163d463f5086b12beb2bf
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sun Feb 28 07:54:54 2010 +0000
+
+    Bump debhelper compatibility to 5
+
+commit cd71ef70502aaebbb18bb982c546deb8900b32f1
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Feb 27 15:41:34 2010 +0000
+
+    Add Vcs-Svn and Vcs-Browser fields
+
+commit fa606ce0be68c1ff4489d171a9a734b48a8ceb98
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sun Dec 16 11:31:52 2007 +0000
+
+    Upload to unstable
+
+commit 1c5ab236bfbb39d53cf476f6b0de3e7caf0c89e3
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sun Dec 16 11:29:36 2007 +0000
+
+    Final changes for Debian 0.14.2-1 release
+
+commit 5b3f7c3b631549f3c125d69eca1bfda8fa339e9c
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sun Dec 16 11:28:38 2007 +0000
+
+    Merge upstream 0.14.2 into Debian branch
+
+commit ebec71b89f1ac839950da3e76be20361ffff7ef9
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sun Dec 16 11:23:26 2007 +0000
+
+    fix bad merge, commit r519 got lost
+
+commit f8b7c3a9f3516e141511de27061aeb1ce60ae8b5
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Dec 15 18:29:55 2007 +0000
+
+    Bump Standards-Version to 3.7.3 - Move the homepage URL from the description to the new Homepage field
+
+commit b45c208d8e44188789f8066026a1b5471f41551a
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Sep 22 09:35:07 2007 +0000
+
+    Use Debian email in Debian Maintainer field
+
+commit f2c5958d64c05ce71baaed1ffe511322687e399b
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Sep 22 09:28:46 2007 +0000
+
+    Final changes for Debian 0.14.1-1
+
+commit 0228b2f5fa1daea77ad68d55f9bbbfb497d2fd0a
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Sep 22 09:27:07 2007 +0000
+
+    Merge upstream 0.14.1 in Debian branch
+
+commit d6bbb0f816aa6e8e3ce3e3ab43d8364ae8b64e80
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sat Sep 22 07:48:52 2007 +0000
+
+    Set verbose level to 0 by default and fix doc
+
+commit c7b078f53adc87b0055b8cfb35550b206925cd82
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Sun Jul 8 21:21:40 2007 +0000
+
+    Use dpkg-query instead of parsing /var/lib/dpkg/status in preinst
+
+commit 7a6231861eaa8e854d49db1780d38ea42c0c8701
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Mon Apr 9 10:22:53 2007 +0000
+
+    last last minute fix for 0.14 (add warnin when MP3v2 failed to register)
+
+commit 55a3f4e0de166e17715612ae0cc09b38e130078b
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Mon Apr 9 10:21:58 2007 +0000
+
+    add Recommends: on libmp3-tag-perl
+
+commit f546221b0b39d7c278c3e96d991e8d1bbebde109
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Mon Apr 9 10:01:14 2007 +0000
+
+    add missing closer
+
+commit 5cc3a8fb536081b3e7daefa57713905824206e9b
+Author: bgoglin &lt;bgoglin@b20c0237-0900-0410-9b41-d09804560211&gt;
+Date:   Mon Apr 9 09:51:57 2007 +0000
+
+    last minute fix for 0.14 (fix skipping on unrecognized file format)
+</pre>
+
+
+
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2017-12-03
+                <span class="pull-xs-right">
+                    Last update: 2025-12-22
+                    07:32
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-lintian-warnings-and-errors" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                lintian reports <a href="https://udd.debian.org/lintian/?packages=lltag">8 warnings</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                
+
+Lintian reports
+<a href="https://udd.debian.org/lintian/?packages=lltag">
+
+
+<span>8 warnings</span>
+
+</a>
+about this package. You should make the package <i>lintian clean</i> getting rid of them.
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2021-01-27
+                <span class="pull-xs-right">
+                    Last update: 2025-09-11
+                    04:33
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-wnpp-issue" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://bugs.debian.org/1110015">O: This package has been orphaned and needs a maintainer.</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div><span><span style="font-weight: bold">This package has been
+        orphaned</span>.  This means that it does not have a real
+        maintainer at the moment. Please consider adopting this package
+        if you are interested in it.</span><span> Please see bug number <a href="https://bugs.debian.org/1110015">#1110015</a> for more information.</span></div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-07-28
+                <span class="pull-xs-right">
+                    Last update: 2025-07-28
+                    10:30
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-patches" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                debian/patches: <a href="https://udd.debian.org/patches.cgi?src=lltag&version=0.14.6-1.1">1 patch</a> to forward upstream
+                
+                <span class="label label-default pull-xs-right">low</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<p>Among the <a href="https://udd.debian.org/patches.cgi?src=lltag&amp;version=0.14.6-1.1">1 debian patch</a>
+available in version 0.14.6-1.1 of the package,
+we noticed the following issues:</p>
+<ul>
+
+
+<li>1 patch
+    where the metadata indicates that the patch has not yet been forwarded
+    upstream. You should either forward the patch upstream or update the
+    metadata to document its real status.</li>
+
+</ul>
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2023-02-26
+                <span class="pull-xs-right">
+                    Last update: 2023-02-26
+                    15:54
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-std-ver-outdated" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                Standards version of the package is outdated.
+                
+                <span class="label label-info pull-xs-right">wishlist</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<span>The package should be updated to follow the last version of <a href="https://www.debian.org/doc/debian-policy/">Debian Policy</a>
+(Standards-Version <a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-4-7-2">4.7.2</a> instead of
+<a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-4-0-1">4.0.1</a>).
+</span>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2018-04-16
+                <span class="pull-xs-right">
+                    Last update: 2025-02-27
+                    13:25
+                </span>
+            </div>
+        </details>
+    </div>
+    
+</div>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+    <div class="col-xs-12">
+	<a href="/pkg/lltag/news/">news</a>
+	<div class="pull-xs-right">
+	    <a href="/pkg/lltag/rss">
+	    <span role="img" aria-label="rss feed" class="octicon octicon-rss" title="rss feed"><span class="sr-only">[rss feed]</span></span>
+	    </a>
+	</div>
+    </div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+
+    <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-01-08</span>]
+        <a href="/news/1213888/lltag-0146-11-migrated-to-testing/">
+            <span class="news-title">lltag 0.14.6-1.1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-01-03</span>]
+        <a href="/news/1209893/accepted-lltag-0146-11-source-into-unstable/">
+            <span class="news-title">Accepted lltag 0.14.6-1.1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Holger Levsen</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2017-08-21</span>]
+        <a href="/news/864523/lltag-0146-1-migrated-to-testing/">
+            <span class="news-title">lltag 0.14.6-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2017-08-10</span>]
+        <a href="/news/862366/accepted-lltag-0146-1-source-all-into-unstable/">
+            <span class="news-title">Accepted lltag 0.14.6-1 (source all) into unstable</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2016-08-13</span>]
+        <a href="/news/790554/lltag-0145-1-migrated-to-testing/">
+            <span class="news-title">lltag 0.14.5-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2016-08-02</span>]
+        <a href="/news/788378/accepted-lltag-0145-1-source-all-into-unstable/">
+            <span class="news-title">Accepted lltag 0.14.5-1 (source all) into unstable</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-04-25</span>]
+        <a href="/news/188051/lltag-0144-2-migrated-to-testing/">
+            <span class="news-title">lltag 0.14.4-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-04-15</span>]
+        <a href="/news/188050/accepted-lltag-0144-2-source-all/">
+            <span class="news-title">Accepted lltag 0.14.4-2 (source all)</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2011-08-13</span>]
+        <a href="/news/188049/lltag-0144-1-migrated-to-testing/">
+            <span class="news-title">lltag 0.14.4-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2011-08-02</span>]
+        <a href="/news/188048/accepted-lltag-0144-1-source-all/">
+            <span class="news-title">Accepted lltag 0.14.4-1 (source all)</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2010-07-14</span>]
+        <a href="/news/188047/lltag-0143-2-migrated-to-testing/">
+            <span class="news-title">lltag 0.14.3-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2010-07-03</span>]
+        <a href="/news/188046/accepted-lltag-0143-2-source-all/">
+            <span class="news-title">Accepted lltag 0.14.3-2 (source all)</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2010-04-04</span>]
+        <a href="/news/188045/lltag-0143-1-migrated-to-testing/">
+            <span class="news-title">lltag 0.14.3-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2010-03-20</span>]
+        <a href="/news/188044/accepted-lltag-0143-1-source-all/">
+            <span class="news-title">Accepted lltag 0.14.3-1 (source all)</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2007-12-27</span>]
+        <a href="/news/188043/lltag-0142-1-migrated-to-testing/">
+            <span class="news-title">lltag 0.14.2-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2007-12-16</span>]
+        <a href="/news/188042/accepted-lltag-0142-1-source-all/">
+            <span class="news-title">Accepted lltag 0.14.2-1 (source all)</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2007-10-03</span>]
+        <a href="/news/188041/lltag-0141-1-migrated-to-testing/">
+            <span class="news-title">lltag 0.14.1-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2007-09-22</span>]
+        <a href="/news/188040/accepted-lltag-0141-1-source-all/">
+            <span class="news-title">Accepted lltag 0.14.1-1 (source all)</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2007-04-20</span>]
+        <a href="/news/188039/lltag-014-1-migrated-to-testing/">
+            <span class="news-title">lltag 0.14-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2007-04-09</span>]
+        <a href="/news/188038/accepted-lltag-014-1-source-all/">
+            <span class="news-title">Accepted lltag 0.14-1 (source all)</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Samuel Mimram</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-12-13</span>]
+        <a href="/news/188037/lltag-0131-1-migrated-to-testing/">
+            <span class="news-title">lltag 0.13.1-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-12-01</span>]
+        <a href="/news/188036/accepted-lltag-0131-1-source-all/">
+            <span class="news-title">Accepted lltag 0.13.1-1 (source all)</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Samuel Mimram</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-11-28</span>]
+        <a href="/news/188035/lltag-013-1-migrated-to-testing/">
+            <span class="news-title">lltag 0.13-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-11-16</span>]
+        <a href="/news/188034/accepted-lltag-013-1-source-all/">
+            <span class="news-title">Accepted lltag 0.13-1 (source all)</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Samuel Mimram</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-11-11</span>]
+        <a href="/news/188033/accepted-lltag-0122-1-source-all/">
+            <span class="news-title">Accepted lltag 0.12.2-1 (source all)</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Samuel Mimram</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-10-15</span>]
+        <a href="/news/188032/lltag-0121-1-migrated-to-testing/">
+            <span class="news-title">lltag 0.12.1-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-10-03</span>]
+        <a href="/news/188031/accepted-lltag-0121-1-source-all/">
+            <span class="news-title">Accepted lltag 0.12.1-1 (source all)</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Samuel Mimram</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-10-01</span>]
+        <a href="/news/188030/lltag-012-1-migrated-to-testing/">
+            <span class="news-title">lltag 0.12-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-09-20</span>]
+        <a href="/news/188029/accepted-lltag-012-1-source-all/">
+            <span class="news-title">Accepted lltag 0.12-1 (source all)</span>
+        </a>
+        (<span class="news-creator">Brice Goglin</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Samuel Mimram</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-04-01</span>]
+        <a href="/news/188028/lltag-011-1-migrated-to-testing/">
+            <span class="news-title">lltag 0.11-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+</ul>
+
+
+
+
+<div class="text-xs-center" style="margin-bottom: -1rem">
+    <ul class="pagination m-b-0">
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/lltag/news/">1</a>
+	</li>
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/lltag/news/?page=2">2</a>
+	</li>
+    </ul>
+</div>
+
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-3 col-xl-2" id="dtracker-package-right">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+bugs
+<a class="m-l-1" href="https://qa.debian.org/data/bts/graphs/l/lltag.png"><span role="img" aria-label="bug history graph" class="octicon octicon-graph" title="bug history graph"><span class="sr-only">[bug history graph]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="">all:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&amp;src=lltag">3</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Release Critical">RC:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;src=lltag">0</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Important and Normal">I&amp;N:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;src=lltag">1</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Minor and Wishlist">M&amp;W:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;src=lltag">2</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Fixed and Pending">F&amp;P:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;src=lltag">0</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Patch">patch:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?include=tags%3Apatch&amp;exclude=tags%3Apending&amp;pend-exc=done&amp;repeatmerged=no&amp;src=lltag">0</a>
+	
+	
+    </li>
+    
+
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        
+            <a href="http://bgoglin.free.fr/lltag/" title="upstream web homepage">homepage</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<a href="https://udd.debian.org/lintian/?packages=lltag" title="report about packaging issues spotted by lintian">lintian</a>
+
+
+
+<small>(<span title="errors">0</span>, <span title="warnings">8</span>)</small>
+
+
+
+
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<span>buildd: </span><span><a title="buildd.debian.org build logs" href="https://buildd.debian.org/status/package.php?p=lltag">logs</a></span><span>, </span><span><a title="report about build reproducibility (reproducible)" href="https://tests.reproducible-builds.org/debian/rb-pkg/lltag.html">reproducibility</a></span>
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://qa.debian.org/popcon.php?package=lltag">popcon</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://sources.debian.org/src/lltag/unstable/">browse source code</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <form class="code-search-form" action="/codesearch/" method="get" target="_blank"><input type="hidden" name="package" value="lltag"><input type="search" name="query" placeholder="search source code"></form>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://debtags.debian.org/rep/todo/maint/bgoglin%40debian.org#lltag">edit tags</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://repology.org/tools/project-by?name_type=srcname&noautoresolve=on&repo=debian_unstable&target_page=project_packages&name=lltag" title="provided by Repology">other distros</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://screenshots.debian.net/package/lltag">screenshots</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://udd.debian.org/patches.cgi?src=lltag&version=0.14.6-1.1" title="1 patch in debian/patches">debian patches</a>
+        
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+ubuntu
+<img class="m-l-1" src="/static/img/ubuntu.png" alt="Ubuntu logo" title="Ubuntu logo">
+<a class="pull-xs-right" href="https://wiki.ubuntu.com/Ubuntu/ForDebianDevelopers"><span role="img" aria-label="Information about Ubuntu for Debian Developers" class="octicon octicon-info" title="Information about Ubuntu for Debian Developers"><span class="sr-only">[Information about Ubuntu for Debian Developers]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush"><li class="list-group-item"><span class="list-item-key"><b>version:</b></span>
+	&#32;<a href="https://launchpad.net/ubuntu/+source/lltag">0.14.6-1.1build1</a></li><li class="list-group-item"><a href="https://bugs.launchpad.net/ubuntu/+source/lltag"><span>1 bug</span></a></li></ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+    </div>
+</div>
+
+
+        <footer id="footer" class="footer">
+            <hr>
+            <div class="container-fluid">
+                <div class="text-xs-center p-b-1">
+                    
+                                        <div id="footer-title"><a href="https://www.debian.org">Debian</a> Package Tracker — <a href="https://deb.li/DTAuthors">Copyright</a> 2013-2025 The Distro Tracker Developers</div>
+                    <div id="footer-bugs">
+			Report problems to the <a href="https://bugs.debian.org/tracker.debian.org">tracker.debian.org pseudo-package</a> in the <a href="https://bugs.debian.org">Debian <acronym title="Bug Tracking System">BTS</acronym></a>.
+		    </div>
+                    <div id="footer-help">
+                        <a href="https://qa.pages.debian.net/distro-tracker/">Documentation</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker/issues">Bugs</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker">Git Repository</a> —
+                        <a href="https://qa.pages.debian.net/distro-tracker/contributing.html">Contributing</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery.cookie.js"></script>
+        <script src="/static/js/tether.min.js"></script>
+        <script src="/static/js/popper.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/typeahead.bundle.min.js"></script>
+        <script src="/static/js/main.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,983 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ruby-maruku - Debian Package Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/octicons.css" rel="stylesheet" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet" media="screen">
+        <link type="application/opensearchdescription+xml" title="Debian Package Tracker Search" rel="search" href="/search.xml"/>
+        
+
+        
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/pkg/ruby-maruku/rss">
+
+        
+<link href="/static/css/dense.css" rel="stylesheet" media="screen">
+
+    
+        
+        <link rel="vcs-git" href="https://salsa.debian.org/ruby-team/ruby-maruku.git" title="git repository for ruby-maruku">
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+
+    </head>
+    <body>
+        
+        <header class="page-header">
+            <div class="container-fluid">
+                
+		<div class="row">
+		<div class="col-xs-12 text-xs-center">
+		    <div class="pull-xs-left">
+<a href="/"><img src="/static/img/logo.png" alt="Debian Package Tracker" title="Visit the main page" ></a>
+</div>
+		    <div class="pull-xs-right">
+		    
+    <div class="m-b-1">
+    <div class="text-xs-left"><form class="form-inline" id="package-search-form" action="/search" method="GET"><div class="form-group"><input type="search" class="form-control form-control-sm package-completion" name="package_name" id='package-search-input' placeholder="Jump to package..."></div><div class="form-group"><button type="submit" class="btn btn-default btn-sm">Go</button></div></form></div>
+
+    </div>
+    
+    <span><a id="account-register" href="/accounts/register/">Register</a></span>
+    <span>|</span>
+    <span><a id="account-login" href="/accounts/login/">Log in</a></span>
+
+
+
+    
+	
+	<div class="btn-group" role="group" style="margin-left: 10px;">
+	  <a href="/accounts/login/?next=/pkg/ruby-maruku" id='subscribe-not-logged-in-button' class="btn btn-primary">Subscribe</a>
+	</div>
+    
+
+
+		    </div>
+		    
+    <div>
+    <h1>ruby-maruku</h1>
+    
+    <h5>Markdown-superset interpreter written in Ruby</h5>
+    
+    </div>
+
+		</div>
+		</div>
+                
+            </div>
+        </header>
+        
+
+	
+
+<div id="choose-email-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3>Choose email to subscribe with</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-default" id="cancel-choose-email" data-dismiss="modal" aria-hidden="true">Cancel</button></div></div></div></div>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-3" id="dtracker-package-left">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        general
+    </div>
+    <div class="panel-body">
+        
+
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>source:</b></span>
+	
+	<a href="https://packages.debian.org/src:ruby-maruku">ruby-maruku</a>
+		
+		(<span id="component" title="Repository's component">main</span>)
+		
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>version:</b></span>
+        0.7.3-1
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>maintainer:</b></span>
+	
+	
+	<a href="https://qa.debian.org/developer.php?login=pkg-ruby-extras-maintainers%40lists.alioth.debian.org">Debian Ruby Extras Maintainers</a>
+	
+	
+	    
+		<small>
+		    (<a href="https://lists.alioth.debian.org/pipermail/pkg-ruby-extras-maintainers/" title="Archives for the Debian Ruby Extras Maintainers list">archive</a>)
+		</small>
+	    
+	    
+		<small>
+		(<a href="https://udd.debian.org/dmd/?pkg-ruby-extras-maintainers%40lists.alioth.debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>)
+		</small>
+	    
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>uploaders:</b></span>
+	
+	    
+	    
+	    <a href="https://qa.debian.org/developer.php?login=fourmond%40debian.org">Vincent Fourmond</a>
+	    
+	    
+	    
+	    
+		<small>
+		[<a href="https://udd.debian.org/dmd/?fourmond%40debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>]
+		</small>
+	    
+	    
+	    
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>arch:</b></span>
+        all 
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>std-ver:</b></span>
+        4.2.0
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>VCS:</b></span>
+	
+	
+	    
+	    <a rel="vcs-git" href="https://salsa.debian.org/ruby-team/ruby-maruku.git">Git</a>
+	    
+	
+	
+	(<a href="https://salsa.debian.org/ruby-team/ruby-maruku">Browse</a>, <a href="https://qa.debian.org/cgi-bin/vcswatch?package=ruby-maruku">QA</a>)
+	
+	
+    </li>
+    
+</ul>
+
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+<div class="col-xs-12">
+    versions
+    
+    
+    <a class="m-l-1" href="https://qa.debian.org/madison.php?package=ruby-maruku">
+        <span role="img" aria-label="more versions can be listed by madison" class="octicon octicon-link-external" title="more versions can be listed by madison"><span class="sr-only">[more versions can be listed by madison]</span></span>
+    </a>
+    
+    <a class="m-l-1" href="https://snapshot.debian.org/package/ruby-maruku/">
+        <span role="img" aria-label="old versions available from snapshot.debian.org" class="octicon octicon-link-external" title="old versions available from snapshot.debian.org"><span class="sr-only">[old versions available from snapshot.debian.org]</span></span>
+    </a>
+    
+    
+    
+    <div class="pull-xs-right">
+	
+	<a href="https://deb.debian.org/debian/pool/main/r/ruby-maruku"><span role="img" aria-label="pool directory" class="octicon octicon-file-directory" title="pool directory"><span class="sr-only">[pool directory]</span></span></a>
+	
+    </div>
+    
+</div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 11 (bullseye / oldoldstable)">
+	    <b>o-o-stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldoldstable/ruby-maruku">0.7.3-1</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 12 (bookworm / oldstable)">
+	    <b>oldstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldstable/ruby-maruku">0.7.3-1</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 13 (trixie / stable)">
+	    <b>stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/stable/ruby-maruku">0.7.3-1</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Forky (forky / testing)">
+	    <b>testing:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/testing/ruby-maruku">0.7.3-1</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Unstable (sid / unstable)">
+	    <b>unstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/unstable/ruby-maruku">0.7.3-1</a>
+	
+    </li>
+    
+
+
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        versioned links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.7.3-1:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/r/ruby-maruku/ruby-maruku_0.7.3-1.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/r/ruby-maruku/changelog-0.7.3-1"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/r/ruby-maruku/copyright-0.7.3-1"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/r/ruby-maruku/rules-0.7.3-1"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/r/ruby-maruku/control-0.7.3-1"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        binaries
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/ruby-maruku" title="">ruby-maruku</a>
+        
+
+        
+    </li>
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-6 col-xl-7" id="dtracker-package-center">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        action needed
+    </div>
+    <div class="panel-body">
+        
+<div class="list-group list-group-flush" id="action-needed-list" role="list">
+    
+    <div class="card list-group-item action-item-lintian-warnings-and-errors" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                lintian reports <a href="https://udd.debian.org/lintian/?packages=ruby-maruku">2 errors and 4 warnings</a>
+                
+                <span class="label label-warning pull-xs-right">high</span>
+                
+            </summary>
+            <div class="card-block">
+                
+
+Lintian reports
+<a href="https://udd.debian.org/lintian/?packages=ruby-maruku">
+
+<span>2 errors</span>
+and
+
+
+<span>4 warnings</span>
+
+</a>
+about this package. You should make the package <i>lintian clean</i> getting rid of them.
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2021-09-06
+                <span class="pull-xs-right">
+                    Last update: 2025-09-11
+                    04:34
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-vcswatch-warnings-and-errors" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://qa.debian.org/cgi-bin/vcswatch?package=ruby-maruku">version in VCS is newer</a> than in repository, is it time to upload?
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                
+
+<a href="https://qa.debian.org/cgi-bin/vcswatch?package=ruby-maruku">vcswatch</a> reports that
+
+this package seems to have a new changelog entry (version
+0.7.3-2, distribution
+UNRELEASED) and new commits
+in its VCS. You should consider whether it's time to make
+an upload.
+
+<br/><br/>
+Here are the relevant commit messages:
+<pre>
+commit aa7b1e0a9936bc5aaaa2ca93c04fb88625b2ea2d
+Author: Lucas Nussbaum &lt;lucas@debian.org&gt;
+Date:   Sat Sep 6 06:37:50 2025 +0000
+
+    debian/salsa-ci.yml: use team-specific include
+
+commit b8ea30992e9f64b9493e62d60aa6bacce99931f8
+Author: Lucas Nussbaum &lt;lucas@debian.org&gt;
+Date:   Sat Sep 6 06:37:47 2025 +0000
+
+    debian/.gitattributes: remove
+
+commit b7f8e54d68af71653fee24a68c15acf0063c7e74
+Author: Lucas Nussbaum &lt;lucas@debian.org&gt;
+Date:   Mon Aug 25 09:56:34 2025 +0000
+
+    debian/gbp.conf: Add for DEP-14
+
+commit a1637c51d3da5b682c00be1a1a3714a2de6768d1
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Thu Jan 5 13:12:05 2023 +0000
+
+    Fill in Homepage field.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: no-homepage-field
+    See-also: https://lintian.debian.org/tags/no-homepage-field.html
+
+commit e01f9371cc863aa268a7ec24fd882eab195b9755
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Thu Jan 5 13:12:02 2023 +0000
+
+    Drop fields with obsolete URLs.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: obsolete-url-in-packaging
+    See-also: https://lintian.debian.org/tags/obsolete-url-in-packaging.html
+
+commit 37e2b6f6ec644c4304ac0da42a913a049f53805f
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Sun Oct 16 01:12:02 2022 +0000
+
+    Move package to QA team.
+
+commit c2227b84754a3f90dce3a6a935588724a517839f
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Fri Sep 10 09:55:03 2021 +0000
+
+    Bump debhelper from old 12 to 13.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: package-uses-old-debhelper-compat-version
+    See-also: https://lintian.debian.org/tags/package-uses-old-debhelper-compat-version.html
+
+commit ebc07bc99884a79f74d10e4ebe87b87103245885
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Fri Sep 10 09:54:58 2021 +0000
+
+    Update watch file format version to 4.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: older-debian-watch-file-standard
+    See-also: https://lintian.debian.org/tags/older-debian-watch-file-standard.html
+
+commit eea193bf864cd1fccf58a5540797aea3c753b5a3
+Author: Cédric Boutillier &lt;boutil@debian.org&gt;
+Date:   Thu Sep 3 20:29:00 2020 +0000
+
+    [ci skip] Add .gitattributes to keep unwanted files out of the source package
+
+commit 04ec938f685a57c58899c7044e1a33e7cd6f94e9
+Author: Cédric Boutillier &lt;boutil@debian.org&gt;
+Date:   Tue Sep 1 13:56:00 2020 +0000
+
+    [ci skip] Update team name
+
+commit 983c657dfe9823c90283965376cd4e646ce9f55a
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Mon Apr 27 06:06:39 2020 +0000
+
+    Update standards version to 4.2.1, no changes needed.
+    
+    Fixes: lintian: out-of-date-standards-version
+    See-also: https://lintian.debian.org/tags/out-of-date-standards-version.html
+
+commit 5eb2897c2f01b3b18f0d7f3f7b4e8f4c4584df24
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Mon Apr 27 06:05:58 2020 +0000
+
+    Set upstream metadata fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
+    
+    Fixes: lintian: upstream-metadata-file-is-missing
+    See-also: https://lintian.debian.org/tags/upstream-metadata-file-is-missing.html
+    
+    
+    Fixes: lintian: upstream-metadata-missing-bug-tracking
+    See-also: https://lintian.debian.org/tags/upstream-metadata-missing-bug-tracking.html
+    
+    
+    Fixes: lintian: upstream-metadata-missing-repository
+    See-also: https://lintian.debian.org/tags/upstream-metadata-missing-repository.html
+
+commit a33414f33548f2b51bc7c138a2d2f73fe281b1fb
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Mon Apr 27 05:56:24 2020 +0000
+
+    Set debhelper-compat version in Build-Depends.
+    
+    Fixes: lintian: uses-debhelper-compat-file
+    See-also: https://lintian.debian.org/tags/uses-debhelper-compat-file.html
+
+commit 270ee2da785dd71b87bc7ee2f4945901f0abd7db
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Mon Apr 27 05:55:47 2020 +0000
+
+    Bump debhelper from old 11 to 12.
+    
+    Fixes: lintian: package-uses-old-debhelper-compat-version
+    See-also: https://lintian.debian.org/tags/package-uses-old-debhelper-compat-version.html
+
+commit 5c73d7ef6cfef0eaa6b672cc79e622846d8fbcaa
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Mon Apr 27 05:55:03 2020 +0000
+
+    Use secure copyright file specification URI.
+    
+    Fixes: lintian: insecure-copyright-format-uri
+    See-also: https://lintian.debian.org/tags/insecure-copyright-format-uri.html
+
+commit f9aea0110a3f1e08c18012af3ae0bac74e884ac5
+Author: Utkarsh Gupta &lt;guptautkarsh2102@gmail.com&gt;
+Date:   Tue Aug 13 05:58:06 2019 +0530
+
+    Update d/ch
+
+commit d1bacda572d2a3b181bd76464a1b9731a0dc93fd
+Author: Utkarsh Gupta &lt;guptautkarsh2102@gmail.com&gt;
+Date:   Tue Aug 13 05:58:06 2019 +0530
+
+    Add salsa-ci.yml
+</pre>
+
+
+
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2019-08-13
+                <span class="pull-xs-right">
+                    Last update: 2025-12-19
+                    13:17
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-wnpp-issue" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://bugs.debian.org/897306">O: This package has been orphaned and needs a maintainer.</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div><span><span style="font-weight: bold">This package has been
+        orphaned</span>.  This means that it does not have a real
+        maintainer at the moment. Please consider adopting this package
+        if you are interested in it.</span><span> Please see bug number <a href="https://bugs.debian.org/897306">#897306</a> for more information.</span></div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2018-05-01
+                <span class="pull-xs-right">
+                    Last update: 2018-05-01
+                    14:10
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-std-ver-outdated" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                Standards version of the package is outdated.
+                
+                <span class="label label-info pull-xs-right">wishlist</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<span>The package should be updated to follow the last version of <a href="https://www.debian.org/doc/debian-policy/">Debian Policy</a>
+(Standards-Version <a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-4-7-2">4.7.2</a> instead of
+<a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-4-2-0">4.2.0</a>).
+</span>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2018-08-26
+                <span class="pull-xs-right">
+                    Last update: 2025-02-27
+                    13:24
+                </span>
+            </div>
+        </details>
+    </div>
+    
+</div>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+    <div class="col-xs-12">
+	<a href="/pkg/ruby-maruku/news/">news</a>
+	<div class="pull-xs-right">
+	    <a href="/pkg/ruby-maruku/rss">
+	    <span role="img" aria-label="rss feed" class="octicon octicon-rss" title="rss feed"><span class="sr-only">[rss feed]</span></span>
+	    </a>
+	</div>
+    </div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+
+    <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        [<span class="news-date">2018-08-21</span>]
+        <a href="/news/981482/ruby-maruku-073-1-migrated-to-testing/">
+            <span class="news-title">ruby-maruku 0.7.3-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2018-08-19</span>]
+        <a href="/news/980799/accepted-ruby-maruku-073-1-source-into-unstable/">
+            <span class="news-title">Accepted ruby-maruku 0.7.3-1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Cédric Boutillier</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2016-07-13</span>]
+        <a href="/news/783786/ruby-maruku-072-1-migrated-to-testing/">
+            <span class="news-title">ruby-maruku 0.7.2-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2016-07-07</span>]
+        <a href="/news/781495/accepted-ruby-maruku-072-1-source-into-unstable/">
+            <span class="news-title">Accepted ruby-maruku 0.7.2-1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Cédric Boutillier</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2014-03-08</span>]
+        <a href="/news/302175/ruby-maruku-071-1-migrated-to-testing/">
+            <span class="news-title">ruby-maruku 0.7.1-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2014-02-25</span>]
+        <a href="/news/302174/accepted-ruby-maruku-071-1-source-all/">
+            <span class="news-title">Accepted ruby-maruku 0.7.1-1 (source all)</span>
+        </a>
+        (<span class="news-creator">Jonas Genannt</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Cédric Boutillier</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-07-04</span>]
+        <a href="/news/302173/ruby-maruku-060-2-migrated-to-testing/">
+            <span class="news-title">ruby-maruku 0.6.0-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-06-24</span>]
+        <a href="/news/302172/accepted-ruby-maruku-060-2-source-all/">
+            <span class="news-title">Accepted ruby-maruku 0.6.0-2 (source all)</span>
+        </a>
+        (<span class="news-creator">Vincent Fourmond</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2011-06-17</span>]
+        <a href="/news/302171/ruby-maruku-060-1-migrated-to-testing/">
+            <span class="news-title">ruby-maruku 0.6.0-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2011-06-06</span>]
+        <a href="/news/302170/accepted-ruby-maruku-060-1-source-all/">
+            <span class="news-title">Accepted ruby-maruku 0.6.0-1 (source all)</span>
+        </a>
+        (<span class="news-creator">Vincent Fourmond</span>)
+        
+        
+        
+    </li>
+    
+</ul>
+
+
+
+
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-3 col-xl-2" id="dtracker-package-right">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+bugs
+<a class="m-l-1" href="https://qa.debian.org/data/bts/graphs/r/ruby-maruku.png"><span role="img" aria-label="bug history graph" class="octicon octicon-graph" title="bug history graph"><span class="sr-only">[bug history graph]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="">all:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&amp;src=ruby-maruku">0</a>
+	
+	
+    </li>
+    
+
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        
+            <a href="http://maruku.rubyforge.org" title="upstream web homepage">homepage</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<a href="https://udd.debian.org/lintian/?packages=ruby-maruku" title="report about packaging issues spotted by lintian">lintian</a>
+
+
+
+<small>(<span title="errors">2</span>, <span title="warnings">4</span>)</small>
+
+
+
+
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<span>buildd: </span><span><a title="buildd.debian.org build logs" href="https://buildd.debian.org/status/package.php?p=ruby-maruku">logs</a></span><span>, </span><span><a title="report about build reproducibility (reproducible)" href="https://tests.reproducible-builds.org/debian/rb-pkg/ruby-maruku.html">reproducibility</a></span>
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://qa.debian.org/popcon.php?package=ruby-maruku">popcon</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://sources.debian.org/src/ruby-maruku/unstable/">browse source code</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <form class="code-search-form" action="/codesearch/" method="get" target="_blank"><input type="hidden" name="package" value="ruby-maruku"><input type="search" name="query" placeholder="search source code"></form>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://debtags.debian.org/rep/todo/maint/pkg-ruby-extras-maintainers%40lists.alioth.debian.org#ruby-maruku">edit tags</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://repology.org/tools/project-by?name_type=srcname&noautoresolve=on&repo=debian_unstable&target_page=project_packages&name=ruby-maruku" title="provided by Repology">other distros</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://screenshots.debian.net/package/ruby-maruku">screenshots</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://udd.debian.org/patches.cgi?src=ruby-maruku&version=0.7.3-1" title="1 patch in debian/patches">debian patches</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://ci.debian.net/packages/r/ruby-maruku">debci</a>
+        
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+ubuntu
+<img class="m-l-1" src="/static/img/ubuntu.png" alt="Ubuntu logo" title="Ubuntu logo">
+<a class="pull-xs-right" href="https://wiki.ubuntu.com/Ubuntu/ForDebianDevelopers"><span role="img" aria-label="Information about Ubuntu for Debian Developers" class="octicon octicon-info" title="Information about Ubuntu for Debian Developers"><span class="sr-only">[Information about Ubuntu for Debian Developers]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush"><li class="list-group-item"><span class="list-item-key"><b>version:</b></span>
+	&#32;<a href="https://launchpad.net/ubuntu/+source/ruby-maruku">0.7.3-1build1</a></li></ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+    </div>
+</div>
+
+
+        <footer id="footer" class="footer">
+            <hr>
+            <div class="container-fluid">
+                <div class="text-xs-center p-b-1">
+                    
+                                        <div id="footer-title"><a href="https://www.debian.org">Debian</a> Package Tracker — <a href="https://deb.li/DTAuthors">Copyright</a> 2013-2025 The Distro Tracker Developers</div>
+                    <div id="footer-bugs">
+			Report problems to the <a href="https://bugs.debian.org/tracker.debian.org">tracker.debian.org pseudo-package</a> in the <a href="https://bugs.debian.org">Debian <acronym title="Bug Tracking System">BTS</acronym></a>.
+		    </div>
+                    <div id="footer-help">
+                        <a href="https://qa.pages.debian.net/distro-tracker/">Documentation</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker/issues">Bugs</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker">Git Repository</a> —
+                        <a href="https://qa.pages.debian.net/distro-tracker/contributing.html">Contributing</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery.cookie.js"></script>
+        <script src="/static/js/tether.min.js"></script>
+        <script src="/static/js/popper.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/typeahead.bundle.min.js"></script>
+        <script src="/static/js/main.js"></script>
+        
+    </body>
+</html>

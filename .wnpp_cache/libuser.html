@@ -1,0 +1,1200 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>libuser - Debian Package Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/octicons.css" rel="stylesheet" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet" media="screen">
+        <link type="application/opensearchdescription+xml" title="Debian Package Tracker Search" rel="search" href="/search.xml"/>
+        
+
+        
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/pkg/libuser/rss">
+
+        
+<link href="/static/css/dense.css" rel="stylesheet" media="screen">
+
+    
+        
+        <link rel="vcs-git" href="https://salsa.debian.org/debian/libuser.git" title="git repository for libuser">
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+
+    </head>
+    <body>
+        
+        <header class="page-header">
+            <div class="container-fluid">
+                
+		<div class="row">
+		<div class="col-xs-12 text-xs-center">
+		    <div class="pull-xs-left">
+<a href="/"><img src="/static/img/logo.png" alt="Debian Package Tracker" title="Visit the main page" ></a>
+</div>
+		    <div class="pull-xs-right">
+		    
+    <div class="m-b-1">
+    <div class="text-xs-left"><form class="form-inline" id="package-search-form" action="/search" method="GET"><div class="form-group"><input type="search" class="form-control form-control-sm package-completion" name="package_name" id='package-search-input' placeholder="Jump to package..."></div><div class="form-group"><button type="submit" class="btn btn-default btn-sm">Go</button></div></form></div>
+
+    </div>
+    
+    <span><a id="account-register" href="/accounts/register/">Register</a></span>
+    <span>|</span>
+    <span><a id="account-login" href="/accounts/login/">Log in</a></span>
+
+
+
+    
+	
+	<div class="btn-group" role="group" style="margin-left: 10px;">
+	  <a href="/accounts/login/?next=/pkg/libuser" id='subscribe-not-logged-in-button' class="btn btn-primary">Subscribe</a>
+	</div>
+    
+
+
+		    </div>
+		    
+    <div>
+    <h1>libuser</h1>
+    
+    <h5>user and group account administration library - utilities</h5>
+    
+    </div>
+
+		</div>
+		</div>
+                
+            </div>
+        </header>
+        
+
+	
+
+<div id="choose-email-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3>Choose email to subscribe with</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-default" id="cancel-choose-email" data-dismiss="modal" aria-hidden="true">Cancel</button></div></div></div></div>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-3" id="dtracker-package-left">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        general
+    </div>
+    <div class="panel-body">
+        
+
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>source:</b></span>
+	
+	<a href="https://packages.debian.org/src:libuser">libuser</a>
+		
+		(<span id="component" title="Repository's component">main</span>)
+		
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>version:</b></span>
+        1:0.<wbr>64+<wbr>git20241106~<wbr>dfsg-<wbr>4
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>maintainer:</b></span>
+	
+	
+	<a href="https://qa.debian.org/developer.php?login=packages%40qa.debian.org">Debian QA Group</a>
+	
+	
+	    
+	    
+		<small>
+		(<a href="https://udd.debian.org/dmd/?packages%40qa.debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>)
+		</small>
+	    
+	
+    </li>
+    
+
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>arch:</b></span>
+        any 
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>std-ver:</b></span>
+        4.7.2
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>VCS:</b></span>
+	
+	
+	    
+	    <a rel="vcs-git" href="https://salsa.debian.org/debian/libuser.git">Git</a>
+	    
+	
+	
+	(<a href="https://salsa.debian.org/debian/libuser">Browse</a>, <a href="https://qa.debian.org/cgi-bin/vcswatch?package=libuser">QA</a>)
+	
+	
+    </li>
+    
+</ul>
+
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+<div class="col-xs-12">
+    versions
+    
+    
+    <a class="m-l-1" href="https://qa.debian.org/madison.php?package=libuser">
+        <span role="img" aria-label="more versions can be listed by madison" class="octicon octicon-link-external" title="more versions can be listed by madison"><span class="sr-only">[more versions can be listed by madison]</span></span>
+    </a>
+    
+    <a class="m-l-1" href="https://snapshot.debian.org/package/libuser/">
+        <span role="img" aria-label="old versions available from snapshot.debian.org" class="octicon octicon-link-external" title="old versions available from snapshot.debian.org"><span class="sr-only">[old versions available from snapshot.debian.org]</span></span>
+    </a>
+    
+    
+    
+    <div class="pull-xs-right">
+	
+	<a href="https://deb.debian.org/debian/pool/main/libu/libuser"><span role="img" aria-label="pool directory" class="octicon octicon-file-directory" title="pool directory"><span class="sr-only">[pool directory]</span></span></a>
+	
+    </div>
+    
+</div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 11 (bullseye / oldoldstable)">
+	    <b>o-o-stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldoldstable/libuser">1:0.<wbr>62~<wbr>dfsg-<wbr>0.<wbr>4</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 12 (bookworm / oldstable)">
+	    <b>oldstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldstable/libuser">1:0.<wbr>64~<wbr>dfsg-<wbr>1</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 13 (trixie / stable)">
+	    <b>stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/stable/libuser">1:0.<wbr>64+<wbr>git20241106~<wbr>dfsg-<wbr>3</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Forky (forky / testing)">
+	    <b>testing:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/testing/libuser">1:0.<wbr>64+<wbr>git20241106~<wbr>dfsg-<wbr>4</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Unstable (sid / unstable)">
+	    <b>unstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/unstable/libuser">1:0.<wbr>64+<wbr>git20241106~<wbr>dfsg-<wbr>4</a>
+	
+    </li>
+    
+
+
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        versioned links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>1:0.<wbr>62~<wbr>dfsg-<wbr>0.<wbr>4:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/libu/libuser/libuser_0.62~dfsg-0.4.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/changelog-10.62dfsg-0.4"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/copyright-10.62dfsg-0.4"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/rules-10.62dfsg-0.4"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/control-10.62dfsg-0.4"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>1:0.<wbr>64~<wbr>dfsg-<wbr>1:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/libu/libuser/libuser_0.64~dfsg-1.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/changelog-10.64dfsg-1"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/copyright-10.64dfsg-1"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/rules-10.64dfsg-1"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/control-10.64dfsg-1"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>1:0.<wbr>64+<wbr>git20241106~<wbr>dfsg-<wbr>3:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/libu/libuser/libuser_0.64+git20241106~dfsg-3.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/changelog-10.64git20241106dfsg-3"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/copyright-10.64git20241106dfsg-3"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/rules-10.64git20241106dfsg-3"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/control-10.64git20241106dfsg-3"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>1:0.<wbr>64+<wbr>git20241106~<wbr>dfsg-<wbr>4:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/libu/libuser/libuser_0.64+git20241106~dfsg-4.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/changelog-10.64git20241106dfsg-4"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/copyright-10.64git20241106dfsg-4"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/rules-10.64git20241106dfsg-4"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/libu/libuser/control-10.64git20241106dfsg-4"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        binaries
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libuser" title="">libuser</a>
+        
+
+        
+        <small><span>(</span><a href="https://bugs.debian.org/libuser">2 bugs</a>:
+        
+
+        
+            
+            
+            
+                <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;which=pkg&amp;data=libuser" title="critical, grave and serious">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;which=pkg&amp;data=libuser" title="important and normal">2</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;which=pkg&amp;data=libuser" title="wishlist and minor">0</a><span>,&nbsp;</span><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;which=pkg&amp;data=libuser" title="pending and fixed">0</a><span>)</span></small>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libuser1" title="">libuser1</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libuser1-dev" title="">libuser1-dev</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/python3-libuser" title="">python3-libuser</a>
+        
+
+        
+    </li>
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-6 col-xl-7" id="dtracker-package-center">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        action needed
+    </div>
+    <div class="panel-body">
+        
+<div class="list-group list-group-flush" id="action-needed-list" role="list">
+    
+    <div class="card list-group-item action-item-lintian-warnings-and-errors" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                lintian reports <a href="https://udd.debian.org/lintian/?packages=libuser">6 warnings</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                
+
+Lintian reports
+<a href="https://udd.debian.org/lintian/?packages=libuser">
+
+
+<span>6 warnings</span>
+
+</a>
+about this package. You should make the package <i>lintian clean</i> getting rid of them.
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2025-08-27
+                <span class="pull-xs-right">
+                    Last update: 2025-08-27
+                    09:31
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-wnpp-issue" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://bugs.debian.org/1064872">O: This package has been orphaned and needs a maintainer.</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div><span><span style="font-weight: bold">This package has been
+        orphaned</span>.  This means that it does not have a real
+        maintainer at the moment. Please consider adopting this package
+        if you are interested in it.</span><span> Please see bug number <a href="https://bugs.debian.org/1064872">#1064872</a> for more information.</span></div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2022-11-06
+                <span class="pull-xs-right">
+                    Last update: 2024-02-29
+                    20:43
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-patches" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                debian/patches: <a href="https://udd.debian.org/patches.cgi?src=libuser&version=1%3A0.64%2Bgit20241106~dfsg-4">2 patches</a> to forward upstream
+                
+                <span class="label label-default pull-xs-right">low</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<p>Among the <a href="https://udd.debian.org/patches.cgi?src=libuser&amp;version=1%3A0.64%2Bgit20241106~dfsg-4">2 debian patches</a>
+available in version 1:0.64+git20241106~dfsg-4 of the package,
+we noticed the following issues:</p>
+<ul>
+
+
+<li>2 patches
+    where the metadata indicates that the patch has not yet been forwarded
+    upstream. You should either forward the patch upstream or update the
+    metadata to document its real status.</li>
+
+</ul>
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2023-02-26
+                <span class="pull-xs-right">
+                    Last update: 2025-11-26
+                    18:18
+                </span>
+            </div>
+        </details>
+    </div>
+    
+</div>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+    <div class="col-xs-12">
+	<a href="/pkg/libuser/news/">news</a>
+	<div class="pull-xs-right">
+	    <a href="/pkg/libuser/rss">
+	    <span role="img" aria-label="rss feed" class="octicon octicon-rss" title="rss feed"><span class="sr-only">[rss feed]</span></span>
+	    </a>
+	</div>
+    </div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+
+    <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-12-01</span>]
+        <a href="/news/1694337/libuser-1064git20241106dfsg-4-migrated-to-testing/">
+            <span class="news-title">libuser 1:0.64+git20241106~dfsg-4 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-11-26</span>]
+        <a href="/news/1693082/accepted-libuser-1064git20241106dfsg-4-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.64+git20241106~dfsg-4 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Alexandre Detiste</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-04-24</span>]
+        <a href="/news/1641284/libuser-1064git20241106dfsg-3-migrated-to-testing/">
+            <span class="news-title">libuser 1:0.64+git20241106~dfsg-3 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-04-13</span>]
+        <a href="/news/1639184/accepted-libuser-1064git20241106dfsg-3-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.64+git20241106~dfsg-3 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Helmut Grohne</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-01-29</span>]
+        <a href="/news/1610557/libuser-1064git20241106dfsg-2-migrated-to-testing/">
+            <span class="news-title">libuser 1:0.64+git20241106~dfsg-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-01-23</span>]
+        <a href="/news/1608441/accepted-libuser-1064git20241106dfsg-2-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.64+git20241106~dfsg-2 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Bastian Germann</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">bage@debian.org</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-01-03</span>]
+        <a href="/news/1600763/accepted-libuser-1064git20241106dfsg-1-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.64+git20241106~dfsg-1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Boyuan Yang</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-12-29</span>]
+        <a href="/news/1599350/libuser-removed-from-testing/">
+            <span class="news-title">libuser REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-03-03</span>]
+        <a href="/news/1509284/libuser-1064dfsg-2-migrated-to-testing/">
+            <span class="news-title">libuser 1:0.64~dfsg-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-02-27</span>]
+        <a href="/news/1506929/accepted-libuser-1064dfsg-2-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.64~dfsg-2 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Boyuan Yang</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-02-05</span>]
+        <a href="/news/1417691/libuser-1064dfsg-1-migrated-to-testing/">
+            <span class="news-title">libuser 1:0.64~dfsg-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-01-31</span>]
+        <a href="/news/1415595/accepted-libuser-1064dfsg-1-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.64~dfsg-1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Boyuan Yang</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-11-23</span>]
+        <a href="/news/1388578/libuser-1063dfsg-5-migrated-to-testing/">
+            <span class="news-title">libuser 1:0.63~dfsg-5 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-11-20</span>]
+        <a href="/news/1387082/accepted-libuser-1063dfsg-5-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.63~dfsg-5 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Boyuan Yang</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-10-26</span>]
+        <a href="/news/1270564/libuser-1063dfsg-4-migrated-to-testing/">
+            <span class="news-title">libuser 1:0.63~dfsg-4 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-10-20</span>]
+        <a href="/news/1269113/accepted-libuser-1063dfsg-4-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.63~dfsg-4 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Boyuan Yang</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-10-15</span>]
+        <a href="/news/1267519/libuser-1063dfsg-3-migrated-to-testing/">
+            <span class="news-title">libuser 1:0.63~dfsg-3 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-10-10</span>]
+        <a href="/news/1265787/accepted-libuser-1063dfsg-3-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.63~dfsg-3 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Boyuan Yang</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-10-08</span>]
+        <a href="/news/1265325/accepted-libuser-1063dfsg-3exp1-source-amd64-into-experimental-experimental/">
+            <span class="news-title">Accepted libuser 1:0.63~dfsg-3~exp1 (source amd64) into experimental, experimental</span>
+        </a>
+        (<span class="news-creator">Debian FTP Masters</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Boyuan Yang</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-10-08</span>]
+        <a href="/news/1265323/accepted-libuser-1063dfsg-2-source-amd64-into-unstable-unstable/">
+            <span class="news-title">Accepted libuser 1:0.63~dfsg-2 (source amd64) into unstable, unstable</span>
+        </a>
+        (<span class="news-creator">Debian FTP Masters</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Boyuan Yang</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-09-24</span>]
+        <a href="/news/1260874/libuser-1063dfsg-11-migrated-to-testing/">
+            <span class="news-title">libuser 1:0.63~dfsg-1.1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-09-18</span>]
+        <a href="/news/1258988/accepted-libuser-1063dfsg-11-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.63~dfsg-1.1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Boyuan Yang</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-09-18</span>]
+        <a href="/news/1258804/accepted-libuser-1063dfsg-1-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.63~dfsg-1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Boyuan Yang</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-09-17</span>]
+        <a href="/news/1258773/accepted-libuser-1062dfsg-1-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.62~dfsg-1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Boyuan Yang</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-01-18</span>]
+        <a href="/news/1221282/libuser-1062dfsg-04-migrated-to-testing/">
+            <span class="news-title">libuser 1:0.62~dfsg-0.4 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2021-01-12</span>]
+        <a href="/news/1218542/accepted-libuser-1062dfsg-04-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.62~dfsg-0.4 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Boyuan Yang</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2020-01-24</span>]
+        <a href="/news/1096356/libuser-1062dfsg-03-migrated-to-testing/">
+            <span class="news-title">libuser 1:0.62~dfsg-0.3 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2020-01-21</span>]
+        <a href="/news/1095787/accepted-libuser-1062dfsg-03-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.62~dfsg-0.3 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Boyuan Yang</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-10-31</span>]
+        <a href="/news/1075925/libuser-1062dfsg-02-migrated-to-testing/">
+            <span class="news-title">libuser 1:0.62~dfsg-0.2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-10-25</span>]
+        <a href="/news/1074570/accepted-libuser-1062dfsg-02-source-into-unstable/">
+            <span class="news-title">Accepted libuser 1:0.62~dfsg-0.2 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Boyuan Yang</span>)
+        
+        
+        
+    </li>
+    
+</ul>
+
+
+
+
+<div class="text-xs-center" style="margin-bottom: -1rem">
+    <ul class="pagination m-b-0">
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/libuser/news/">1</a>
+	</li>
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/libuser/news/?page=2">2</a>
+	</li>
+    </ul>
+</div>
+
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-3 col-xl-2" id="dtracker-package-right">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+bugs
+<a class="m-l-1" href="https://qa.debian.org/data/bts/graphs/libu/libuser.png"><span role="img" aria-label="bug history graph" class="octicon octicon-graph" title="bug history graph"><span class="sr-only">[bug history graph]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="">all:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&amp;src=libuser">2</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Release Critical">RC:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=critical&amp;sev-inc=grave&amp;sev-inc=serious&amp;repeatmerged=no&amp;src=libuser">0</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Important and Normal">I&amp;N:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=important&amp;sev-inc=normal&amp;repeatmerged=no&amp;src=libuser">2</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Minor and Wishlist">M&amp;W:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-exc=pending-fixed&amp;pend-exc=fixed&amp;pend-exc=done&amp;sev-inc=minor&amp;sev-inc=wishlist&amp;repeatmerged=no&amp;src=libuser">0</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Fixed and Pending">F&amp;P:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=no&amp;pend-inc=pending-fixed&amp;pend-inc=fixed&amp;repeatmerged=no&amp;src=libuser">0</a>
+	
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="Patch">patch:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?include=tags%3Apatch&amp;exclude=tags%3Apending&amp;pend-exc=done&amp;repeatmerged=no&amp;src=libuser">0</a>
+	
+	
+    </li>
+    
+
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        
+            <a href="https://pagure.io/libuser/" title="upstream web homepage">homepage</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<a href="https://udd.debian.org/lintian/?packages=libuser" title="report about packaging issues spotted by lintian">lintian</a>
+
+
+
+<small>(<span title="errors">0</span>, <span title="warnings">6</span>)</small>
+
+
+
+
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<span>buildd: </span><span><a title="buildd.debian.org build logs" href="https://buildd.debian.org/status/package.php?p=libuser">logs</a></span><span>, </span><span><a title="report about build reproducibility (reproducible)" href="https://tests.reproducible-builds.org/debian/rb-pkg/libuser.html">reproducibility</a></span><span>, </span><span><a title="Cross build logs" href="http://crossqa.debian.net/src/libuser">cross</a></span>
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://qa.debian.org/popcon.php?package=libuser">popcon</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://sources.debian.org/src/libuser/unstable/">browse source code</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <form class="code-search-form" action="/codesearch/" method="get" target="_blank"><input type="hidden" name="package" value="libuser"><input type="search" name="query" placeholder="search source code"></form>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://debtags.debian.org/rep/todo/maint/packages%40qa.debian.org#libuser">edit tags</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://repology.org/tools/project-by?name_type=srcname&noautoresolve=on&repo=debian_unstable&target_page=project_packages&name=libuser" title="provided by Repology">other distros</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://security-tracker.debian.org/tracker/source-package/libuser">security tracker</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://screenshots.debian.net/package/libuser">screenshots</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<span><a title="translation status" href="https://i18n.debian.org/l10n-pkg-status/libu/libuser.html">l10n</a></span>
+<small>(<span title="completeness of Debian string translation">-</span>,
+<span title="completeness of non-Debian string translation">67</span>)
+</small>
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://udd.debian.org/patches.cgi?src=libuser&version=1%3A0.64%2Bgit20241106~dfsg-4" title="2 patches in debian/patches">debian patches</a>
+        
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+ubuntu
+<img class="m-l-1" src="/static/img/ubuntu.png" alt="Ubuntu logo" title="Ubuntu logo">
+<a class="pull-xs-right" href="https://wiki.ubuntu.com/Ubuntu/ForDebianDevelopers"><span role="img" aria-label="Information about Ubuntu for Debian Developers" class="octicon octicon-info" title="Information about Ubuntu for Debian Developers"><span class="sr-only">[Information about Ubuntu for Debian Developers]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush"><li class="list-group-item"><span class="list-item-key"><b>version:</b></span>
+	&#32;<a href="https://launchpad.net/ubuntu/+source/libuser">1:0.64+git20241106~dfsg-4</a></li><li class="list-group-item"><a href="https://bugs.launchpad.net/ubuntu/+source/libuser"><span>2 bugs</span></a></li></ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+    </div>
+</div>
+
+
+        <footer id="footer" class="footer">
+            <hr>
+            <div class="container-fluid">
+                <div class="text-xs-center p-b-1">
+                    
+                                        <div id="footer-title"><a href="https://www.debian.org">Debian</a> Package Tracker — <a href="https://deb.li/DTAuthors">Copyright</a> 2013-2025 The Distro Tracker Developers</div>
+                    <div id="footer-bugs">
+			Report problems to the <a href="https://bugs.debian.org/tracker.debian.org">tracker.debian.org pseudo-package</a> in the <a href="https://bugs.debian.org">Debian <acronym title="Bug Tracking System">BTS</acronym></a>.
+		    </div>
+                    <div id="footer-help">
+                        <a href="https://qa.pages.debian.net/distro-tracker/">Documentation</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker/issues">Bugs</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker">Git Repository</a> —
+                        <a href="https://qa.pages.debian.net/distro-tracker/contributing.html">Contributing</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery.cookie.js"></script>
+        <script src="/static/js/tether.min.js"></script>
+        <script src="/static/js/popper.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/typeahead.bundle.min.js"></script>
+        <script src="/static/js/main.js"></script>
+        
+    </body>
+</html>

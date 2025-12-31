@@ -1,0 +1,1110 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>dbus-c++ - Debian Package Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/octicons.css" rel="stylesheet" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet" media="screen">
+        <link type="application/opensearchdescription+xml" title="Debian Package Tracker Search" rel="search" href="/search.xml"/>
+        
+
+        
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/pkg/dbus-c++/rss">
+
+        
+<link href="/static/css/dense.css" rel="stylesheet" media="screen">
+
+    
+        
+        <link rel="vcs-git" href="https://salsa.debian.org/debian/dbus-cplusplus.git" title="git repository for dbus-c++">
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+
+    </head>
+    <body>
+        
+        <header class="page-header">
+            <div class="container-fluid">
+                
+		<div class="row">
+		<div class="col-xs-12 text-xs-center">
+		    <div class="pull-xs-left">
+<a href="/"><img src="/static/img/logo.png" alt="Debian Package Tracker" title="Visit the main page" ></a>
+</div>
+		    <div class="pull-xs-right">
+		    
+    <div class="m-b-1">
+    <div class="text-xs-left"><form class="form-inline" id="package-search-form" action="/search" method="GET"><div class="form-group"><input type="search" class="form-control form-control-sm package-completion" name="package_name" id='package-search-input' placeholder="Jump to package..."></div><div class="form-group"><button type="submit" class="btn btn-default btn-sm">Go</button></div></form></div>
+
+    </div>
+    
+    <span><a id="account-register" href="/accounts/register/">Register</a></span>
+    <span>|</span>
+    <span><a id="account-login" href="/accounts/login/">Log in</a></span>
+
+
+
+    
+	
+	<div class="btn-group" role="group" style="margin-left: 10px;">
+	  <a href="/accounts/login/?next=/pkg/dbus-c++" id='subscribe-not-logged-in-button' class="btn btn-primary">Subscribe</a>
+	</div>
+    
+
+
+		    </div>
+		    
+    <div>
+    <h1>dbus-c++</h1>
+    
+    </div>
+
+		</div>
+		</div>
+                
+            </div>
+        </header>
+        
+
+	
+
+<div id="choose-email-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3>Choose email to subscribe with</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-default" id="cancel-choose-email" data-dismiss="modal" aria-hidden="true">Cancel</button></div></div></div></div>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-3" id="dtracker-package-left">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        general
+    </div>
+    <div class="panel-body">
+        
+
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>source:</b></span>
+	
+	<a href="https://packages.debian.org/src:dbus-c++">dbus-c++</a>
+		
+		(<span id="component" title="Repository's component">main</span>)
+		
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>version:</b></span>
+        0.9.0-15
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>maintainer:</b></span>
+	
+	
+	<a href="https://qa.debian.org/developer.php?login=packages%40qa.debian.org">Debian QA Group</a>
+	
+	
+	    
+	    
+		<small>
+		(<a href="https://udd.debian.org/dmd/?packages%40qa.debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>)
+		</small>
+	    
+	
+    </li>
+    
+
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>arch:</b></span>
+        all any 
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>std-ver:</b></span>
+        4.7.2
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>VCS:</b></span>
+	
+	
+	    
+	    <a rel="vcs-git" href="https://salsa.debian.org/debian/dbus-cplusplus.git">Git</a>
+	    
+	
+	
+	(<a href="https://salsa.debian.org/debian/dbus-cplusplus">Browse</a>, <a href="https://qa.debian.org/cgi-bin/vcswatch?package=dbus-c++">QA</a>)
+	
+	
+    </li>
+    
+</ul>
+
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+<div class="col-xs-12">
+    versions
+    
+    
+    <a class="m-l-1" href="https://qa.debian.org/madison.php?package=dbus-c%2B%2B">
+        <span role="img" aria-label="more versions can be listed by madison" class="octicon octicon-link-external" title="more versions can be listed by madison"><span class="sr-only">[more versions can be listed by madison]</span></span>
+    </a>
+    
+    <a class="m-l-1" href="https://snapshot.debian.org/package/dbus-c++/">
+        <span role="img" aria-label="old versions available from snapshot.debian.org" class="octicon octicon-link-external" title="old versions available from snapshot.debian.org"><span class="sr-only">[old versions available from snapshot.debian.org]</span></span>
+    </a>
+    
+    
+    
+    <div class="pull-xs-right">
+	
+	<a href="https://deb.debian.org/debian/pool/main/d/dbus-c++"><span role="img" aria-label="pool directory" class="octicon octicon-file-directory" title="pool directory"><span class="sr-only">[pool directory]</span></span></a>
+	
+    </div>
+    
+</div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 11 (bullseye / oldoldstable)">
+	    <b>o-o-stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldoldstable/dbus-c++">0.9.0-8.2</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 12 (bookworm / oldstable)">
+	    <b>oldstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldstable/dbus-c++">0.9.0-11</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 13 (trixie / stable)">
+	    <b>stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/stable/dbus-c++">0.9.0-15</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Forky (forky / testing)">
+	    <b>testing:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/testing/dbus-c++">0.9.0-15</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Unstable (sid / unstable)">
+	    <b>unstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/unstable/dbus-c++">0.9.0-15</a>
+	
+    </li>
+    
+
+
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        versioned links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.9.0-8.2:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/d/dbus-c++/dbus-c++_0.9.0-8.2.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/d/dbus-c%2B%2B/changelog-0.9.0-8.2"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/d/dbus-c%2B%2B/copyright-0.9.0-8.2"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/d/dbus-c%2B%2B/rules-0.9.0-8.2"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/d/dbus-c%2B%2B/control-0.9.0-8.2"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.9.0-11:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/d/dbus-c++/dbus-c++_0.9.0-11.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/d/dbus-c%2B%2B/changelog-0.9.0-11"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/d/dbus-c%2B%2B/copyright-0.9.0-11"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/d/dbus-c%2B%2B/rules-0.9.0-11"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/d/dbus-c%2B%2B/control-0.9.0-11"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.9.0-15:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/d/dbus-c++/dbus-c++_0.9.0-15.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/d/dbus-c%2B%2B/changelog-0.9.0-15"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/d/dbus-c%2B%2B/copyright-0.9.0-15"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/d/dbus-c%2B%2B/rules-0.9.0-15"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/d/dbus-c%2B%2B/control-0.9.0-15"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        binaries
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libdbus-c++-1-0v5" title="">libdbus-c++-1-0v5</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libdbus-c++-bin" title="">libdbus-c++-bin</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libdbus-c++-dev" title="">libdbus-c++-dev</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libdbus-c++-doc" title="">libdbus-c++-doc</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libdbus-c++-ecore-1-0" title="">libdbus-c++-ecore-1-0</a>
+        
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/libdbus-c++-glib-1-0" title="">libdbus-c++-glib-1-0</a>
+        
+
+        
+    </li>
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-6 col-xl-7" id="dtracker-package-center">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        action needed
+    </div>
+    <div class="panel-body">
+        
+<div class="list-group list-group-flush" id="action-needed-list" role="list">
+    
+    <div class="card list-group-item action-item-lintian-warnings-and-errors" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                lintian reports <a href="https://udd.debian.org/lintian/?packages=dbus-c++">1 warning</a>
+                
+                <span class="label label-warning pull-xs-right">high</span>
+                
+            </summary>
+            <div class="card-block">
+                
+
+Lintian reports
+<a href="https://udd.debian.org/lintian/?packages=dbus-c++">
+
+
+<span>1 warning</span>
+
+</a>
+about this package. You should make the package <i>lintian clean</i> getting rid of them.
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2023-08-03
+                <span class="pull-xs-right">
+                    Last update: 2025-04-11
+                    03:30
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-wnpp-issue" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://bugs.debian.org/968538">O: This package has been orphaned and needs a maintainer.</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div><span><span style="font-weight: bold">This package has been
+        orphaned</span>.  This means that it does not have a real
+        maintainer at the moment. Please consider adopting this package
+        if you are interested in it.</span><span> Please see bug number <a href="https://bugs.debian.org/968538">#968538</a> for more information.</span></div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2020-08-17
+                <span class="pull-xs-right">
+                    Last update: 2020-08-17
+                    00:07
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-patches" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                debian/patches: <a href="https://udd.debian.org/patches.cgi?src=dbus-c%2B%2B&version=0.9.0-15">8 patches</a> to forward upstream
+                
+                <span class="label label-default pull-xs-right">low</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<p>Among the <a href="https://udd.debian.org/patches.cgi?src=dbus-c%2B%2B&amp;version=0.9.0-15">12 debian patches</a>
+available in version 0.9.0-15 of the package,
+we noticed the following issues:</p>
+<ul>
+
+
+<li>8 patches
+    where the metadata indicates that the patch has not yet been forwarded
+    upstream. You should either forward the patch upstream or update the
+    metadata to document its real status.</li>
+
+</ul>
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2023-02-26
+                <span class="pull-xs-right">
+                    Last update: 2025-03-04
+                    11:31
+                </span>
+            </div>
+        </details>
+    </div>
+    
+</div>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+    <div class="col-xs-12">
+	<a href="/pkg/dbus-c++/news/">news</a>
+	<div class="pull-xs-right">
+	    <a href="/pkg/dbus-c++/rss">
+	    <span role="img" aria-label="rss feed" class="octicon octicon-rss" title="rss feed"><span class="sr-only">[rss feed]</span></span>
+	    </a>
+	</div>
+    </div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+
+    <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-03-09</span>]
+        <a href="/news/1625821/dbus-c-090-15-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-15 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2025-03-03</span>]
+        <a href="/news/1623743/accepted-dbus-c-090-15-source-into-unstable/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-15 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Thomas Uhle</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">bage@debian.org</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-08-15</span>]
+        <a href="/news/1453224/accepted-dbus-c-090-14-source-into-experimental/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-14 (source) into experimental</span>
+        </a>
+        (<span class="news-creator">Bastian Germann</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">bage@debian.org</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-08-07</span>]
+        <a href="/news/1451008/dbus-c-090-12-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-12 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-08-07</span>]
+        <a href="/news/1450949/dbus-c-090-12-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-12 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-08-05</span>]
+        <a href="/news/1450601/accepted-dbus-c-090-13-source-amd64-all-into-experimental/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-13 (source amd64 all) into experimental</span>
+        </a>
+        (<span class="news-creator">Debian FTP Masters</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">bage@debian.org</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-08-02</span>]
+        <a href="/news/1449892/accepted-dbus-c-090-12-source-into-unstable/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-12 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Bastian Germann</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">bage@debian.org</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-03-06</span>]
+        <a href="/news/1425426/dbus-c-090-11-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-11 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2023-02-23</span>]
+        <a href="/news/1422973/accepted-dbus-c-090-11-source-into-unstable/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-11 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Thomas Uhle</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">bage@debian.org</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-07-31</span>]
+        <a href="/news/1350384/dbus-c-090-10-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-10 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-07-26</span>]
+        <a href="/news/1349221/accepted-dbus-c-090-10-source-into-unstable/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-10 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Håvard F. Aasen</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">bage@debian.org</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-04-26</span>]
+        <a href="/news/1321001/dbus-c-090-9-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-9 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-04-21</span>]
+        <a href="/news/1319794/accepted-dbus-c-090-9-source-into-unstable/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-9 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Boyuan Yang</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2020-05-06</span>]
+        <a href="/news/1141592/dbus-c-090-82-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-8.2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2020-04-30</span>]
+        <a href="/news/1140097/accepted-dbus-c-090-82-source-into-unstable/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-8.2 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Peter Michael Green</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2018-02-01</span>]
+        <a href="/news/928901/dbus-c-090-81-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-8.1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2018-01-27</span>]
+        <a href="/news/927780/accepted-dbus-c-090-81-source-into-unstable/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-8.1 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">John Paul Adrian Glaubitz</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2015-09-07</span>]
+        <a href="/news/711213/dbus-c-090-8-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-8 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Britney</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2015-08-21</span>]
+        <a href="/news/706672/accepted-dbus-c-090-8-source-amd64-all-into-unstable-unstable/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-8 (source amd64 all) into unstable, unstable</span>
+        </a>
+        (<span class="news-creator">Vincent Cheng</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2015-07-28</span>]
+        <a href="/news/701098/dbus-c-090-7-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-7 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Britney</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2015-07-23</span>]
+        <a href="/news/699703/accepted-dbus-c-090-7-source-all-into-unstable/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-7 (source all) into unstable</span>
+        </a>
+        (<span class="news-creator">Vincent Cheng</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-06-11</span>]
+        <a href="/news/444629/dbus-c-090-6-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-6 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-05-31</span>]
+        <a href="/news/444628/accepted-dbus-c-090-6-source-all-amd64/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-6 (source all amd64)</span>
+        </a>
+        (<span class="news-creator">Vincent Cheng</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Ana Beatriz Guerrero López</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-05-29</span>]
+        <a href="/news/444627/accepted-dbus-c-090-5-source-all-amd64/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-5 (source all amd64)</span>
+        </a>
+        (<span class="news-creator">Vincent Cheng</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Ana Beatriz Guerrero López</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-05-24</span>]
+        <a href="/news/444626/dbus-c-090-4-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-4 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-05-13</span>]
+        <a href="/news/444625/accepted-dbus-c-090-4-source-all-amd64/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-4 (source all amd64)</span>
+        </a>
+        (<span class="news-creator">Vincent Cheng</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Ana Beatriz Guerrero López</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-05-10</span>]
+        <a href="/news/444624/accepted-dbus-c-090-3-source-all-amd64/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-3 (source all amd64)</span>
+        </a>
+        (<span class="news-creator">Vincent Cheng</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Ana Beatriz Guerrero López</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-03-06</span>]
+        <a href="/news/444623/dbus-c-090-21-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-2.1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2012-03-04</span>]
+        <a href="/news/444622/accepted-dbus-c-090-21-source-all-amd64/">
+            <span class="news-title">Accepted dbus-c++ 0.9.0-2.1 (source all amd64)</span>
+        </a>
+        (<span class="news-creator">Cyril Brulebois</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2011-12-21</span>]
+        <a href="/news/444621/dbus-c-090-2-migrated-to-testing/">
+            <span class="news-title">dbus-c++ 0.9.0-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+</ul>
+
+
+
+
+<div class="text-xs-center" style="margin-bottom: -1rem">
+    <ul class="pagination m-b-0">
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/dbus-c++/news/">1</a>
+	</li>
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/dbus-c++/news/?page=2">2</a>
+	</li>
+    </ul>
+</div>
+
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-3 col-xl-2" id="dtracker-package-right">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+bugs
+<a class="m-l-1" href="https://qa.debian.org/data/bts/graphs/d/dbus-c++.png"><span role="img" aria-label="bug history graph" class="octicon octicon-graph" title="bug history graph"><span class="sr-only">[bug history graph]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="">all:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&amp;src=dbus-c%2B%2B">0</a>
+	
+	
+    </li>
+    
+
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        
+            <a href="https://sourceforge.net/projects/dbus-cplusplus/" title="upstream web homepage">homepage</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<a href="https://udd.debian.org/lintian/?packages=dbus-c++" title="report about packaging issues spotted by lintian">lintian</a>
+
+
+
+<small>(<span title="errors">0</span>, <span title="warnings">1</span>)</small>
+
+
+
+
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<span>buildd: </span><span><a title="buildd.debian.org build logs" href="https://buildd.debian.org/status/package.php?p=dbus-c%2B%2B">logs</a></span><span>, </span><span><a title="report about build reproducibility (reproducible)" href="https://tests.reproducible-builds.org/debian/rb-pkg/dbus-c%2B%2B.html">reproducibility</a></span><span>, </span><span><a title="Cross build logs" href="http://crossqa.debian.net/src/dbus-c%2B%2B">cross</a></span>
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://qa.debian.org/popcon.php?package=dbus-c%2B%2B">popcon</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://sources.debian.org/src/dbus-c%2B%2B/unstable/">browse source code</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <form class="code-search-form" action="/codesearch/" method="get" target="_blank"><input type="hidden" name="package" value="dbus-c++"><input type="search" name="query" placeholder="search source code"></form>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://debtags.debian.org/rep/todo/maint/packages%40qa.debian.org#dbus-c%2B%2B">edit tags</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://repology.org/tools/project-by?name_type=srcname&noautoresolve=on&repo=debian_unstable&target_page=project_packages&name=dbus-c%2B%2B" title="provided by Repology">other distros</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://udd.debian.org/patches.cgi?src=dbus-c%2B%2B&version=0.9.0-15" title="12 patches in debian/patches">debian patches</a>
+        
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+ubuntu
+<img class="m-l-1" src="/static/img/ubuntu.png" alt="Ubuntu logo" title="Ubuntu logo">
+<a class="pull-xs-right" href="https://wiki.ubuntu.com/Ubuntu/ForDebianDevelopers"><span role="img" aria-label="Information about Ubuntu for Debian Developers" class="octicon octicon-info" title="Information about Ubuntu for Debian Developers"><span class="sr-only">[Information about Ubuntu for Debian Developers]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush"><li class="list-group-item"><span class="list-item-key"><b>version:</b></span>
+	&#32;<a href="https://launchpad.net/ubuntu/+source/dbus-c++">0.9.0-15</a></li></ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+    </div>
+</div>
+
+
+        <footer id="footer" class="footer">
+            <hr>
+            <div class="container-fluid">
+                <div class="text-xs-center p-b-1">
+                    
+                                        <div id="footer-title"><a href="https://www.debian.org">Debian</a> Package Tracker — <a href="https://deb.li/DTAuthors">Copyright</a> 2013-2025 The Distro Tracker Developers</div>
+                    <div id="footer-bugs">
+			Report problems to the <a href="https://bugs.debian.org/tracker.debian.org">tracker.debian.org pseudo-package</a> in the <a href="https://bugs.debian.org">Debian <acronym title="Bug Tracking System">BTS</acronym></a>.
+		    </div>
+                    <div id="footer-help">
+                        <a href="https://qa.pages.debian.net/distro-tracker/">Documentation</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker/issues">Bugs</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker">Git Repository</a> —
+                        <a href="https://qa.pages.debian.net/distro-tracker/contributing.html">Contributing</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery.cookie.js"></script>
+        <script src="/static/js/tether.min.js"></script>
+        <script src="/static/js/popper.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/typeahead.bundle.min.js"></script>
+        <script src="/static/js/main.js"></script>
+        
+    </body>
+</html>

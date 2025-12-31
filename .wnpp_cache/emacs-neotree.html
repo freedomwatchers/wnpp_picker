@@ -1,0 +1,1053 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>emacs-neotree - Debian Package Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/octicons.css" rel="stylesheet" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet" media="screen">
+        <link type="application/opensearchdescription+xml" title="Debian Package Tracker Search" rel="search" href="/search.xml"/>
+        
+
+        
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/pkg/emacs-neotree/rss">
+
+        
+<link href="/static/css/dense.css" rel="stylesheet" media="screen">
+
+    
+        
+        <link rel="vcs-git" href="https://salsa.debian.org/emacsen-team/emacs-neotree.git" title="git repository for emacs-neotree">
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+
+    </head>
+    <body>
+        
+        <header class="page-header">
+            <div class="container-fluid">
+                
+		<div class="row">
+		<div class="col-xs-12 text-xs-center">
+		    <div class="pull-xs-left">
+<a href="/"><img src="/static/img/logo.png" alt="Debian Package Tracker" title="Visit the main page" ></a>
+</div>
+		    <div class="pull-xs-right">
+		    
+    <div class="m-b-1">
+    <div class="text-xs-left"><form class="form-inline" id="package-search-form" action="/search" method="GET"><div class="form-group"><input type="search" class="form-control form-control-sm package-completion" name="package_name" id='package-search-input' placeholder="Jump to package..."></div><div class="form-group"><button type="submit" class="btn btn-default btn-sm">Go</button></div></form></div>
+
+    </div>
+    
+    <span><a id="account-register" href="/accounts/register/">Register</a></span>
+    <span>|</span>
+    <span><a id="account-login" href="/accounts/login/">Log in</a></span>
+
+
+
+    
+	
+	<div class="btn-group" role="group" style="margin-left: 10px;">
+	  <a href="/accounts/login/?next=/pkg/emacs-neotree" id='subscribe-not-logged-in-button' class="btn btn-primary">Subscribe</a>
+	</div>
+    
+
+
+		    </div>
+		    
+    <div>
+    <h1>emacs-neotree</h1>
+    
+    <h5>directory tree sidebar for Emacs that is like NERDTree for Vim</h5>
+    
+    </div>
+
+		</div>
+		</div>
+                
+            </div>
+        </header>
+        
+
+	
+
+<div id="choose-email-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3>Choose email to subscribe with</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-default" id="cancel-choose-email" data-dismiss="modal" aria-hidden="true">Cancel</button></div></div></div></div>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-3" id="dtracker-package-left">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        general
+    </div>
+    <div class="panel-body">
+        
+
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>source:</b></span>
+	
+	<a href="https://packages.debian.org/src:emacs-neotree">emacs-neotree</a>
+		
+		(<span id="component" title="Repository's component">main</span>)
+		
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>version:</b></span>
+        0.5.2-5
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>maintainer:</b></span>
+	
+	
+	<a href="https://qa.debian.org/developer.php?login=debian-emacsen%40lists.debian.org">Debian Emacsen team</a>
+	
+	
+	    
+		<small>
+		    (<a href="https://lists.debian.org/debian-emacsen/" title="Archives for the Debian Emacsen team list">archive</a>)
+		</small>
+	    
+	    
+		<small>
+		(<a href="https://udd.debian.org/dmd/?debian-emacsen%40lists.debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>)
+		</small>
+	    
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>uploaders:</b></span>
+	
+	    
+	    
+	    <a href="https://qa.debian.org/developer.php?login=sten%40debian.org">Nicholas D Steeves</a>
+	    
+	    
+	    
+	    
+		<small>
+		[<a href="https://udd.debian.org/dmd/?sten%40debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>]
+		</small>
+	    
+	    
+	    
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>arch:</b></span>
+        all 
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>std-ver:</b></span>
+        4.5.1
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>VCS:</b></span>
+	
+	
+	    
+	    <a rel="vcs-git" href="https://salsa.debian.org/emacsen-team/emacs-neotree.git">Git</a>
+	    
+	
+	
+	(<a href="https://salsa.debian.org/emacsen-team/emacs-neotree">Browse</a>, <a href="https://qa.debian.org/cgi-bin/vcswatch?package=emacs-neotree">QA</a>)
+	
+	
+    </li>
+    
+</ul>
+
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+<div class="col-xs-12">
+    versions
+    
+    
+    <a class="m-l-1" href="https://qa.debian.org/madison.php?package=emacs-neotree">
+        <span role="img" aria-label="more versions can be listed by madison" class="octicon octicon-link-external" title="more versions can be listed by madison"><span class="sr-only">[more versions can be listed by madison]</span></span>
+    </a>
+    
+    <a class="m-l-1" href="https://snapshot.debian.org/package/emacs-neotree/">
+        <span role="img" aria-label="old versions available from snapshot.debian.org" class="octicon octicon-link-external" title="old versions available from snapshot.debian.org"><span class="sr-only">[old versions available from snapshot.debian.org]</span></span>
+    </a>
+    
+    
+    
+    <div class="pull-xs-right">
+	
+	<a href="https://deb.debian.org/debian/pool/main/e/emacs-neotree"><span role="img" aria-label="pool directory" class="octicon octicon-file-directory" title="pool directory"><span class="sr-only">[pool directory]</span></span></a>
+	
+    </div>
+    
+</div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 11 (bullseye / oldoldstable)">
+	    <b>o-o-stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldoldstable/emacs-neotree">0.5.2-3</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 12 (bookworm / oldstable)">
+	    <b>oldstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldstable/emacs-neotree">0.5.2-4</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 13 (trixie / stable)">
+	    <b>stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/stable/emacs-neotree">0.5.2-5</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Forky (forky / testing)">
+	    <b>testing:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/testing/emacs-neotree">0.5.2-5</a>
+	
+    </li>
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian Unstable (sid / unstable)">
+	    <b>unstable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/unstable/emacs-neotree">0.5.2-5</a>
+	
+    </li>
+    
+
+
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        versioned links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.5.2-3:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/e/emacs-neotree/emacs-neotree_0.5.2-3.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/e/emacs-neotree/changelog-0.5.2-3"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/e/emacs-neotree/copyright-0.5.2-3"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/e/emacs-neotree/rules-0.5.2-3"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/e/emacs-neotree/control-0.5.2-3"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.5.2-4:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/e/emacs-neotree/emacs-neotree_0.5.2-4.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/e/emacs-neotree/changelog-0.5.2-4"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/e/emacs-neotree/copyright-0.5.2-4"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/e/emacs-neotree/rules-0.5.2-4"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/e/emacs-neotree/control-0.5.2-4"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+    <li class="list-group-item">
+        <span class="list-item-key versioned-links-version"><b>0.5.2-5:</b></span>
+	
+	    
+	    <span class="versioned-links-icon"><a href="https://deb.debian.org/debian/pool/main/e/emacs-neotree/emacs-neotree_0.5.2-5.dsc"><span role="img" aria-label=".dsc, use dget on this link to retrieve source package" class="octicon octicon-desktop-download" title=".dsc, use dget on this link to retrieve source package"><span class="sr-only">[.dsc, use dget on this link to retrieve source package]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/e/emacs-neotree/changelog-0.5.2-5"><span role="img" aria-label="changelog" class="octicon octicon-tasklist" title="changelog"><span class="sr-only">[changelog]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/e/emacs-neotree/copyright-0.5.2-5"><span role="img" aria-label="copyright" class="octicon octicon-law" title="copyright"><span class="sr-only">[copyright]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/e/emacs-neotree/rules-0.5.2-5"><span role="img" aria-label="rules" class="octicon octicon-tools" title="rules"><span class="sr-only">[rules]</span></span></a></span>
+	    
+	
+	    
+	    <span class="versioned-links-icon"><a href="/media/packages/e/emacs-neotree/control-0.5.2-5"><span role="img" aria-label="control" class="octicon octicon-package" title="control"><span class="sr-only">[control]</span></span></a></span>
+	    
+	
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        binaries
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/unstable/elpa-neotree" title="">elpa-neotree</a>
+        
+
+        
+    </li>
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-6 col-xl-7" id="dtracker-package-center">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        action needed
+    </div>
+    <div class="panel-body">
+        
+<div class="list-group list-group-flush" id="action-needed-list" role="list">
+    
+    <div class="card list-group-item action-item-new-upstream-version" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                A new upstream version is available: <a href="https://github.com/jaypei/emacs-neotree/archive/refs/tags/0.6.0.tar.gz">0.6.0</a>
+                
+                <span class="label label-warning pull-xs-right">high</span>
+                
+            </summary>
+            <div class="card-block">
+                <span>A new upstream version <a href="https://github.com/jaypei/emacs-neotree/archive/refs/tags/0.6.0.tar.gz">0.6.0</a> is available, you should consider packaging it.</span>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2023-08-17
+                <span class="pull-xs-right">
+                    Last update: 2025-12-23
+                    00:31
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-vcswatch-warnings-and-errors" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://qa.debian.org/cgi-bin/vcswatch?package=emacs-neotree">version in VCS is newer</a> than in repository, is it time to upload?
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                
+
+<a href="https://qa.debian.org/cgi-bin/vcswatch?package=emacs-neotree">vcswatch</a> reports that
+
+this package seems to have a new changelog entry (version
+0.5.2-6, distribution
+UNRELEASED) and new commits
+in its VCS. You should consider whether it's time to make
+an upload.
+
+<br/><br/>
+Here are the relevant commit messages:
+<pre>
+commit db6bca8e6ce6238641f2a8519af446439273691b
+Merge: 97d0a8f dbd82f2
+Author: XIYUE DENG &lt;manphiz@gmail.com&gt;
+Date:   Tue Nov 26 05:29:32 2024 +0000
+
+    Merge branch &#x27;scrub-obsolete&#x27; into &#x27;master&#x27;
+    
+    Remove unnecessary constraints
+    
+    See merge request emacsen-team/emacs-neotree!2
+
+commit dbd82f2c2dec8231eddbac286c5eb50494afe5e9
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Tue Sep 13 17:08:32 2022 +0000
+
+    Remove constraints unnecessary since buster (oldstable)
+    
+    * elpa-neotree: Drop versioned constraint on emacs in Recommends.
+    
+    Changes-By: deb-scrub-obsolete
+
+commit 97d0a8f550b46dfabfdee53e6a532353636ce5f2
+Merge: ad86cbc 12c8554
+Author: XIYUE DENG &lt;manphiz@gmail.com&gt;
+Date:   Tue Nov 26 05:27:01 2024 +0000
+
+    Merge branch &#x27;lintian-fixes&#x27; into &#x27;master&#x27;
+    
+    Fix some issues reported by lintian
+    
+    See merge request emacsen-team/emacs-neotree!1
+
+commit ad86cbc5042a7861b3ecb126311afe54e797ec0d
+Merge: c2a9a4b 8fbf94b
+Author: Xiyue Deng &lt;manphiz@gmail.com&gt;
+Date:   Mon Nov 25 21:26:20 2024 -0800
+
+    Merge from sid [dgit]
+
+commit 8fbf94bddf6f56811f291b5d8264815aff83f36e
+Author: Sean Whitton &lt;spwhitton@spwhitton.name&gt;
+Date:   Thu Jul 25 19:44:04 2024 +0900
+
+    Rebuild against dh-elpa 2.1.5
+
+commit 12c8554b4be839485606ea86bb0c6c193038fd47
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Mon Mar 27 16:54:38 2023 +0000
+
+    Update standards version to 4.6.2, no changes needed.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: out-of-date-standards-version
+    See-also: https://lintian.debian.org/tags/out-of-date-standards-version.html
+
+commit 5b48a855845a4bc368bc366c57586bc015544638
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Mon Mar 27 16:54:37 2023 +0000
+
+    Set upstream metadata fields: Repository.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: upstream-metadata-missing-repository
+    See-also: https://lintian.debian.org/tags/upstream-metadata-missing-repository.html
+
+commit 8d664bf058529d27ce549d65e239c2d7e8603076
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Mon Oct 31 18:45:29 2022 +0000
+
+    Update standards version to 4.6.1, no changes needed.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: out-of-date-standards-version
+    See-also: https://lintian.debian.org/tags/out-of-date-standards-version.html
+
+commit 90264019ab2c5d628fb4233d96fd169f78a3efce
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Mon Oct 31 18:45:28 2022 +0000
+
+    Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: upstream-metadata-file-is-missing
+    See-also: https://lintian.debian.org/tags/upstream-metadata-file-is-missing.html
+    Fixes: lintian: upstream-metadata-missing-bug-tracking
+    See-also: https://lintian.debian.org/tags/upstream-metadata-missing-bug-tracking.html
+
+commit a7c940dbd1d089c94e36d5ed7792e2086c51a334
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Mon Oct 31 18:45:25 2022 +0000
+
+    debian/control: Remove empty control field Uploaders.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: debian-control-has-empty-field
+    See-also: https://lintian.debian.org/tags/debian-control-has-empty-field.html
+
+commit 49b9bbc48aabad90d21fc3a7e412c11feea2a476
+Author: Debian Janitor &lt;janitor@jelmer.uk&gt;
+Date:   Mon Oct 31 18:45:25 2022 +0000
+
+    Trim trailing whitespace.
+    
+    Changes-By: lintian-brush
+    Fixes: lintian: trailing-whitespace
+    See-also: https://lintian.debian.org/tags/trailing-whitespace.html
+
+commit c2a9a4b73c03bbdbd9eed85a3e45f97d4a2aabbe
+Author: Nicholas D Steeves &lt;sten@debian.org&gt;
+Date:   Tue Sep 13 12:26:24 2022 -0400
+
+    Drop myself from Uploaders.
+
+commit a8a95a3f23d64f7ec6308cad3d437c04142b0617
+Author: Nicholas D Steeves &lt;nsteeves@gmail.com&gt;
+Date:   Sun Nov 8 15:39:43 2020 -0500
+
+    declare correct version
+    
+    
+    Gbp-Pq: Name 0001-declare-correct-version.patch
+
+commit a1fb35677eab3d5678cdb045dadb0475c5d5f84b
+Merge: 505267c 5667e11
+Author: Nicholas D Steeves &lt;sten@debian.org&gt;
+Date:   Tue Jun 7 18:50:31 2022 -0400
+
+    emacs-neotree (0.5.2-4) unstable; urgency=medium
+    
+      * Update my email address.
+    
+    [dgit import unpatched emacs-neotree 0.5.2-4]
+
+commit 5667e1193808bc8379b06042b3fe9a7289414ada
+Author: Nicholas D Steeves &lt;sten@debian.org&gt;
+Date:   Tue Jun 7 18:50:31 2022 -0400
+
+    Import emacs-neotree_0.5.2-4.debian.tar.xz
+    
+    [dgit import tarball emacs-neotree 0.5.2-4 emacs-neotree_0.5.2-4.debian.tar.xz]
+
+commit 505267c967ad39a73f5b0bd27c3c9ebfc84f9984
+Author: Nicholas D Steeves &lt;nsteeves@gmail.com&gt;
+Date:   Tue May 7 22:14:01 2019 -0400
+
+    Import emacs-neotree_0.5.2.orig.tar.xz
+    
+    [dgit import orig emacs-neotree_0.5.2.orig.tar.xz]
+</pre>
+
+
+
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2022-09-13
+                <span class="pull-xs-right">
+                    Last update: 2025-12-17
+                    16:19
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-wnpp-issue" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://bugs.debian.org/1012472">O: This package has been orphaned and needs a maintainer.</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div><span><span style="font-weight: bold">This package has been
+        orphaned</span>.  This means that it does not have a real
+        maintainer at the moment. Please consider adopting this package
+        if you are interested in it.</span><span> Please see bug number <a href="https://bugs.debian.org/1012472">#1012472</a> for more information.</span></div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2022-06-08
+                <span class="pull-xs-right">
+                    Last update: 2025-08-23
+                    00:01
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-patches" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                debian/patches: <a href="https://udd.debian.org/patches.cgi?src=emacs-neotree&version=0.5.2-5">1 patch</a> to forward upstream
+                
+                <span class="label label-default pull-xs-right">low</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<p>Among the <a href="https://udd.debian.org/patches.cgi?src=emacs-neotree&amp;version=0.5.2-5">1 debian patch</a>
+available in version 0.5.2-5 of the package,
+we noticed the following issues:</p>
+<ul>
+
+
+<li>1 patch
+    where the metadata indicates that the patch has not yet been forwarded
+    upstream. You should either forward the patch upstream or update the
+    metadata to document its real status.</li>
+
+</ul>
+
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2023-02-26
+                <span class="pull-xs-right">
+                    Last update: 2024-07-25
+                    22:04
+                </span>
+            </div>
+        </details>
+    </div>
+    
+    <div class="card list-group-item action-item-debian-std-ver-outdated" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                Standards version of the package is outdated.
+                
+                <span class="label label-info pull-xs-right">wishlist</span>
+                
+            </summary>
+            <div class="card-block">
+                
+<span>The package should be updated to follow the last version of <a href="https://www.debian.org/doc/debian-policy/">Debian Policy</a>
+(Standards-Version <a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-4-7-2">4.7.2</a> instead of
+<a href="https://www.debian.org/doc/debian-policy/upgrading-checklist.html#version-4-5-1">4.5.1</a>).
+</span>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2021-08-18
+                <span class="pull-xs-right">
+                    Last update: 2025-02-27
+                    13:24
+                </span>
+            </div>
+        </details>
+    </div>
+    
+</div>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+    <div class="col-xs-12">
+	<a href="/pkg/emacs-neotree/news/">news</a>
+	<div class="pull-xs-right">
+	    <a href="/pkg/emacs-neotree/rss">
+	    <span role="img" aria-label="rss feed" class="octicon octicon-rss" title="rss feed"><span class="sr-only">[rss feed]</span></span>
+	    </a>
+	</div>
+    </div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+
+    <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-07-27</span>]
+        <a href="/news/1548704/emacs-neotree-052-5-migrated-to-testing/">
+            <span class="news-title">emacs-neotree 0.5.2-5 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2024-07-25</span>]
+        <a href="/news/1547905/accepted-emacs-neotree-052-5-source-into-unstable/">
+            <span class="news-title">Accepted emacs-neotree 0.5.2-5 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Sean Whitton</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-06-10</span>]
+        <a href="/news/1332831/emacs-neotree-052-4-migrated-to-testing/">
+            <span class="news-title">emacs-neotree 0.5.2-4 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-06-10</span>]
+        <a href="/news/1332723/emacs-neotree-052-4-migrated-to-testing/">
+            <span class="news-title">emacs-neotree 0.5.2-4 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2022-06-07</span>]
+        <a href="/news/1331910/accepted-emacs-neotree-052-4-source-into-unstable/">
+            <span class="news-title">Accepted emacs-neotree 0.5.2-4 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Nicholas D Steeves</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2020-11-30</span>]
+        <a href="/news/1196942/emacs-neotree-052-3-migrated-to-testing/">
+            <span class="news-title">emacs-neotree 0.5.2-3 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2020-11-27</span>]
+        <a href="/news/1196335/accepted-emacs-neotree-052-3-source-into-unstable/">
+            <span class="news-title">Accepted emacs-neotree 0.5.2-3 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Nicholas D Steeves</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-08-14</span>]
+        <a href="/news/1054512/emacs-neotree-052-2-migrated-to-testing/">
+            <span class="news-title">emacs-neotree 0.5.2-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-08-12</span>]
+        <a href="/news/1053760/accepted-emacs-neotree-052-2-source-into-unstable/">
+            <span class="news-title">Accepted emacs-neotree 0.5.2-2 (source) into unstable</span>
+        </a>
+        (<span class="news-creator">Nicholas D Steeves</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2019-05-15</span>]
+        <a href="/news/1039862/accepted-emacs-neotree-052-1-source-all-into-unstable-unstable/">
+            <span class="news-title">Accepted emacs-neotree 0.5.2-1 (source all) into unstable, unstable</span>
+        </a>
+        (<span class="news-creator">Nicholas D Steeves</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Dmitry Bogatov</span><span>)</span>
+        
+        
+    </li>
+    
+</ul>
+
+
+
+
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-3 col-xl-2" id="dtracker-package-right">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+bugs
+<a class="m-l-1" href="https://qa.debian.org/data/bts/graphs/e/emacs-neotree.png"><span role="img" aria-label="bug history graph" class="octicon octicon-graph" title="bug history graph"><span class="sr-only">[bug history graph]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="">all:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&amp;src=emacs-neotree">0</a>
+	
+	
+    </li>
+    
+
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        links
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        
+            <a href="https://github.com/jaypei/emacs-neotree" title="upstream web homepage">homepage</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<a href="https://udd.debian.org/lintian/?packages=emacs-neotree" title="report about packaging issues spotted by lintian">lintian</a>
+
+
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            
+<span>buildd: </span><span><a title="buildd.debian.org build logs" href="https://buildd.debian.org/status/package.php?p=emacs-neotree">logs</a></span><span>, </span><span><a title="report about build reproducibility (reproducible)" href="https://tests.reproducible-builds.org/debian/rb-pkg/emacs-neotree.html">reproducibility</a></span>
+
+
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://qa.debian.org/popcon.php?package=emacs-neotree">popcon</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://sources.debian.org/src/emacs-neotree/unstable/">browse source code</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <form class="code-search-form" action="/codesearch/" method="get" target="_blank"><input type="hidden" name="package" value="emacs-neotree"><input type="search" name="query" placeholder="search source code"></form>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://debtags.debian.org/rep/todo/maint/debian-emacsen%40lists.debian.org#emacs-neotree">edit tags</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://repology.org/tools/project-by?name_type=srcname&noautoresolve=on&repo=debian_unstable&target_page=project_packages&name=emacs-neotree" title="provided by Repology">other distros</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://udd.debian.org/patches.cgi?src=emacs-neotree&version=0.5.2-5" title="1 patch in debian/patches">debian patches</a>
+        
+    </li>
+    
+    <li class="list-group-item">
+        
+            <a href="https://ci.debian.net/packages/e/emacs-neotree">debci</a>
+        
+    </li>
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+ubuntu
+<img class="m-l-1" src="/static/img/ubuntu.png" alt="Ubuntu logo" title="Ubuntu logo">
+<a class="pull-xs-right" href="https://wiki.ubuntu.com/Ubuntu/ForDebianDevelopers"><span role="img" aria-label="Information about Ubuntu for Debian Developers" class="octicon octicon-info" title="Information about Ubuntu for Debian Developers"><span class="sr-only">[Information about Ubuntu for Debian Developers]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush"><li class="list-group-item"><span class="list-item-key"><b>version:</b></span>
+	&#32;<a href="https://launchpad.net/ubuntu/+source/emacs-neotree">0.5.2-5</a></li></ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+    </div>
+</div>
+
+
+        <footer id="footer" class="footer">
+            <hr>
+            <div class="container-fluid">
+                <div class="text-xs-center p-b-1">
+                    
+                                        <div id="footer-title"><a href="https://www.debian.org">Debian</a> Package Tracker — <a href="https://deb.li/DTAuthors">Copyright</a> 2013-2025 The Distro Tracker Developers</div>
+                    <div id="footer-bugs">
+			Report problems to the <a href="https://bugs.debian.org/tracker.debian.org">tracker.debian.org pseudo-package</a> in the <a href="https://bugs.debian.org">Debian <acronym title="Bug Tracking System">BTS</acronym></a>.
+		    </div>
+                    <div id="footer-help">
+                        <a href="https://qa.pages.debian.net/distro-tracker/">Documentation</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker/issues">Bugs</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker">Git Repository</a> —
+                        <a href="https://qa.pages.debian.net/distro-tracker/contributing.html">Contributing</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery.cookie.js"></script>
+        <script src="/static/js/tether.min.js"></script>
+        <script src="/static/js/popper.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/typeahead.bundle.min.js"></script>
+        <script src="/static/js/main.js"></script>
+        
+    </body>
+</html>

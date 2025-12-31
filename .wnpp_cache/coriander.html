@@ -1,0 +1,783 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>coriander - Debian Package Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/static/css/octicons.css" rel="stylesheet" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet" media="screen">
+        <link type="application/opensearchdescription+xml" title="Debian Package Tracker Search" rel="search" href="/search.xml"/>
+        
+
+        
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/pkg/coriander/rss">
+
+        
+<link href="/static/css/dense.css" rel="stylesheet" media="screen">
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+
+    </head>
+    <body>
+        
+        <header class="page-header">
+            <div class="container-fluid">
+                
+		<div class="row">
+		<div class="col-xs-12 text-xs-center">
+		    <div class="pull-xs-left">
+<a href="/"><img src="/static/img/logo.png" alt="Debian Package Tracker" title="Visit the main page" ></a>
+</div>
+		    <div class="pull-xs-right">
+		    
+    <div class="m-b-1">
+    <div class="text-xs-left"><form class="form-inline" id="package-search-form" action="/search" method="GET"><div class="form-group"><input type="search" class="form-control form-control-sm package-completion" name="package_name" id='package-search-input' placeholder="Jump to package..."></div><div class="form-group"><button type="submit" class="btn btn-default btn-sm">Go</button></div></form></div>
+
+    </div>
+    
+    <span><a id="account-register" href="/accounts/register/">Register</a></span>
+    <span>|</span>
+    <span><a id="account-login" href="/accounts/login/">Log in</a></span>
+
+
+
+    
+	
+	<div class="btn-group" role="group" style="margin-left: 10px;">
+	  <a href="/accounts/login/?next=/pkg/coriander" id='subscribe-not-logged-in-button' class="btn btn-primary">Subscribe</a>
+	</div>
+    
+
+
+		    </div>
+		    
+    <div>
+    <h1>coriander</h1>
+    
+    </div>
+
+		</div>
+		</div>
+                
+            </div>
+        </header>
+        
+
+	
+
+<div id="choose-email-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3>Choose email to subscribe with</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-default" id="cancel-choose-email" data-dismiss="modal" aria-hidden="true">Cancel</button></div></div></div></div>
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-3" id="dtracker-package-left">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        general
+    </div>
+    <div class="panel-body">
+        
+
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>source:</b></span>
+	
+	<a href="https://packages.debian.org/src:coriander">coriander</a>
+		
+		(<span id="component" title="Repository's component">main</span>)
+		
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>version:</b></span>
+        2.0.2-4
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>maintainer:</b></span>
+	
+	
+	<a href="https://qa.debian.org/developer.php?login=guus%40debian.org">Guus Sliepen</a>
+	
+	
+	    
+	    
+		<small>
+		(<a href="https://udd.debian.org/dmd/?guus%40debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>)
+		</small>
+	    
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>uploaders:</b></span>
+	
+	    
+	    
+	    <a href="https://qa.debian.org/developer.php?login=p2%40debian.org">Peter De Schrijver (p2)</a>
+	    
+	    
+	    
+	    
+		<small>
+		[<a href="https://udd.debian.org/dmd/?p2%40debian.org#todo" title="UDD&#x27;s Debian Maintainer Dashboard">DMD</a>]
+		</small>
+	    
+	    
+	    
+	
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>arch:</b></span>
+        any 
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>std-ver:</b></span>
+        3.9.5
+    </li>
+    
+
+    
+    <li class="list-group-item">
+        <span class="list-item-key"><b>VCS:</b></span>
+	
+	
+	    
+	    unknown
+	    
+	
+	
+	
+    </li>
+    
+</ul>
+
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+<div class="col-xs-12">
+    versions
+    
+    
+    <a class="m-l-1" href="https://qa.debian.org/madison.php?package=coriander">
+        <span role="img" aria-label="more versions can be listed by madison" class="octicon octicon-link-external" title="more versions can be listed by madison"><span class="sr-only">[more versions can be listed by madison]</span></span>
+    </a>
+    
+    <a class="m-l-1" href="https://snapshot.debian.org/package/coriander/">
+        <span role="img" aria-label="old versions available from snapshot.debian.org" class="octicon octicon-link-external" title="old versions available from snapshot.debian.org"><span class="sr-only">[old versions available from snapshot.debian.org]</span></span>
+    </a>
+    
+    
+    
+    <div class="pull-xs-right">
+	
+	<a href="https://deb.debian.org/debian/pool/main/c/coriander"><span role="img" aria-label="pool directory" class="octicon octicon-file-directory" title="pool directory"><span class="sr-only">[pool directory]</span></span></a>
+	
+    </div>
+    
+</div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+
+    
+    <li class="list-group-item">
+	<span class="list-item-key versions-repository" title="Debian 9 (stretch / oldoldstable)">
+	    <b>o-o-stable:</b>
+	</span>
+	
+	<a href="https://packages.debian.org/source/oldoldstable/coriander">2.0.2-4</a>
+	
+    </li>
+    
+
+
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        binaries
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        
+        <a href="https://packages.debian.org/stable/coriander" title="">coriander</a>
+        
+
+        
+    </li>
+    
+    
+</ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-6 col-xl-7" id="dtracker-package-center">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        package is gone
+    </div>
+    <div class="panel-body">
+        
+
+This package is not part of any Debian
+distribution. Thus you won't find much information here. The package is
+either very new and hasn't appeared on mirrors yet, or it's an old package
+that eventually got removed. The old news are kept for historic purpose
+only.
+
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        action needed
+    </div>
+    <div class="panel-body">
+        
+<div class="list-group list-group-flush" id="action-needed-list" role="list">
+    
+    <div class="card list-group-item action-item-debian-wnpp-issue" role="listitem">
+        <details>
+            <summary>
+                <span class="chevron"><span role="button" aria-label="Toggle details"><span role="img" aria-label="Toggle details" class="octicon octicon-chevron-down" title="Toggle details"></span></span></span>
+                
+                <a href="https://bugs.debian.org/963911">O: This package has been orphaned and needs a maintainer.</a>
+                
+                <span class="label label-default pull-xs-right">normal</span>
+                
+            </summary>
+            <div class="card-block">
+                <div><span>The WNPP database contains an O (Orphaned) entry for this
+        package. This is probably an error, as it is neither part of
+        unstable nor experimental.</span><span> Please see bug number <a href="https://bugs.debian.org/963911">#963911</a> for more information.</span></div>
+
+            </div>
+            <div class="small card-footer text-muted">
+                Created: 2020-06-28
+                <span class="pull-xs-right">
+                    Last update: 2020-06-28
+                    20:34
+                </span>
+            </div>
+        </details>
+    </div>
+    
+</div>
+
+    </div>
+</div>
+
+            
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+<div class="row">
+    <div class="col-xs-12">
+	<a href="/pkg/coriander/news/">news</a>
+	<div class="pull-xs-right">
+	    <a href="/pkg/coriander/rss">
+	    <span role="img" aria-label="rss feed" class="octicon octicon-rss" title="rss feed"><span class="sr-only">[rss feed]</span></span>
+	    </a>
+	</div>
+    </div>
+</div>
+
+    </div>
+    <div class="panel-body">
+        
+
+    <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">
+        [<span class="news-date">2018-01-04</span>]
+        <a href="/news/898827/coriander-removed-from-testing/">
+            <span class="news-title">coriander REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2018-01-02</span>]
+        <a href="/news/898436/removed-202-4-from-unstable/">
+            <span class="news-title">Removed 2.0.2-4 from unstable</span>
+        </a>
+        (<span class="news-creator">Debian FTP Masters</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2014-07-29</span>]
+        <a href="/news/560687/coriander-202-4-migrated-to-testing/">
+            <span class="news-title">coriander 2.0.2-4 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Britney</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2014-07-23</span>]
+        <a href="/news/559752/accepted-coriander-202-4-source-amd64/">
+            <span class="news-title">Accepted coriander 2.0.2-4 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Guus Sliepen</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2014-07-15</span>]
+        <a href="/news/558296/coriander-removed-from-testing/">
+            <span class="news-title">coriander REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Britney</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2013-11-07</span>]
+        <a href="/news/154251/coriander-202-3-migrated-to-testing/">
+            <span class="news-title">coriander 2.0.2-3 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2013-10-27</span>]
+        <a href="/news/154250/accepted-coriander-202-3-source-amd64/">
+            <span class="news-title">Accepted coriander 2.0.2-3 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Guus Sliepen</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2013-05-16</span>]
+        <a href="/news/154249/coriander-202-2-migrated-to-testing/">
+            <span class="news-title">coriander 2.0.2-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2013-05-05</span>]
+        <a href="/news/154248/accepted-coriander-202-2-source-amd64/">
+            <span class="news-title">Accepted coriander 2.0.2-2 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Guus Sliepen</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2013-05-05</span>]
+        <a href="/news/154247/accepted-coriander-202-1-source-amd64/">
+            <span class="news-title">Accepted coriander 2.0.2-1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Guus Sliepen</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2010-07-09</span>]
+        <a href="/news/154246/coriander-201-1-migrated-to-testing/">
+            <span class="news-title">coriander 2.0.1-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2010-06-28</span>]
+        <a href="/news/154245/accepted-coriander-201-1-source-amd64/">
+            <span class="news-title">Accepted coriander 2.0.1-1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Guus Sliepen</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2010-02-05</span>]
+        <a href="/news/154244/coriander-200-4-migrated-to-testing/">
+            <span class="news-title">coriander 2.0.0-4 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2010-01-24</span>]
+        <a href="/news/154243/accepted-coriander-200-4-source-amd64/">
+            <span class="news-title">Accepted coriander 2.0.0-4 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Guus Sliepen</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2009-03-30</span>]
+        <a href="/news/154242/coriander-200-2-migrated-to-testing/">
+            <span class="news-title">coriander 2.0.0-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2009-02-17</span>]
+        <a href="/news/154241/accepted-coriander-200-2-source-amd64/">
+            <span class="news-title">Accepted coriander 2.0.0-2 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Guus Sliepen</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2008-07-14</span>]
+        <a href="/news/154240/coriander-200-1-migrated-to-testing/">
+            <span class="news-title">coriander 2.0.0-1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2008-07-02</span>]
+        <a href="/news/154239/accepted-coriander-200-1-source-amd64/">
+            <span class="news-title">Accepted coriander 2.0.0-1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Guus Sliepen</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2008-04-11</span>]
+        <a href="/news/154238/coriander-200rc6-2-migrated-to-testing/">
+            <span class="news-title">coriander 2.0.0~rc6-2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2008-02-12</span>]
+        <a href="/news/154237/accepted-coriander-200rc6-2-source-amd64/">
+            <span class="news-title">Accepted coriander 2.0.0~rc6-2 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Guus Sliepen</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2008-02-05</span>]
+        <a href="/news/154236/accepted-coriander-200rc6-1-source-amd64/">
+            <span class="news-title">Accepted coriander 2.0.0~rc6-1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Guus Sliepen</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2008-01-27</span>]
+        <a href="/news/154235/coriander-removed-from-testing/">
+            <span class="news-title">coriander REMOVED from testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2007-08-07</span>]
+        <a href="/news/154234/coriander-101-32-migrated-to-testing/">
+            <span class="news-title">coriander 1.0.1-3.2 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2007-07-31</span>]
+        <a href="/news/154233/accepted-coriander-101-32-source-amd64/">
+            <span class="news-title">Accepted coriander 1.0.1-3.2 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Clint Adams</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2007-06-14</span>]
+        <a href="/news/154232/accepted-coriander-200rc5-01-source-amd64/">
+            <span class="news-title">Accepted coriander 2.0.0~rc5-0.1 (source amd64)</span>
+        </a>
+        (<span class="news-creator">Guus Sliepen</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-10-25</span>]
+        <a href="/news/154231/coriander-101-31-migrated-to-testing/">
+            <span class="news-title">coriander 1.0.1-3.1 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-08-19</span>]
+        <a href="/news/154230/accepted-coriander-101-31-source-i386/">
+            <span class="news-title">Accepted coriander 1.0.1-3.1 (source i386)</span>
+        </a>
+        (<span class="news-creator">Eric Dorland</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-02-25</span>]
+        <a href="/news/154229/coriander-101-3-migrated-to-testing/">
+            <span class="news-title">coriander 1.0.1-3 MIGRATED to testing</span>
+        </a>
+        (<span class="news-creator">Debian testing watch</span>)
+        
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2006-02-13</span>]
+        <a href="/news/154228/accepted-coriander-101-3-source-powerpc/">
+            <span class="news-title">Accepted coriander 1.0.1-3 (source powerpc)</span>
+        </a>
+        (<span class="news-creator">Peter De Schrijver (p2)</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Peter De Schrijver</span><span>)</span>
+        
+        
+    </li>
+    
+    <li class="list-group-item">
+        [<span class="news-date">2005-04-01</span>]
+        <a href="/news/154227/accepted-coriander-101-2-mips-source/">
+            <span class="news-title">Accepted coriander 1.0.1-2 (mips source)</span>
+        </a>
+        (<span class="news-creator">Peter De Schrijver (p2)</span>)
+        
+        
+        <span>(signed by: </span><span class="news-signer">Peter De Schrijver</span><span>)</span>
+        
+        
+    </li>
+    
+</ul>
+
+
+
+
+<div class="text-xs-center" style="margin-bottom: -1rem">
+    <ul class="pagination m-b-0">
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/coriander/news/">1</a>
+	</li>
+	<li class="page-item">
+	    <a class="page-link" href="/pkg/coriander/news/?page=2">2</a>
+	</li>
+    </ul>
+</div>
+
+
+    </div>
+</div>
+
+            
+            
+        </div>
+        <div class="col-md-3 col-xl-2" id="dtracker-package-right">
+            
+            
+                <div class="panel" role="complementary">
+    <div class="panel-heading" role="heading">
+        
+bugs
+<a class="m-l-1" href="https://qa.debian.org/data/bts/graphs/c/coriander.png"><span role="img" aria-label="bug history graph" class="octicon octicon-graph" title="bug history graph"><span class="sr-only">[bug history graph]</span></span></a>
+
+    </div>
+    <div class="panel-body">
+        
+<ul class="list-group list-group-flush">
+    
+    
+    <li class="list-group-item">
+        <span class="list-item-key">
+            
+            <b><span title="">all:</span></b>
+            
+        </span>
+        <a class="label label-primary label-pill pull-xs-right m-l-1"
+	title="Number of bugs" href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&amp;src=coriander">0</a>
+	
+	
+    </li>
+    
+
+</ul>
+
+    </div>
+</div>
+
+            
+            
+        </div>
+    </div>
+</div>
+
+
+        <footer id="footer" class="footer">
+            <hr>
+            <div class="container-fluid">
+                <div class="text-xs-center p-b-1">
+                    
+                                        <div id="footer-title"><a href="https://www.debian.org">Debian</a> Package Tracker — <a href="https://deb.li/DTAuthors">Copyright</a> 2013-2025 The Distro Tracker Developers</div>
+                    <div id="footer-bugs">
+			Report problems to the <a href="https://bugs.debian.org/tracker.debian.org">tracker.debian.org pseudo-package</a> in the <a href="https://bugs.debian.org">Debian <acronym title="Bug Tracking System">BTS</acronym></a>.
+		    </div>
+                    <div id="footer-help">
+                        <a href="https://qa.pages.debian.net/distro-tracker/">Documentation</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker/issues">Bugs</a> —
+                        <a href="https://salsa.debian.org/qa/distro-tracker">Git Repository</a> —
+                        <a href="https://qa.pages.debian.net/distro-tracker/contributing.html">Contributing</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery.cookie.js"></script>
+        <script src="/static/js/tether.min.js"></script>
+        <script src="/static/js/popper.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/typeahead.bundle.min.js"></script>
+        <script src="/static/js/main.js"></script>
+        
+    </body>
+</html>

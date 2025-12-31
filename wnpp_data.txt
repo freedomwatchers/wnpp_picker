@@ -1,0 +1,1126 @@
+2vcard|perl script to convert an addressbook to|https://salsa.debian.org/debian/2vcard.git|main perl
+4g8|Packet Capture and Interception for Switched Networks|https://salsa.debian.org/debian/4g8.git|main
+6tunnel|TCP proxy for non-IPv6 applications|https://salsa.debian.org/debian/6tunnel.git|main
+9base|Plan 9 userland tools|https://salsa.debian.org/debian/9base.git|main
+a2ps|GNU a2ps - 'Anything to PostScript' converter and pretty-printer|https://salsa.debian.org/debian/a2ps.git|main
+abicheck|binary compatibility checking tool|https://salsa.debian.org/debian/abicheck.git|main
+abntex|LaTeX class for writing documents in ABNT standard|https://salsa.debian.org/debian/abntex.git|main
+abr2gbr|Converts PhotoShop brushes to GIMP|https://salsa.debian.org/debian/abr2gbr.git|main
+acheck-rules|Basic rules for acheck|https://salsa.debian.org/debian/acheck-rules.git|main
+achilles|An artificial life and evolution simulator|https://salsa.debian.org/debian/achilles.git|main
+acorn-fdisk|Partition editor for Acorn/RISC OS machines|https://salsa.debian.org/debian/acorn-fdisk.git|main
+adlibtracker2|userfriendly tracker aimed for the OPL3 FM-chip|https://salsa.debian.org/debian/adlibtracker2.git|main
+adplay|console-based OPL2 audio player|https://salsa.debian.org/debian/adplay.git|cli main
+adv-17v35x|dkms driver sources for Advantech PCI/PCIe ACOM Series adapters|https://salsa.debian.org/debian/adv-17v35x.git|main sys
+aft|&quot;free form&quot; document preparation system|https://salsa.debian.org/debian/aft.git|main sys
+aggressive-indent-mode|Emacs minor mode that reindents code after every change||
+aj-snapshot|make snapshots of JACK connections|https://salsa.debian.org/debian/aj-snapshot.git|main
+album-data|themes, plugins and translations for album|https://salsa.debian.org/debian/album-data.git|non-free
+ale|synthetic capture engine and renderer|https://salsa.debian.org/debian/ale.git|main
+altermime|utility used to alter mime-encoded mailpacks|https://salsa.debian.org/debian/altermime.git|cli main
+amavisd-milter|amavisd-new interface for milter-capable MTAs|https://salsa.debian.org/debian/amavisd-milter.git|main
+amispammer|Powerful Mail Server checker on blacklists|https://salsa.debian.org/debian/amispammer.git|main net
+ample|simple MP3 server easy to use|https://salsa.debian.org/debian/ample.git|main net
+apache-mode-el|Emacs major mode for editing Apache configuration files|https://salsa.debian.org/emacsen-team/apache-mode-el.git|main
+apparix|console-based bookmark tool for fast|https://salsa.debian.org/debian/apparix.git|cli main
+apsfilter|Magic print filter with automatic file type recognition|https://salsa.debian.org/debian/apsfilter.git|main
+apt-move|Maintain Debian packages in a package|https://salsa.debian.org/debian/apt-move.git|main
+apt-venv|apt virtual environment|https://salsa.debian.org/debian/apt-venv.git|main
+apwal|icon-based floating application launcher with transparency||main
+aqemu|Qt5 front-end for QEMU and KVM|https://salsa.debian.org/debian/aqemu.git|main
+argagg|Argument Aggregator - Simple C++11 command line argument parser|https://salsa.debian.org/debian/argagg.git|cli main
+arpack++|Object-oriented version of the ARPACK package|https://salsa.debian.org/science-team/arpackcpp.git|main
+ascdc|AfterStep CD changer|https://salsa.debian.org/debian/ascdc.git|main
+asmail|AfterStep mail monitor|https://salsa.debian.org/debian/asmail.git|main
+asmixer|AfterStep audio mixer|https://salsa.debian.org/debian/asmixer.git|main
+aspell-br|Breton dictionary for GNU Aspell|https://salsa.debian.org/debian/aspell-br.git|main
+aspell-cy|Welsh dictionary for GNU Aspell|https://salsa.debian.org/debian/aspell-cy.git|main
+aspell-el|Greek dictionary for GNU Aspell|https://salsa.debian.org/debian/aspell-el.git|main
+aspell-ga|Irish (Gaeilge) dictionary for GNU Aspell|https://salsa.debian.org/debian/aspell-ga.git|main
+aspell-hr|The Croatian dictionary for GNU Aspell|https://salsa.debian.org/debian/aspell-hr.git|main
+aspell-hu|Hungarian dictionary for aspell|https://salsa.debian.org/debian/aspell-hu.git|main
+aspell-is|Icelandic dictionary for GNU Aspell|https://salsa.debian.org/debian/aspell-is.git|main
+aspell-it|Italian dictionary for GNU Aspell|https://salsa.debian.org/debian/aspell-it.git|main
+aspell-kk|Kazakh dictionary for GNU Aspell|https://salsa.debian.org/debian/aspell-kk.git|main
+aspell-uz|The Uzbek dictionary for GNU Aspell|https://salsa.debian.org/debian/aspell-uz.git|main
+aspic|Line art generator|https://salsa.debian.org/debian/aspic.git|main
+asterisk-prompt-es-co|Colombian Spanish voice prompts for Asterisk|https://salsa.debian.org/debian/asterisk-prompt-es-co.git|main
+auto-dictionary-mode|automatic dictionary switcher for Emacs spell checking|https://salsa.debian.org/emacsen-team/auto-dictionary-mode.git|main
+autobahn-cpp|WAMP in C++ for Boost/Asio|https://salsa.debian.org/debian/autobahn-cpp.git|cpp main
+autoclass|automatic classification or clustering|https://salsa.debian.org/debian/autoclass.git|main
+autodia|generates UML diagrams from perl or C++ code|https://salsa.debian.org/debian/autodia.git|cpp main perl
+autofdo|AutoFDO Profile Toolchain|https://salsa.debian.org/debian/autofdo.git|main
+autoproject|create a skeleton source package for a new program|https://salsa.debian.org/debian/autoproject.git|main
+autopsy|graphical interface to SleuthKit|https://salsa.debian.org/debian/autopsy.git|main
+avr-evtd|AVR watchdog daemon for Linkstation/Kuroboxes|https://salsa.debian.org/debian/avr-evtd.git|main
+awardeco|Decompress flashfiles equipped with an AWARD BIOS|https://salsa.debian.org/debian/awardeco.git|main
+awffull|web server log analysis program|https://salsa.debian.org/debian/awffull.git|main net
+b43-fwcutter|utility for extracting Broadcom 43xx|https://salsa.debian.org/debian/b43-fwcutter.git|cli contrib
+bandwidthd|Tracks usage of TCP/IP and builds html files with graphs|https://salsa.debian.org/debian/bandwidthd.git|main
+bbe|sed-like editor for binary files|https://salsa.debian.org/debian/bbe.git|main
+bbmail|Mail notifier for Blackbox/Fluxbox|https://salsa.debian.org/debian/bbmail.git|main
+bbtime|Time tool for the blackbox/fluxbox window managers|https://salsa.debian.org/debian/bbtime.git|main
+bear|generate compilation database for Clang tooling|https://salsa.debian.org/sramacher/bear.git|main
+bglibs|This package contains a collection of libraries|https://salsa.debian.org/debian/bglibs.git|main
+biabam|bash attachment mailer|https://salsa.debian.org/debian/biabam.git|main
+binclock|binary clock for console with color support|https://salsa.debian.org/debian/binclock.git|cli main
+binfmtc|Execute C program as script|https://salsa.debian.org/debian/binfmtc.git|main
+bino|3D video player|https://salsa.debian.org/debian/bino.git|main
+bitlbee|IRC to other chat networks gateway (default version)|https://salsa.debian.org/debian/bitlbee.git|main
+blackbox-themes|Themes for the Blackbox Windowmanager|https://salsa.debian.org/debian/blackbox-themes.git|main
+blackbox|Window manager for X|https://salsa.debian.org/debian/blackbox.git|main
+blobandconquer|3D platform shooting game|https://salsa.debian.org/games-team/blobandconquer.git|main
+blop|Bandlimited wavetable-based oscillator LADSPA plugins|https://salsa.debian.org/debian/blop.git|main
+bluemon|Activate or deactivate programs based on Bluetooth link quality|https://salsa.debian.org/debian/bluemon.git|main
+bmf|e-mail filter for spam that learns|https://salsa.debian.org/debian/bmf.git|main
+bookworm|Simple, focused eBook Reader|https://salsa.debian.org/debian/bookworm.git|main
+brag|Downloads and assembles multipart Usenet binaries|https://salsa.debian.org/debian/brag.git|main
+btyacc|Backtracking parser generator based on byacc|https://salsa.debian.org/debian/btyacc.git|main
+bucklespring|Nostalgia bucklespring keyboard sound |https://salsa.debian.org/debian/bucklespring.git|main
+buddy|Binary Decision Diagram library|https://salsa.debian.org/science-team/buddy.git|lib main
+buildtorrent|command line torrent creation program|https://salsa.debian.org/debian/buildtorrent.git|cli main
+bwbar|generates text and graphical readout of current bandwidth use|https://salsa.debian.org/debian/bwbar.git|main
+bwbasic|Bywater BASIC Interpreter|https://salsa.debian.org/debian/bwbasic.git|main
+c-icap-modules|Antivirus Service for c-icap|https://salsa.debian.org/debian/c-icap-modules.git|main
+c-icap|ICAP server implementation|https://salsa.debian.org/debian/c-icap.git|main net
+cadabra2|field-theory motivated computer algebra system|https://salsa.debian.org/debian/cadabra2.git|main sys
+cairocffi|cffi-based cairo bindings for Python|https://salsa.debian.org/python-team/packages/cairocffi.git|main python python-team
+cal3d|Skeletal based 3d character animation library - API documentation|https://salsa.debian.org/debian/cal3d.git|lib main
+calife|provides super user privileges to specific users|https://salsa.debian.org/debian/calife.git|main
+canna-shion|supporting dictionaries for Canna|https://salsa.debian.org/debian/canna-shion.git|main
+canna|Japanese input system (server and dictionary)|https://salsa.debian.org/debian/canna.git|main net sys
+catdvi|DVI to plain text translator|https://salsa.debian.org/debian/catdvi.git|main
+cciss-vol-status|HP SmartArray RAID Volume Status Checker|https://salsa.debian.org/debian/cciss-vol-status.git|main
+cd-circleprint|prints round cd-labels|https://salsa.debian.org/debian/cd-circleprint.git|main
+cd-discid|CDDB DiscID utility|https://salsa.debian.org/multimedia-team/cd-discid.git|cli main
+cdbackup|CD-R(W) backup utility|https://salsa.debian.org/debian/cdbackup.git|cli main
+cdbs|common build system for Debian packages|https://salsa.debian.org/debian/cdbs.git|main sys
+cdecl|Turn English phrases to C or C++ declarations|https://salsa.debian.org/debian/cdecl.git|cpp main
+cdist|Usable Configuration Management System|https://salsa.debian.org/debian/cdist.git|main sys
+ceni|Curses interface to /etc/network/interfaces|https://salsa.debian.org/debian/ceni.git|main net
+ceph-iscsi|common logic and CLI tools for creating and managing LIO gateways for Ceph|https://salsa.debian.org/debian/ceph-iscsi.git|cli main
+cfi|Copyright does not exist, book about hacker culture|https://salsa.debian.org/debian/cfi.git|main
+cfingerd|configurable finger daemon|https://salsa.debian.org/debian/cfingerd.git|main
+cfourcc|command line tool for changing FourCC in Microsoft RIFF AVI files|https://salsa.debian.org/debian/cfourcc.git|cli main
+cgvg|command-line source browsing tool|https://salsa.debian.org/debian/cgvg.git|cli main
+changetrack|automatic log book, recording what files were changed|https://salsa.debian.org/debian/changetrack.git|main
+checkpw|checks password which is stored in ~/Maildir/.password|https://salsa.debian.org/debian/checkpw.git|main
+citadel-client|complete and feature-rich groupware server (command line client)|https://salsa.debian.org/debian/citadel-client.git|cli main net
+cl-xlunit|Common Lisp eXtreme Lisp Unit Testing Package|https://salsa.debian.org/debian/cl-xlunit.git|main
+cl-xptest|Extreme programming test suite for Common Lisp package|https://salsa.debian.org/debian/cl-xptest.git|main
+clamassassin|email virus filter wrapper for ClamAV|https://salsa.debian.org/debian/clamassassin.git|main
+cldump|Clarion database files extractor|https://salsa.debian.org/debian/cldump.git|main
+clearsilver|fast, powerful, and language-neutral HTML template system|https://salsa.debian.org/debian/clearsilver.git|main sys
+clex|command line file manager which uses the ncurses library|https://salsa.debian.org/debian/clex.git|cli lib main
+cli-common|common files between all CLI packages|https://salsa.debian.org/dotnet-team/cli-common.git|cli main
+closure-compiler|JavaScript optimizing compiler|https://salsa.debian.org/java-team/closure-compiler.git|javascript main
+cmph|C Minimal Perfect Hashing Library development files|https://salsa.debian.org/debian/cmph.git|lib main
+cntlm|Fast NTLM authentication proxy with tunneling|https://salsa.debian.org/debian/cntlm.git|main
+coco-cpp|Coco/R Compiler Generator (C++ Version)|https://salsa.debian.org/debian/coco-cpp.git|cpp main
+coco-doc|Documentation for the Coco/R Compiler Generator|https://salsa.debian.org/debian/coco-doc.git|main
+coco-java|Coco/R Compiler Generator (Java Version)|https://salsa.debian.org/debian/coco-java.git|java main
+code2html|Syntax highlighter|https://salsa.debian.org/debian/code2html.git|main
+codelite|Powerful and lightweight IDE|https://salsa.debian.org/debian/codelite.git|main
+codfis|tool to generate Italian fiscal codes (codice fiscale)|https://salsa.debian.org/debian/codfis.git|main
+coinor-dylp|Linear programming solver using the dynamic simplex algorithm|https://salsa.debian.org/debian/coinor-dylp.git|main
+coinor-vol|Coin-or linear programming solver|https://salsa.debian.org/debian/coinor-vol.git|main
+colplot|Utility to plot performance data from collectl|https://salsa.debian.org/debian/colplot.git|cli main
+comgt|Option GlobeTrotter and Vodafone datacard control tool|https://salsa.debian.org/debian/comgt.git|main
+compton|compositor for X11, based on xcompmgr|https://salsa.debian.org/debian/compton.git|gui main
+configure-debian|central configuration program for packages using debconf|https://salsa.debian.org/debian/configure-debian.git|main
+conmux|console multiplexor|https://salsa.debian.org/debian/conmux.git|cli main
+convertall|very flexible unit converter|https://salsa.debian.org/qt-kde-team/extras/convertall.git|main
+convlit|convert Microsoft Reader .LIT files to HTML|https://salsa.debian.org/debian/convlit.git|main
+coolmail|Mail notifier with 3d graphics|https://salsa.debian.org/debian/coolmail.git|main
+coriander|control IEEE1394 digital camera||main
+corrosion|Tool for integrating rust with an existing CMake project|https://salsa.debian.org/debian/corrosion.git|main rust
+couriergraph|Mail statistics RRDtool frontend for Courier-{POP,IMAP}|https://salsa.debian.org/debian/couriergraph.git|main
+cpu|console based LDAP user management tool|https://salsa.debian.org/debian/cpu.git|cli main
+crafty-bitmaps|bitmap images for crafty chess game annotation mode|https://salsa.debian.org/debian/crafty-bitmaps.git|contrib
+crafty-books-medium|Medium size opening books for the crafty chess engine|https://salsa.debian.org/debian/crafty-books-medium.git|contrib
+crafty-books-medtosmall|Medium-to-small size opening books for crafty chess engine|https://salsa.debian.org/debian/crafty-books-medtosmall.git|contrib
+crafty-books-small|Small-size opening books for crafty chess engine|https://salsa.debian.org/debian/crafty-books-small.git|contrib
+crash|kernel debugging utility, allowing gdb like syntax|https://salsa.debian.org/debian/crash.git|cli main sys
+crashmail|JAM and *.MSG capable Fidonet tosser|https://salsa.debian.org/debian/crashmail.git|main
+crashme|tool to test kernel stability|https://salsa.debian.org/debian/crashme.git|main sys
+cricket|Program for collection and display of time-series data|https://salsa.debian.org/debian/cricket.git|main
+crip|terminal-based ripper/encoder/tagger tool|https://salsa.debian.org/debian/crip.git|cli main
+cronolog|Logfile rotator for web servers|https://salsa.debian.org/debian/cronolog.git|main
+crossguid|C++ UUID library|https://salsa.debian.org/debian/crossguid.git|cpp lib main
+crystalcursors|X11 mouse theme with the crystal look&amp;feel||gui main
+csaps|Cubic spline approximation (smoothing)||main
+csstidy|CSS parser and optimiser|https://salsa.debian.org/debian/csstidy.git|main
+ctioga2|polymorphic plotting program|https://salsa.debian.org/ruby-team/ctioga2.git|main ruby-team
+ctorrent|BitTorrent Client written in C++|https://salsa.debian.org/debian/ctorrent.git|cpp main net
+ctwm|Claude's Tab window manager|https://salsa.debian.org/debian/ctwm.git|main
+cuneiform|multi-language OCR system|https://salsa.debian.org/debian/cuneiform.git|non-free sys
+cutils|C source code utilities|https://salsa.debian.org/debian/cutils.git|main
+cvm|Credential Validation Modules|https://salsa.debian.org/debian/cvm.git|main
+cvs-mailcommit|Send CVS commitments via mail|https://salsa.debian.org/debian/cvs-mailcommit.git|main
+cvsdelta|Summarize differences in a CVS repository|https://salsa.debian.org/debian/cvsdelta.git|main
+cvsps|Tool to generate CVS patch set information|https://salsa.debian.org/debian/cvsps.git|main
+cvsutils|CVS utilities for use in working directories|https://salsa.debian.org/debian/cvsutils.git|main
+cyclades-serial-client|Network Serial port client software for Cyclades terminal servers|https://salsa.debian.org/debian/cyclades-serial-client.git|cli main net
+d-itg|Distributed Internet Traffic Generator|https://salsa.debian.org/debian/d-itg.git|main
+d52|Disassembler for 8052, 8048/8041, and Z80/8080/8085 code|https://salsa.debian.org/debian/d52.git|main
+dablin|CLI and GTK+ GUI DAB &amp; DAB+ receiver client|https://salsa.debian.org/debian/dablin.git|cli gui main net
+dact|multi-algorithm compression|https://salsa.debian.org/debian/dact.git|main
+dadadodo|Exterminates all rational thought|https://salsa.debian.org/debian/dadadodo.git|main
+dav-text|minimalist ncurses-based text editor|https://salsa.debian.org/debian/dav-text.git|main
+dawgdic|C++ library for DAWG dictionaries|https://salsa.debian.org/debian/dawgdic.git|cpp lib main
+db-defaults|Default Berkeley Database Libraries|https://salsa.debian.org/debian/db-defaults.git|main
+db5.3|Berkeley v5.3 Database|https://salsa.debian.org/debian/db5.3.git|main
+dbar|general purpose ASCII graphic percentage meter/progressbar|https://salsa.debian.org/debian/dbar.git|main
+dblatex|Produces DVI, PostScript, PDF documents from DocBook sources|https://salsa.debian.org/debian/dblatex.git|main
+dbtoepub|DocBook XML to .epub converter|https://salsa.debian.org/debian/dbtoepub.git|main
+dbus-c++|C++ API for D-Bus (documentation)|https://salsa.debian.org/debian/dbus-cplusplus.git|cpp main
+ddate|convert Gregorian dates to Discordian dates|https://salsa.debian.org/debian/ddate.git|main
+ddcci-driver-linux|DDC/CI driver|https://salsa.debian.org/debian/ddcci-driver-linux.git|main sys
+ddd|Data Display Debugger, a graphical debugger frontend|https://salsa.debian.org/debian/ddd.git|main
+dds2tar|Tools for using DDS features of DAT drives with GNU tar|https://salsa.debian.org/debian/dds2tar.git|main
+ddtc|Deal with ddts mails|https://salsa.debian.org/debian/ddtc.git|main
+debian-installer-launcher|Debian Installer desktop launcher|https://salsa.debian.org/installer-team/debian-installer-launcher.git|main
+delta|heuristic minimizer of interesting files|https://salsa.debian.org/debian/delta.git|main
+devilspie2|Lua-based window matching utility|https://salsa.debian.org/debian/devilspie2.git|cli main
+devilspie|find windows and perform actions on them|https://salsa.debian.org/debian/devilspie.git|main
+devio|correctly read (or write) a region of a block device|https://salsa.debian.org/debian/devio.git|main
+dfu-programmer|device firmware update (DFU) based USB programmer for Atmel chips|https://salsa.debian.org/debian/dfu-programmer.git|main
+dh-linktree|Create symlink trees within a Debian package|https://salsa.debian.org/debian/dh-linktree.git|main
+dhelp|Read all documentation with a WWW browser.|https://salsa.debian.org/debian/dhelp.git|main
+dicelab|tool to compute the statistical distribution of dice rolls|https://salsa.debian.org/debian/dicelab.git|main
+dict-jargon|dict package for The Jargon Lexicon|https://salsa.debian.org/debian/dict-jargon.git|main
+diffmon|Tool for reporting changes in system configuration|https://salsa.debian.org/debian/diffmon.git|main sys
+disc-cover|produces covers for audio CDs|https://salsa.debian.org/debian/disc-cover.git|main
+display-dhammapada|fortune-like collection of Buddhist sayings|https://salsa.debian.org/debian/display-dhammapada.git|main
+distorm3|powerful disassembler library for x86/AMD64 binary streams|https://salsa.debian.org/debian/distorm3.git|lib main
+ditaa|convert ASCII diagrams into proper bitmap graphics|https://salsa.debian.org/java-team/ditaa.git|main
+dj-static|Serve production static files with Django (Python 3)|https://salsa.debian.org/debian/dj-static.git|main python
+django-impersonate|Django module for superusers to impersonate accounts|https://salsa.debian.org/debian/django-impersonate.git|main
+django-notification|user notification management for Django|https://salsa.debian.org/python-team/packages/django-notification.git|main python-team
+django-organizations|Django groups and multi-user account management module|https://salsa.debian.org/debian/django-organizations.git|main
+djvubind|simple creation of djvu files|https://salsa.debian.org/debian/djvubind.git|main
+dmaths|Formula editing plug-in for LibreOffice Writer|https://salsa.debian.org/debian/dmaths.git|main
+dmitry|Deepmagic Information Gathering Tool|https://salsa.debian.org/debian/dmitry.git|main
+dmucs|distributed compilation system for use with distcc|https://salsa.debian.org/debian/dmucs.git|main sys
+docbook-defguide|DocBook: The Definitive Guide|https://salsa.debian.org/debian/docbook-defguide.git|main
+docbook-dsssl-doc|documentation for the DocBook DSSSL stylesheets|https://salsa.debian.org/debian/docbook-dsssl-doc.git|main
+docbook-ebnf|EBNF module for the XML version of the DocBook DTD|https://salsa.debian.org/debian/docbook-ebnf.git|main
+docbook-website|XML Website DTD and XSL Stylesheets|https://salsa.debian.org/debian/docbook-website.git|main
+docbook-xml|standard XML documentation system|https://salsa.debian.org/debian/docbook-xml.git|main sys
+docbook-xsl-doc|stylesheets for processing DocBook XML files|https://salsa.debian.org/debian/docbook-xsl-doc.git|main
+docbook-xsl-saxon|Java extensions for use with DocBook XML stylesheets (Saxon)|https://salsa.debian.org/debian/docbook-xsl-saxon.git|java main
+docbook-xsl|stylesheets for processing DocBook XML|https://salsa.debian.org/debian/docbook-xsl.git|main
+docbook5-xml|standard XML documentation system for software and systems|https://salsa.debian.org/debian/docbook5-xml.git|main sys
+docbook|standard SGML representation system for technical documents|https://salsa.debian.org/debian/docbook.git|main sys
+docdiff|Compares two files word by word / char by char|https://salsa.debian.org/debian/docdiff.git|main
+doclifter|Convert troff to DocBook|https://salsa.debian.org/debian/doclifter.git|main
+doodle|Desktop Search Engine|https://salsa.debian.org/debian/doodle.git|main
+doschk|SYSV and DOS filename conflicts check|https://salsa.debian.org/debian/doschk.git|main
+dot-forward|reads sendmail's .forward files under qmail|https://salsa.debian.org/debian/dot-forward.git|main
+dpkg-cross|tools for cross compiling Debian packages|https://salsa.debian.org/debian/dpkg-cross.git|main
+dropwatch|tool for detecting and diagnosing dropped network packets|https://salsa.debian.org/debian/dropwatch.git|main net
+dsdp|Software for Semidefinite Programming|https://salsa.debian.org/debian/dsdp.git|main
+dsfmt|dSFMT pseudorandom number generator|https://salsa.debian.org/julia-team/dsfmt.git|main
+dt-utils|Device tree and barebox related tools|https://salsa.debian.org/debian/dt-utils.git|main
+dtmf2num|tool for decoding the DTMF and MF tones from PCM wave files|https://salsa.debian.org/debian/dtmf2num.git|main
+dvbackup|backup tool using MiniDV camcorders|https://salsa.debian.org/debian/dvbackup.git|main
+dvbtune|Simple tuning application for DVB cards|https://salsa.debian.org/debian/dvbtune.git|main
+dvi2dvi|Tweak DVI files|https://salsa.debian.org/debian/dvi2dvi.git|main
+dvtm|Tiling window management for the console|https://salsa.debian.org/debian/dvtm.git|cli main
+e2ps|Convert plain text into PostScript|https://salsa.debian.org/debian/e2ps.git|main
+e2wm|simple window manager for emacs|https://salsa.debian.org/emacsen-team/e2wm.git|main
+eancheck|Check digit validator for EAN/PLU/UPC barcode numbers|https://salsa.debian.org/debian/eancheck.git|main
+easygit|git for mere mortals|https://salsa.debian.org/debian/easygit.git|main
+easyh10|Utility to manage the iRiver H10 music player|https://salsa.debian.org/debian/easyh10.git|cli main
+easyssh|Complete, efficient and easy-to-use SSH manager|https://salsa.debian.org/debian/easyssh.git|main
+eboard|GTK+ chessboard program|https://salsa.debian.org/debian/eboard.git|gui main
+eeshow|Schematics renderer and viewer for KiCad|https://salsa.debian.org/electronics-team/KiCad/eeshow.git|main
+efax|programs to send and receive fax messages|https://salsa.debian.org/debian/efax.git|main
+efte|Advanced lightweight configurable editor|https://salsa.debian.org/debian/efte.git|main
+eigenbase-farrago|Java framework for constructing RDBMS services|https://salsa.debian.org/java-team/eigenbase-farrago.git|java main
+ekeyd|Simtec Electronics UDEKEY01 Entropy Key Daemon|https://salsa.debian.org/debian/ekeyd.git|main
+eldav|interface to the WebDAV servers for Emacs.|https://salsa.debian.org/debian/eldav.git|main
+elementary-icon-theme|Original set of vector icons for elementary OS|https://salsa.debian.org/debian/elementary-icon-theme.git|main
+elfrc|convert arbitrary files into elf objects|https://salsa.debian.org/debian/elfrc.git|main
+elk|scheme interpreter|https://salsa.debian.org/debian/elk.git|main
+elm-mode|major Emacs mode for editing Elm source code|https://salsa.debian.org/emacsen-team/elm-mode.git|main
+elvis-tiny|Tiny vi compatible editor for the base system|https://salsa.debian.org/debian/elvis-tiny.git|main sys
+emacs-lsp-haskell|Haskell support for lsp-mode|https://salsa.debian.org/emacsen-team/emacs-lsp-haskell.git|main
+emacs-neotree|directory tree sidebar for Emacs that is like NERDTree for Vim|https://salsa.debian.org/emacsen-team/emacs-neotree.git|main
+emacs-noflet|Emacs Lisp noflet macro for dynamic, local advice|https://salsa.debian.org/emacsen-team/emacs-noflet.git|main
+emacs-openwith|seamlessly open files in external programs with Emacs|https://salsa.debian.org/emacsen-team/emacs-openwith.git|main
+emacs-pod-mode|Emacs major mode for editing .pod files|https://salsa.debian.org/emacsen-team/emacs-pod-mode.git|main
+emacs-window-layout|window layout manager for emacs|https://salsa.debian.org/emacsen-team/emacs-window-layout.git|main
+emelfm2-svg-icons|icon SVG files from emelfm2 project|https://salsa.debian.org/debian/emelfm2-svg-icons.git|main
+enscribe|convert images into sounds|https://salsa.debian.org/debian/enscribe.git|main
+envstore|save and restore environment variables|https://salsa.debian.org/debian/envstore.git|main
+eoconv|convert text files between various Esperanto encodings|https://salsa.debian.org/debian/eoconv.git|main
+epl|Emacs Package Library|https://salsa.debian.org/emacsen-team/epl.git|lib main
+epm|Cross-platform package builder by Easy Software Products|https://git.dgit.debian.org/epm.git|main
+esekeyd|multimedia keyboard daemon for Linux|https://salsa.debian.org/debian/esekeyd.git|main
+esix|PDP-8 Engineering and Scientific Interpreter eXtended|https://salsa.debian.org/debian/esix.git|contrib
+esnacc|ASN.1 to C or C++ or IDL compiler|https://salsa.debian.org/debian/esnacc.git|cpp main
+ess|Emacs mode for statistical programming and data analysis|https://salsa.debian.org/emacsen-team/ess.git|main
+evil-paredit-el|emacs extension, integrating evil and paredit|https://salsa.debian.org/debian/evil-paredit-el.git|main
+ewipe|Yet another presentation tool based on Tcl/Tk|https://salsa.debian.org/debian/ewipe.git|gui main
+extra-xdg-menus|Extra menu categories for applications under GNOME and KDE|https://salsa.debian.org/debian/extra-xdg-menus.git|main
+extsmail|enables the robust sending of e-mail to external commands|https://salsa.debian.org/debian/extsmail.git|main
+ezmlm-idx|easy-to-use, high-speed mailing list manager for qmail|http://smarden.org/git/ezmlm-idx.git/|main
+fadecut|toolset to rip audiostreams, cut, fade in/out and tag the resulting audiofiles|https://github.com/fadecut/fadecut.git|main
+faenza-icon-theme|Faenza icon theme|https://salsa.debian.org/debian/faenza-icon-theme.git|main
+faifa|manage HomePlug 1.0/AV devices via ethernet frames|https://salsa.debian.org/debian/faifa.git|main
+fapg|Fast Audio Playlist Generator|https://salsa.debian.org/debian/fapg.git|main
+fastforward|handles qmail forwarding according to a cdb database|https://salsa.debian.org/debian/fastforward.git|main
+fbi|Linux frame buffer image viewer|https://salsa.debian.org/debian/fbi.git|main
+fbless|terminal fiction book reader|https://salsa.debian.org/debian/fbless.git|cli main
+fbpager|a pager application for the Fluxbox window manager|https://salsa.debian.org/debian/fbpager.git|main
+fbreader|e-book reader|https://salsa.debian.org/debian/fbreader.git|main
+ferret|CASE tool for data model editing|https://salsa.debian.org/debian/ferret.git|main
+ffe|Tool for parsing flat and CSV files and converting them to different formats|https://salsa.debian.org/debian/ffe.git|main
+fff|Fake Function Framework for C|https://salsa.debian.org/debian/fff.git|main
+ffmpegthumbnailer|fast and lightweight video thumbnailer|https://salsa.debian.org/multimedia-team/ffmpegthumbnailer.git|main
+fgetty|very small, efficient, console-only getty and login|https://salsa.debian.org/debian/fgetty.git|cli main
+file-kanji|kanji code checker|https://salsa.debian.org/debian/file-kanji.git|main
+filter|filter local email via forward/pipe|https://salsa.debian.org/debian/filter.git|main
+firmware-microbit-micropython|MicroPython runtime for the BBC micro:bit|https://salsa.debian.org/python-team/packages/firmware-microbit-micropython.git|main python-team
+fische|stand-alone sound visualisation for Linux|https://salsa.debian.org/debian/fische.git|main
+fl-cow|copy-on-write utility|https://salsa.debian.org/debian/fl-cow.git|cli main
+flameshot|Powerful yet simple-to-use screenshot software|https://salsa.debian.org/debian/flameshot.git|main
+fldiff|graphical diff program|https://salsa.debian.org/debian/fldiff.git|main
+flickcurl|utilities to call the Flickr API from command line|https://salsa.debian.org/debian/flickcurl.git|cli main
+flip|convert text file line endings between Unix and DOS formats|https://salsa.debian.org/debian/flip.git|main
+flpsed|a WYSIWYG pseudo PostScript editor|https://salsa.debian.org/debian/flpsed.git|main
+flx|sorting algorithm for fuzzy matching in Emacs|https://salsa.debian.org/emacsen-team/flx.git/|main
+fmtools|FM radio tuner|https://salsa.debian.org/debian/fmtools.git|main
+foiltex|collection of LaTeX files for making foils and slides|https://salsa.debian.org/debian/foiltex.git|non-free
+fondu|convert between Mac and UNIX font formats|https://salsa.debian.org/debian/fondu.git|main
+fonts-atkinson-hyperlegible|Font focused on legibility and readability|https://salsa.debian.org/fonts-team/fonts-atkinson-hyperlegible.git|main
+fortunes-ru|Russian data files for fortune|https://salsa.debian.org/debian/fortunes-ru.git|main
+frame|Touch Frame Library|https://salsa.debian.org/debian/frame.git|lib main
+freecdb|creating and reading constant databases|https://salsa.debian.org/debian/freecdb.git|main
+freefem|PDE oriented language using Finite Element Method|https://salsa.debian.org/science-team/freefem.git|main
+freeplane|Java program for working with Mind Maps|https://salsa.debian.org/java-team/freeplane.git|java main
+freepwing|EB to JIS X 4081 converter|https://salsa.debian.org/debian/freepwing.git|main
+freewnn|network-extensible||main net
+fsearch|Fast graphical file search utility|https://salsa.debian.org/debian/fsearch.git|cli main
+fsmark|benchmark for simulating synchronous write workloads|https://salsa.debian.org/debian/fsmark.git|main
+fspanel|minimalist panel for X|https://salsa.debian.org/debian/fspanel.git|main
+fsviewer-icons|icons for fsviewer to make it look more like the NeXT FileViewer|https://salsa.debian.org/debian/fsviewer-icons.git|main
+fsvs|Full system versioning with metadata support|https://salsa.debian.org/debian/fsvs.git|main sys
+fte|Text editor for programmers - base package|https://salsa.debian.org/debian/fte.git|main
+ftp-upload|put files with FTP from a script|https://salsa.debian.org/debian/ftp-upload.git|main
+ftpcopy|FTP clients collection|https://salsa.debian.org/debian/ftpcopy.git|main
+fvwm-icons|icon *.xpm files from fvwm development site|https://salsa.debian.org/debian/fvwm-icons.git|main
+fwanalog|firewall log-file report generator (using analog)|https://salsa.debian.org/debian/fwanalog.git|main
+fwlogwatch|firewall log analyzer|https://salsa.debian.org/debian/fwlogwatch.git|main
+fwsnort|Snort-to-iptables rule translator|https://salsa.debian.org/debian/fwsnort.git|main
+gaffitter|File subsets extractor based on genetic algorithms|https://salsa.debian.org/debian/gaffitter.git|main
+gaim-themes|Smiley themes collection for pidgin|https://salsa.debian.org/debian/gaim-themes.git|main
+gammastep|Adjust display hue to outside lighting conditions|https://salsa.debian.org/debian/gammastep.git|main
+garmin-forerunner-tools|retrieve data from Garmin Forerunner/Edge GPS devices|https://salsa.debian.org/debian/garmin-forerunner-tools.git|main
+gartoon|Gartoon icon theme for GTK+ 2.x|https://salsa.debian.org/debian/gartoon.git|gui main
+gcc-riscv64-unknown-elf|GCC compiler for embedded RISC-V chips|https://salsa.debian.org/debian/gcc-riscv64-unknown-elf.git|main sys
+gconjugue|GTK+ program to conjugate Brazilian verbs|https://salsa.debian.org/debian/gconjugue.git|gui main
+gcpegg|GCP (EGG) Software|git://git.gag.com/debian/gcpegg|main
+gdigi|utility to control DigiTech effect pedals|https://salsa.debian.org/multimedia-team/gdigi.git|cli main
+gdome2|DOM level2 library for accessing XML files|https://salsa.debian.org/debian/gdome2.git|lib main
+genparse|command line parser generator|https://salsa.debian.org/debian/genparse.git|cli main
+gentoo|fully GUI-configurable, two-pane X file manager|https://salsa.debian.org/debian/gentoo.git|gui main
+geotranz|GEOgraphic coordinates TRANslator|https://salsa.debian.org/debian/geotranz|main
+getstream|DVB streaming application|https://salsa.debian.org/debian/getstream.git|main
+gftp|X/GTK+ and console FTP client (metapackage)|https://salsa.debian.org/debian/gftp.git|cli gui main net
+gfxboot|tool to test and create graphical boot logos|https://salsa.debian.org/debian/gfxboot.git|main
+giftrans|Convert any GIF file into a GIF89a|https://salsa.debian.org/debian/giftrans.git|main
+git-remote-hg|bidirectional bridge between Git and Mercurial|https://salsa.debian.org/debian/git-remote-hg.git|main
+gitbrute|brute-force a git commit hash|https://salsa.debian.org/debian/gitbrute.git|main
+gitgraph.js|convert git log --graph to image with HTML5 canvas|https://salsa.debian.org/debian/gitgraph.js.git|main
+gkdebconf|Helper to reconfigure packages with Debconf|https://salsa.debian.org/debian/gkdebconf.git|main
+gkrellm-thinkbat|ThinkPad laptops battery status indicator for GKrellM|https://salsa.debian.org/debian/gkrellm-thinkbat.git|main
+gkrellm-xkb|Keyboard layout indicator plugin for GKrellM|https://salsa.debian.org/debian/gkrellm-xkb.git|main
+gkrelluim|GKrellM plugin for uim|https://salsa.debian.org/debian/gkrelluim.git|main
+glbsp|node builder library for OpenGL-based Doom-style games (headers)|https://salsa.debian.org/debian/glbsp.git|lib main
+glogic|graphical logic circuit simulator|https://salsa.debian.org/debian/glogic.git|main
+glyphspkg|Converter from .glyphspackage to .glyphs files|https://salsa.debian.org/python-team/packages/glyphspkg.git|main python-team
+gmtkbabel|graphical interface for mtkbabel|https://salsa.debian.org/debian/gmtkbabel.git|main
+gniall|program that tries to learn a human language|https://salsa.debian.org/debian/gniall.git|main
+gnokii|Datasuite for mobile phone management|https://salsa.debian.org/debian/gnokii.git|main
+gnomad2|Manage a Creative Labs Nomad Jukebox|https://salsa.debian.org/debian/gnomad2.git|main
+gnome-colors|set of GNOME icon themes|https://salsa.debian.org/debian/gnome-colors.git|main
+gnome-pass-search-provider|GNOME Shell search provider for the pass password manager|https://salsa.debian.org/debian/gnome-pass-search-provider.git|main
+gnomint|x509 Certification Authority management tool for GNOME|https://salsa.debian.org/debian/gnomint.git|main
+gnubg|graphical or console backgammon program with analysis|https://salsa.debian.org/games-team/gnubg.git|cli main
+gnubiff|mail notification program for GNOME (and others)|https://salsa.debian.org/debian/gnubiff.git|main
+gnunet-gtk|peer-to-peer networking (GTK+ client)|https://salsa.debian.org/debian/gnunet-gtk.git|gui main net
+gnunet|secure peer-to-peer networking|https://salsa.debian.org/debian/gnunet.git|main
+gnupod-tools|command-line tools for the iPod family of portable music players|https://salsa.debian.org/debian/gnupod-tools.git|cli main
+goban|Goban screensaver|https://salsa.debian.org/debian/goban.git|main
+gobi-loader|Firmware loader for Qualcomm Gobi USB chipsets.|https://salsa.debian.org/debian/gobi-loader.git|contrib
+golang-github-blevesearch-go-porterstemmer|Native Go implementation of the Porter Stemming algorithm|https://salsa.debian.org/go-team/packages/golang-github-blevesearch-go-porterstemmer.git|go go-team main
+golang-github-blevesearch-segment|Go library for performing Unicode Text Segmentation|https://salsa.debian.org/go-team/packages/golang-github-blevesearch-segment.git|go go-team lib main
+golang-github-bsm-pool|simple connection pool library for Golang|https://salsa.debian.org/go-team/packages/golang-github-bsm-pool.git|go go-team lib main
+golang-github-bsm-redeo|Framework for building redis-compatible TCP services|https://salsa.debian.org/go-team/packages/golang-github-bsm-redeo.git|go go-team main
+golang-github-denisenkom-go-mssqldb|Microsoft SQL server driver written in go language|https://salsa.debian.org/go-team/packages/golang-github-denisenkom-go-mssqldb.git|go go-team main net sys
+golang-github-facebookgo-clock|Clock is a small Go library for mocking time|https://salsa.debian.org/go-team/packages/golang-github-facebookgo-clock.git|go go-team lib main
+golang-github-facebookgo-httpdown|Gracefully shut down daemon without terminating connections|https://salsa.debian.org/go-team/packages/golang-github-facebookgo-httpdown.git|go go-team main
+golang-github-facebookgo-stats|defines a lightweight interface for collecting statistics|https://salsa.debian.org/go-team/packages/golang-github-facebookgo-stats.git|go go-team main
+golang-github-go-macaron-toolbox|health check, pprof, profile and statistic services for Macaron|https://salsa.debian.org/go-team/packages/golang-github-go-macaron-toolbox.git|go go-team main
+golang-github-go-xorm-builder|SQL builder for XORM written in Go|https://salsa.debian.org/go-team/packages/golang-github-go-xorm-builder.git|go go-team main
+golang-github-gogits-chardet|Charset detector library for Go|https://salsa.debian.org/go-team/packages/golang-github-gogits-chardet.git|go go-team lib main
+golang-github-gogits-go-gogs-client|Gogs API client in Go|https://salsa.debian.org/go-team/packages/golang-github-gogits-go-gogs-client.git|go go-team main net
+golang-github-hashicorp-go-azure-helpers|various helpers and wrappers for working with Azure|https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-azure-helpers.git|go go-team main
+golang-github-hashicorp-terraform-svchost|handling of friendly hostnames for terraform|https://salsa.debian.org/go-team/packages/golang-github-hashicorp-terraform-svchost.git|go go-team main
+golang-github-issue9-assert|Simple extension to test a series of assert functions|https://salsa.debian.org/go-team/packages/golang-github-issue9-assert.git|go go-team main
+golang-github-issue9-identicon|generate an icon from identity information|https://salsa.debian.org/go-team/packages/golang-github-issue9-identicon.git|go go-team main
+golang-github-leemcloughlin-gofarmhash|Implements Google's Farmhash in Golang|https://salsa.debian.org/go-team/packages/golang-github-leemcloughlin-gofarmhash.git|go go-team main
+golang-github-lunny-log|Logging library with sqlite support for Go|https://salsa.debian.org/go-team/packages/golang-github-lunny-log.git|go go-team lib main
+golang-github-markbates-goth|Multi-provider authentication for Go|https://salsa.debian.org/go-team/packages/golang-github-markbates-goth.git|go go-team main
+golang-github-mrjones-oauth|OAuth 1.0 Library for Go|https://salsa.debian.org/go-team/packages/golang-github-mrjones-oauth.git|go go-team lib main
+golang-github-nbutton23-zxcvbn-go|Strong password generator in Go|https://salsa.debian.org/go-team/packages/golang-github-nbutton23-zxcvbn-go.git|go go-team main
+golang-github-ngaut-deadline|deadline reader/writer|https://salsa.debian.org/go-team/packages/golang-github-ngaut-deadline.git|go go-team main
+golang-github-ngaut-go-zookeeper|Native ZooKeeper client for Go|https://salsa.debian.org/go-team/packages/golang-github-ngaut-go-zookeeper.git|go go-team main net
+golang-github-ngaut-log|Provides a simple log wrapper for ngaut libraries|https://salsa.debian.org/go-team/packages/golang-github-ngaut-log.git|go go-team main
+golang-github-ngaut-pools|provides pools for resources|https://salsa.debian.org/go-team/packages/golang-github-ngaut-pools.git|go go-team main
+golang-github-ngaut-sync2|Additional synchronization primitives extracted from Vitess|https://salsa.debian.org/go-team/packages/golang-github-ngaut-sync2.git|go go-team main
+golang-github-petar-gollrb|LLRB implementation of balanced binary search trees for Go|https://salsa.debian.org/go-team/packages/golang-github-petar-gollrb.git|go go-team main
+golang-github-pingcap-check|rich testing extension for Go's testing package|https://salsa.debian.org/go-team/packages/golang-github-pingcap-check.git|go go-team main
+golang-github-siddontang-go|Collection of siddontang libraries for Go|https://salsa.debian.org/go-team/packages/golang-github-siddontang-go.git|go go-team main
+golang-github-steveyen-gtreap|gtreap is an immutable treap implementation in the Go Language|https://salsa.debian.org/go-team/packages/golang-github-steveyen-gtreap.git|go go-team main
+golang-github-tmc-scp|basic implementation of scp for go|https://salsa.debian.org/go-team/packages/golang-github-tmc-scp.git|go go-team main
+golang-gopkg-editorconfig-editorconfig-core-go.v1|EditorConfig file parser and writer in Go|https://salsa.debian.org/go-team/packages/golang-gopkg-editorconfig-editorconfig-core-go.v1.git|go go-team main
+golang-gopkg-testfixtures.v2|Rails-like test fixtures for Go|https://salsa.debian.org/go-team/packages/golang-gopkg-testfixtures.v2.git|go go-team main
+goldencheetah|set of analysis tools for cycling performance|https://salsa.debian.org/debian/goldencheetah.git|main
+goldendict-ng|feature-rich dictionary lookup program (NG/qtwebengine fork)|https://salsa.debian.org/debian/goldendict-ng.git|main
+goobox|CD player and ripper with GNOME 3 integration|https://salsa.debian.org/debian/goobox.git|main
+gox|simple cross compilation tool for Go|https://salsa.debian.org/debian/gox.git|go main
+gpsim-doc|Documentation for gpsim|https://salsa.debian.org/debian/gpsim-doc.git|main
+gpsman|GPS data graphical manager|https://salsa.debian.org/debian/gpsman.git|main
+gpsmanshp|Tcl interface to shapelib|https://salsa.debian.org/debian/gpsmanshp.git|main
+gpstrans|communicate with a Garmin Global Positioning System receiver|https://salsa.debian.org/debian/gpstrans.git|main sys
+grabc|simple program to determine the color string in hex by clicking on a pixel|https://salsa.debian.org/debian/grabc.git|main
+grail|Gesture Recognition And Instantiation Library|https://salsa.debian.org/debian/grail.git/|lib main
+gramofile|Transfer sound from gramophone records to CD|https://salsa.debian.org/debian/gramofile.git|main
+granite-7|extension of GTK4 libraries|https://salsa.debian.org/debian/granite.git|main
+granite|extension of GTK3 libraries|https://salsa.debian.org/debian/granite.git|main
+grap|program for typesetting graphs|https://salsa.debian.org/debian/grap.git|main
+grdesktop|GNOME frontend for the rdesktop client|https://salsa.debian.org/debian/grdesktop.git|main net
+gross|fast and efficient greylist server with DNSBL support|https://salsa.debian.org/debian/gross.git|main net
+grub2-splashimages|collection of GRUB2 splashimages|https://salsa.debian.org/debian/grub2-splashimages.git|main
+gsmlib|GSM mobile phone access applications|https://salsa.debian.org/debian/gsmlib.git|main
+gst123|GStreamer based command line media player|https://salsa.debian.org/gstreamer-team/gst123.git|cli main
+gsutil|configure and manage Grandstream BudgeTone 100 VOIP and GX2000 phones|https://salsa.debian.org/debian/gsutil.git|main
+gthumb|image viewer and browser|https://salsa.debian.org/debian/gthumb.git|main
+gtksheet|Gtk spreadsheet widget|https://salsa.debian.org/debian/gtksheet.git|gui main
+guilt|quilt for git; similar to Mercurial queues|https://salsa.debian.org/debian/guilt.git|main
+gwakeonlan|wakes up your machines using Wake on LAN|https://salsa.debian.org/debian/gwakeonlan.git|main
+gwhois|generic Whois Client / Server|https://salsa.debian.org/debian/gwhois.git|main net
+gxmessage|xmessage clone based on GTK+|https://salsa.debian.org/debian/gxmessage.git|gui main
+hashalot|read and hash a passphrase|https://salsa.debian.org/debian/hashalot.git|main
+haskell98-report|The Haskell 98 Language and Libraries Revised Report &amp; addenda|https://salsa.debian.org/haskell-team/DHG_packages.git|main
+hearse|exchange Nethack bones files with other players|https://salsa.debian.org/debian/hearse.git|main
+helm-org|Emacs Helm for Org-mode headlines and keywords completion|https://salsa.debian.org/emacsen-team/helm-org.git|main
+helpdev|Helper tool to get environment information|https://salsa.debian.org/python-team/packages/helpdev.git|main python-team
+hercules|System/370, ESA/390 and z/Architecture Emulator|https://salsa.debian.org/debian/hercules.git|main sys
+herculesstudio|Hercules GUI front-end|https://salsa.debian.org/debian/herculesstudio.git|gui main
+herisvm|machine learning tools for classification algorithms|https://salsa.debian.org/debian/herisvm.git|main
+hesiod|Project Athena's DNS-based directory service - utilities|https://salsa.debian.org/debian/hesiod.git|main
+highwayhash|Fast strong hash functions: SipHash/HighwayHash|https://salsa.debian.org/science-team/highwayhash.git|main
+hpanel|minimalist panel for X|https://salsa.debian.org/debian/hpanel.git|main
+hpsockd|HP SOCKS server|https://salsa.debian.org/debian/hpsockd.git|main net
+htdig|web search and indexing system|https://salsa.debian.org/debian/htdig.git|main sys
+html2ps|HTML to PostScript converter|https://salsa.debian.org/debian/html2ps.git|main
+httest|HTTP test tool|https://salsa.debian.org/debian/httest.git|main
+httpry|HTTP logging and information retrieval tool|https://salsa.debian.org/debian/httpry.git|main
+hunspell-kk|Kazakh dictionary for hunspell|https://salsa.debian.org/debian/hunspell-kk.git|main
+hunt|Advanced packet sniffer and connection intrusion|https://salsa.debian.org/debian/hunt.git|main
+i8kutils|Fan control for Dell laptops|https://salsa.debian.org/debian/i8kutils.git|main
+ibus-table-extraphrase|Extra phrase for table engine of ibus|https://salsa.debian.org/debian/ibus-table-extraphrase.git|main
+icecream|lightweight stream download utility|https://salsa.debian.org/debian/icecream.git|cli main
+icheck|C interface ABI/API checker|https://salsa.debian.org/debian/icheck.git|main
+icon|Interpreter for Icon, a high-level programming language|https://salsa.debian.org/debian/icon.git|main
+id3lib3.8.3|library for manipulating ID3v1 and ID3v2 tags|https://salsa.debian.org/debian/id3lib3.8.3.git|lib main
+id3ren|id3 tagger and renamer|https://salsa.debian.org/debian/id3ren.git|main
+id3v2|A command line id3v2 tag editor|https://salsa.debian.org/debian/id3v2.git|cli main
+ident2|An advanced ident daemon|https://salsa.debian.org/debian/ident2.git|main
+idesk|Program to show icons on the desktop|https://salsa.debian.org/debian/idesk.git|main
+idle3-tools|change the idle3 timer of recent Western Digital Hard Disk Drives|https://salsa.debian.org/debian/idle3-tools.git|main
+idlestat|measure CPU time in idle and operating states|https://salsa.debian.org/debian/idlestat.git|main
+ifenslave|configure network interfaces for parallel routing (bonding)|https://salsa.debian.org/debian/ifenslave.git|main net
+ifile|spam filter capable of learning|https://salsa.debian.org/debian/ifile.git|main
+iitalian|Italian dictionary for ispell|https://salsa.debian.org/debian/iitalian.git|main
+ima-evm-utils|Linux IMA Extended Verification Module signing tools|https://salsa.debian.org/debian/ima-evm-utils.git|main
+imagination|DVD slide show maker|https://salsa.debian.org/debian/imagination.git|main
+imgsizer|Adds WIDTH and HEIGHT attributes to IMG tags in HTML files|https://salsa.debian.org/debian/imgsizer.git|main
+impose+|Postscript utilities for two-up printing, bbox, etc.|https://salsa.debian.org/debian/imposeplus.git|main
+info2www|Read info files with a WWW browser|https://salsa.debian.org/debian/info2www.git|main
+ink-generator|Inkscape extension to automatically generate files from a template|https://salsa.debian.org/debian/ink-generator.git|main
+ino-headers|C API to execute JavaScript code|https://salsa.debian.org/debian/ino-headers.git|javascript main
+inputlirc|Zeroconf LIRC daemon using input event devices|https://salsa.debian.org/debian/inputlirc.git|main
+integrit|A file integrity verification program|https://salsa.debian.org/debian/integrit.git|main
+intlfonts|International fonts for X|https://salsa.debian.org/debian/intlfonts.git|main
+intltool-debian|Help i18n of RFC822 compliant config files|https://salsa.debian.org/debian/intltool-debian.git|main
+iog|network I/O grapher|https://salsa.debian.org/debian/iog.git|main net
+ipgrab|tcpdump-like utility that prints detailed header information|https://salsa.debian.org/debian/ipgrab.git|cli main
+ips|Intelligent process status|https://salsa.debian.org/debian/ips.git|main
+ipsvd|Internet protocol service daemons|https://salsa.debian.org/debian/ipsvd.git|main net
+iptotal|monitor for IP traffic, not requiring SNMP|https://salsa.debian.org/debian/iptotal.git|main
+iroffer|IRC file distribution bot|https://salsa.debian.org/debian/iroffer.git|main
+irony-mode|Emacs C/C++ minor mode powered by libclang|https://salsa.debian.org/emacsen-team/irony-mode.git|cpp main
+ispell-lt|ispell dictionary for Lithuanian (LT)|https://salsa.debian.org/debian/ispell-lt.git|main
+jabber-querybot|You can easy write bots and use it over the jabber network.|https://salsa.debian.org/debian/jabber-querybot.git|main net
+jamulus|real-time collaborative music session client and server|https://salsa.debian.org/debian/jamulus.git|main net
+jargon|the definitive compendium of hacker slang|https://salsa.debian.org/debian/jargon.git|main
+jaula|JSON parser/writer library for C++|https://salsa.debian.org/debian/jaula.git|cpp lib main
+java2html|Highlight Java and C++ sources for WWW presentation|https://salsa.debian.org/debian/java2html.git|cpp java main
+javacc-maven-plugin|maven plugin which uses JavaCC to process JavaCC grammar files|https://salsa.debian.org/java-team/javacc-maven-plugin.git|main
+jclassinfo|extracts information from Java class files|https://salsa.debian.org/debian/jclassinfo.git|java main
+jetring|gpg keyring maintenance using changesets|https://salsa.debian.org/debian/jetring.git|main
+jpegjudge|determine which of two given jpegs (same size) is the original|https://salsa.debian.org/debian/jpegjudge.git|main
+jpegpixi|Remove hot spots from JPEG images with minimal quality loss|https://salsa.debian.org/debian/jpegpixi.git|main
+jquery-areyousure|jQuery plugin to alert users of unsaved changes|https://salsa.debian.org/debian/jquery-areyousure.git|main
+jreen|powerful Jabber/XMPP library|https://salsa.debian.org/debian/jreen.git|lib main
+jtb|syntax tree builder and visitors generator for JavaCC|https://salsa.debian.org/debian/jtb.git|main
+jugglinglab|Application for creating and animating juggling patterns|https://salsa.debian.org/nore-guest/jugglinglab.git|main
+kasumi|Simple dictionary utility for Anthy|https://salsa.debian.org/debian/kasumi.git|cli main
+kdocker|lets you dock any application into the system tray|https://salsa.debian.org/debian/kdocker.git|main sys
+kelbt|backtracking LR parser generator|https://salsa.debian.org/debian/kelbt.git|main
+keras-applications|popular models and pre-trained weights for the Keras deep learning framework|https://salsa.debian.org/science-team/keras-applications.git|main
+keras-preprocessing|data preprocessing module for the Keras deep learning framework|https://salsa.debian.org/science-team/keras-preprocessing.git|main
+key-chord-el|map pairs of simultaneously pressed keys to commands|https://salsa.debian.org/emacsen-team/key-chord-el.git|main
+kic|Enhanced KIC layout editor|https://salsa.debian.org/debian/kic.git|non-free
+kiki|tool for python regular expression testing||main python
+kinect-audio-setup|Microsoft Kinect sensor audio setup helpers|https://salsa.debian.org/debian/kinect-audio-setup.git|contrib
+kopano-webapp-plugins-files|Kopano WebApp plugin for managing attachments||
+krb5-sync|MIT Kerberos Active Directory synchronization plugin|https://salsa.debian.org/debian/krb5-sync.git|main
+kst|A KDE application used for displaying scientific data|https://salsa.debian.org/debian/kst.git|main
+kupfer|fast and lightweight desktop summoner/launcher|https://salsa.debian.org/python-team/packages/kupfer.git|main python-team
+kyotocabinet|Straightforward implementation of DBM|https://salsa.debian.org/debian/kyotocabinet.git|main
+kytos-utils|command line utilities to use with Kytos|https://salsa.debian.org/debian/kytos-utils.git|cli main
+ladvd|LLDP/CDP sender|https://salsa.debian.org/debian/ladvd.git|main
+lasi|creation of PostScript documents containing Unicode symbols|https://salsa.debian.org/debian/lasi.git|main
+latex-mk|tool for managing LaTeX projects|https://salsa.debian.org/debian/latex-mk.git|main
+lbcd|return system load via UDP for remote load balancers|https://salsa.debian.org/debian/lbcd.git|main sys
+lcd4linux|Grabs information and displays it on an external lcd||main
+lcm|Lightweight Communications and Marshalling|https://salsa.debian.org/debian/lcm.git|main
+ldap2dns|LDAP based DNS management system|https://salsa.debian.org/debian/ldap2dns.git|main sys
+lebiniou-data|datafiles for Le Biniou|https://gitlab.com/lebiniou/lebiniou-data.git|main
+leds-alix|Source for the LEDs driver of PCEngines ALIX 2/3 boards|https://salsa.debian.org/debian/leds-alix.git|main sys
+lgrind|A LaTeX pretty printer for various programming languages|https://salsa.debian.org/debian/lgrind.git|non-free
+libam7xxx|library for accessing am7xxx based devices|https://salsa.debian.org/debian/libam7xxx.git|lib main
+libantlr3c|ANTLR v3 parser generator C runtime [development files]|https://salsa.debian.org/debian/libantlr3c.git|main
+libapache-mod-musicindex|Browse, stream, download and search through MP3/Ogg/FLAC/MP4 files|https://salsa.debian.org/debian/libapache-mod-musicindex.git|main
+libapache-mod-removeip|Module to remove IP from apache2's logs|https://salsa.debian.org/debian/libapache-mod-removeip.git|main
+libapache2-mod-auth-plain|Module for Apache2 which provides plaintext authentication|https://salsa.debian.org/debian/libapache2-mod-auth-plain.git|main
+libapache2-mod-authn-yubikey|Yubikey authentication provider for Apache|https://salsa.debian.org/debian/libapache2-mod-authn-yubikey.git|main
+libapache2-mod-authnz-external|authenticate Apache against external authentication services|https://salsa.debian.org/debian/libapache2-mod-authnz-external.git|main
+libapache2-mod-authz-unixgroup|access control based on unix group membership for Apache|https://salsa.debian.org/debian/libapache2-mod-authz-unixgroup.git|main
+libapache2-mod-bw|bandwidth limiting module for apache2|https://salsa.debian.org/debian/libapache2-mod-bw.git|main
+libapache2-mod-lisp|An Apache2 module that interfaces with Lisp environments|https://salsa.debian.org/debian/libapache2-mod-lisp.git|main
+libapache2-mod-rpaf|module for Apache2 which takes the last IP from the 'X-Forwarded-For' header|https://salsa.debian.org/debian/libapache2-mod-rpaf.git|main
+libapreq2|generic Apache request library|https://salsa.debian.org/debian/libapreq2.git|lib main
+libast|the Library of Assorted Spiffy Things|https://salsa.debian.org/debian/libast.git|lib main
+libasyncns|Asynchronous name service query library development files|https://salsa.debian.org/debian/libasyncns.git|lib main
+libaudiomask|Audio masking threshold estimation lib headers, docs and examples|https://salsa.debian.org/debian/libaudiomask.git|main
+libbash|a tool that enables bash dynamic-like shared libraries|https://salsa.debian.org/debian/libbash.git|main
+libcdaudio|library for CDDA playback control|https://salsa.debian.org/debian/libcdaudio.git|lib main
+libcgicc|C++ class library for writing CGI applications (documentation)|https://salsa.debian.org/debian/libcgicc.git|cpp lib main
+libchardet|universal charset detection library|https://salsa.debian.org/debian/libchardet.git|lib main
+libcitadel|Development files for libcitadel4|https://salsa.debian.org/debian/libcitadel.git|main
+libclass-std-storable-perl|Support for creating serializable &quot;inside-out&quot; classes|https://salsa.debian.org/debian/libclass-std-storable-perl.git|main perl perl-team
+libdbix-class-htmlwidget-perl|DBIx::Class::HTMLWidget perl module|https://salsa.debian.org/debian/libdbix-class-htmlwidget-perl.git|main perl perl-team
+libdevice-usb-pcsensor-hidtemper-perl|Perl module to interface to the HidTEMPer thermometers|https://salsa.debian.org/debian/libdevice-usb-pcsensor-hidtemper-perl.git|main perl perl-team
+libdigest-whirlpool-perl|A 512-bit, collision-resistant, one-way hash function|https://salsa.debian.org/debian/libdigest-whirlpool-perl.git|main perl perl-team
+libdjinterop|C++ library to allow access to DJ record database formats|https://salsa.debian.org/multimedia-team/libdjinterop.git|cpp lib main
+libdv|software library for DV format digital video|https://salsa.debian.org/debian/libdv.git|lib main
+libexplain|utility to explain system call errors|https://salsa.debian.org/debian/libexplain.git|cli main sys
+libextractor-java|Java bindings for GNU libextractor|https://salsa.debian.org/debian/libextractor-java.git|java main
+libextractor-python|extracts meta-data from files (Python bindings)|https://salsa.debian.org/debian/libextractor-python.git|main python python-team
+libextractor|extracts meta-data from files|https://salsa.debian.org/debian/libextractor.git|main
+libfixbuf|implementation of the IPFIX protocol|https://salsa.debian.org/debian/libfixbuf.git|main net
+libgadu|Gadu-Gadu protocol library|https://salsa.debian.org/debian/libgadu.git|lib main net
+libgcr410|PC/SC driver for GemPlus GCR410 serial SmartCard interface|https://salsa.debian.org/debian/libgcr410.git|main sys
+libgdiplus|interface library for System.Drawing of Mono|https://salsa.debian.org/dotnet-team/libgdiplus.git|lib main sys
+libgltf|Library for rendering glTF models|https://salsa.debian.org/debian/libgltf.git|lib main
+libgpod|libgpod is a library meant to abstract access to an iPod's content|https://salsa.debian.org/debian/libgpod.git|lib main
+libguess|high-speed character set detection library|https://salsa.debian.org/debian/libguess.git|lib main
+libhbaapi|SNIA HBAAPI library|https://salsa.debian.org/debian/libhbaapi.git|lib main
+libhbalinux|Library for retrieving FCOE adapter information|https://salsa.debian.org/debian/libhbalinux|lib main
+libica|hardware cryptography support for IBM System z hardware|https://salsa.debian.org/debian/libica.git|main sys
+libident|simple RFC1413 client library - runtime|https://salsa.debian.org/debian/libident.git|lib main net
+libidl|library for parsing CORBA IDL files|https://salsa.debian.org/debian/libidl.git|lib main
+libiec61883|partial implementation of IEC 61883|https://salsa.debian.org/debian/libiec61883.git|main
+libinklevel|check the ink level of a local printer|https://salsa.debian.org/debian/libinklevel.git|main
+libiodbc2|iODBC Driver Manager|https://salsa.debian.org/debian/libiodbc2.git|main sys
+libjdns|command-line tool to test functionality|https://salsa.debian.org/debian/libjdns.git|cli main
+libjgraphx-java|Java Swing Diagramming Library|https://salsa.debian.org/java-team/libjgraphx-java.git|java lib main
+libjs-autolink|JavaScript methods converting text to links|https://salsa.debian.org/debian/libjs-autolink.git|javascript main
+libjs-emojify|JavaScript library converting Emoji keywords to images|https://salsa.debian.org/js-team/libjs-emojify.git|javascript lib main
+libjs-jsxc|JavaScript XMPP Client|https://salsa.debian.org/js-team/libjs-jsxc.git|javascript main net
+libkarma|Rio Karma access library [development files]|https://salsa.debian.org/debian/libkarma.git|lib main
+libkdtree++|C++ template container implementation of kd-tree sorting|https://salsa.debian.org/debian/libkdtreepp.git|cpp main
+liblaxjson|relaxed streaming JSON parser library (development files)|https://salsa.debian.org/debian/liblaxjson.git|lib main
+liblip|reliable interpolation of multivariate scattered data|https://salsa.debian.org/debian/liblip.git|main
+libloki|C++ library of generic design patterns|https://salsa.debian.org/debian/libloki.git|cpp lib main
+libmail-verify-perl|Utility to verify an email|https://salsa.debian.org/debian/libmail-verify-perl.git|cli main perl perl-team
+libmpd|High-level client library for accessing Music Player Daemon|https://salsa.debian.org/debian/libmpd.git|lib main net
+libmrss|C library for parsing, writing and|https://salsa.debian.org/debian/libmrss.git|lib main
+libnfo|an NFO file parser/writer library -- development files|https://salsa.debian.org/debian/libnfo.git|lib main
+libnoise|Portable, coherent noise-generating library for C++|https://salsa.debian.org/debian/libnoise.git|cpp lib main
+libnss-db|NSS module for using Berkeley Databases as a naming service|https://salsa.debian.org/debian/libnss-db.git|main
+libnxml|C library for parsing, writing and|https://salsa.debian.org/debian/libnxml.git|lib main
+libofa|library for acoustic fingerprinting|https://salsa.debian.org/debian/libofa.git|lib main
+liboggplay|Library for playing OGG multimedia|https://salsa.debian.org/debian/liboggplay.git|lib main
+libopenaptx|Audio Processing Technology codec (aptX), shared libraries|https://salsa.debian.org/debian/libopenaptx.git|main
+libopendbx|Lightweight database access abstraction layer|https://salsa.debian.org/debian/libopendbx.git|main
+libopenraw|free implementation for RAW decoding - development files|https://salsa.debian.org/debian/libopenraw.git|main
+libpam-afs-session|PAM module to set up a PAG and obtain AFS tokens|https://salsa.debian.org/debian/libpam-afs-session.git|main
+libperlmenu-perl|Insomnia's Basic ToolKit|https://salsa.debian.org/debian/libperlmenu-perl.git|main perl perl-team
+libpgf|Progressive Graphics File (PGF) library|https://salsa.debian.org/debian/libpgf.git|lib main
+libprintsys|printcap parser, helper for gnulpr's printfilters|https://salsa.debian.org/debian/libprintsys.git|main
+libquazip|C++ wrapper for ZIP/UNZIP (documentation)|https://salsa.debian.org/debian/libquazip.git|cpp main
+libquvi-scripts|library for parsing video download links (Lua scripts)|https://salsa.debian.org/debian/libquvi-scripts.git|lib main
+libquvi|library for parsing video download links (runtime libraries)|https://salsa.debian.org/debian/libquvi.git|lib main
+libranlip|generates random variates with multivariate Lipschitz density|https://salsa.debian.org/debian/libranlip.git|main
+librcc|Library for autoconvert codepages|https://salsa.debian.org/debian/librcc.git|lib main
+librcd|Library for autodection charset of Russian text|https://salsa.debian.org/debian/librcd.git|lib main
+librem-ec-acpi|dkms driver sources for EC ACPI in Purism Librem devices|https://salsa.debian.org/debian/librem-ec-acpi.git|main sys
+librepfunc|set of C++ classes and utilities for building multimedia tools|https://salsa.debian.org/debian/librepfunc.git|cpp main
+libsieve|a library for parsing, sorting and filtering your mail|https://salsa.debian.org/debian/libsieve.git|lib main
+libsmf|C library for handling SMF (&quot;*.mid&quot;) files|https://salsa.debian.org/multimedia-team/libsmf.git|lib main
+libstroke|mouse strokes library runtime files|https://salsa.debian.org/debian/libstroke.git|lib main
+libtest-mock-guard-perl|Simple mock test library using RAII.|https://salsa.debian.org/debian/libtest-mock-guard-perl.git|lib main perl perl-team
+libtextwrap|text-wrapping library with i18n - development files|https://salsa.debian.org/debian/libtextwrap.git|lib main
+libtrio|printf and string functions|https://salsa.debian.org/debian/libtrio.git|main
+libtut|elegant C++ unit test framework|https://salsa.debian.org/debian/libtut.git|cpp main
+libuser|user and group account administration library - utilities|https://salsa.debian.org/debian/libuser.git|lib main
+libvisual-plugins|audio visualization framework plugins|https://salsa.debian.org/debian/libvisual-plugins.git|main
+libxml-rss-feed-perl|Perl module for Persistent XML RSS Encapsulation|https://salsa.debian.org/debian/libxml-rss-feed-perl.git|main perl perl-team
+libxsettings-client|utility functions for the Xsettings protocol|https://salsa.debian.org/debian/libxsettings-client.git|cli main net
+libxsettings|Xsettings protocol library for GPE|https://salsa.debian.org/debian/libxsettings.git|lib main net
+libzdb|Zild Database Library|https://salsa.debian.org/debian/libzdb.git|lib main
+liece|IRC (Internet Relay Chat) client for Emacs|https://salsa.debian.org/debian/liece.git|main net
+lifelines|text-based genealogy software|https://salsa.debian.org/debian/lifelines.git|main
+lightsquid|Lite and fast log analizer for squid proxy|https://salsa.debian.org/debian/lightsquid.git|main
+lightyears|single player real-time strategy game with steampunk sci-fi|https://salsa.debian.org/python-team/packages/lightyears.git|main python-team
+linklint|A fast link checker and website maintenance tool|https://salsa.debian.org/debian/linklint.git|main
+linssid|graphical wireless scanner|https://salsa.debian.org/debian/linssid.git|main
+linux-atm|net-tools for ATM (Asynchronous Transfer Mode) in Linux|https://salsa.debian.org/debian/linux-atm.git|main
+linux-ftpd-ssl|BSD-derived ftpd with SSL patches|https://salsa.debian.org/debian/linux-ftpd-ssl.git|main
+liwc|Tools for manipulating C source code|https://salsa.debian.org/jseckler-guest/liwc.git|main
+lltag|Automatic command-line mp3/ogg/flac file tagger and renamer|https://github.com/bgoglin/lltag.git|cli main
+lmbench|Utilities to benchmark UNIX systems|https://salsa.debian.org/debian/lmbench.git|non-free
+loadwatch|Run a program using only idle cycles|https://salsa.debian.org/debian/loadwatch.git|main
+lockout|A self-imposed discipline and productivity enforcer|https://salsa.debian.org/debian/lockout.git|main
+log4c|C library for flexible logging (development)|https://salsa.debian.org/debian/log4c.git|lib main
+log4cpp-doc|C++ library for flexible logging (documentation)|https://salsa.debian.org/debian/log4cpp-doc.git|cpp lib main
+logisim|graphical tool for designing and simulating logic circuits|https://salsa.debian.org/debian/logisim.git|main
+logswan|fast Web log analyzer using probabilistic data structures|https://salsa.debian.org/debian/logswan.git|main
+logtop|real time log line rate analyzer|https://salsa.debian.org/debian/logtop.git|main
+lpctools|interface to NXP LPC Microcontrollers ISP serial interface|https://salsa.debian.org/debian/lpctools.git|main
+lpr|BSD lpr/lpd line printer spooling system|https://salsa.debian.org/debian/lpr.git|main sys
+lqa|LAVA QA tool|https://salsa.debian.org/debian/lqa.git|main
+ltpanel|lightweight tasklist panel for minimalist WMs|https://salsa.debian.org/debian/ltpanel.git|main
+lua-augeas|Lua binding to the Augeas C API|https://salsa.debian.org/debian/lua-augeas.git|lib main
+lua-bit32|Backport of the Lua 5.2 bit32 library to Lua 5.1|https://salsa.debian.org/debian/lua-bit32.git|lib main
+lua-copas|Copas is a dispatcher of concurrent TCP/IP requests|https://salsa.debian.org/lua-team/lua-copas.git|main
+lua-cosmo|Template library for the Lua language|https://salsa.debian.org/debian/lua-cosmo.git|lib main
+lua-coxpcall|Protected function calls across coroutines for Lua|https://salsa.debian.org/debian/lua-coxpcall.git|main
+lua-curl|libcURL bindings for the Lua language|https://salsa.debian.org/lua-team/lua-curl.git|main
+lua-leg|Lua 5.1 grammar, with parsing and manipulation facilities|https://salsa.debian.org/lua-team/lua-leg.git|main
+lua-lpty|PTY library for the Lua language|https://salsa.debian.org/lua-team/lua-lpty.git|lib main
+lua-md5|MD5 library for the Lua language|https://salsa.debian.org/lua-team/lua-md5.git|lib main
+lua-moses|Utility library for functional programming in Lua|https://salsa.debian.org/science-team/lua-moses.git|cli lib main
+lua-soap|SOAP library for the Lua language|https://salsa.debian.org/lua-team/lua-soap.git|lib main
+lua-xmlrpc|xmlrpc library for the Lua language|https://salsa.debian.org/lua-team/lua-xmlrpc.git|lib main
+lxctl|Utility to manage LXC|https://salsa.debian.org/debian/lxctl.git|cli main
+m2vrequantiser|MPEG-2 streams requantization|https://salsa.debian.org/debian/m2vrequantiser.git|main
+madlib|mesh adaptation library|https://salsa.debian.org/debian/madlib.git|lib main
+madwimax|user-space driver for mWiMAX equipment based on Samsung CMC-730|https://salsa.debian.org/debian/madwimax|main sys
+magicmaze|rescue the maiden while avoiding the monsters|https://salsa.debian.org/debian/magicmaze.git|main
+mailcheck|Check multiple mailboxes/maildirs for mail|https://salsa.debian.org/debian/mailcheck.git|main
+maildirsync|simple and efficient Maildir synchronisation utility|https://salsa.debian.org/debian/maildirsync.git|cli main
+mailfront|mail server network protocol front-ends|https://salsa.debian.org/debian/mailfront.git|main net
+mailnag|extensible mail notification daemon|https://salsa.debian.org/debian/mailnag.git|main
+mailto|WWW Forms to Mail Gateway|https://salsa.debian.org/debian/mailto.git|main
+makebootfat|Utility to create a bootable FAT filesystem|https://salsa.debian.org/debian/makebootfat.git|cli main
+makepatch|generate/apply patch files with more functionality than plain diff|https://salsa.debian.org/debian/makepatch.git|main
+markdown-toc-el|Emacs TOC (table of contents) generator for markdown files|https://salsa.debian.org/emacsen-team/markdown-toc-el.git|main
+matrix-hydrogen|webapp IM client for the Matrix protocol|https://salsa.debian.org/matrix-team/matrix-hydrogen.git|main net
+mbed-test-wrapper|utility to wrap the mbed test loader for use by yotta targets|https://salsa.debian.org/python-team/packages/mbed-test-wrapper.git|cli main python-team
+mcu8051ide|Graphical Integrated Development Environment for 8051|https://salsa.debian.org/debian/mcu8051ide.git|main
+mdetect|mouse device autodetection tool|https://salsa.debian.org/debian/mdetect.git|main
+meanwhile|open implementation of the Lotus Sametime Community Client protocol|https://salsa.debian.org/debian/meanwhile.git|main net
+metacity-themes|Themes for the Gtk2 metacity window manager||main
+metapixel|generator for photomosaics|https://salsa.debian.org/debian/metapixel.git|main
+metastore|Store and restore metadata from a filesystem|https://salsa.debian.org/debian/metastore.git|main
+metatheme-gilouche|openSUSE Gilouche Theme|https://salsa.debian.org/debian/metatheme-gilouche.git|main
+meterec|minimalistic multi track recorder|https://salsa.debian.org/debian/meterec.git|main
+mffm-fftw|A C++ wrapper for the fftw.org C library (version 3)|https://salsa.debian.org/debian/mffm-fftw.git|cpp lib main
+mgdiff|xdiff clone|https://salsa.debian.org/debian/mgdiff.git|main
+mha4mysql-manager|Master High Availability Manager and Tools for MySQL, Manager Package|https://salsa.debian.org/debian/mha4mysql-manager.git|main
+mha4mysql-node|Master High Availability Manager and Tools for MySQL, Node Package|https://salsa.debian.org/debian/mha4mysql-node.git|main
+microdc2|command-line based Direct Connect client|https://salsa.debian.org/debian/microdc2.git|cli main net
+midge|Text to MIDI compiler|https://salsa.debian.org/debian/midge.git|main
+milter-greylist|Greylist milter for sendmail|https://salsa.debian.org/debian/milter-greylist.git|main
+mime-construct|construct/send MIME messages from the command line|https://salsa.debian.org/debian/mime-construct.git|cli main
+mingetty|Console-only getty|https://salsa.debian.org/debian/mingetty.git|cli main
+mini-httpd-run|Small HTTP server (Runit integration)|https://salsa.debian.org/iu-guest/mini-httpd-run.git|main net
+ministocks|minimalistic QT stock ticker for Linux|https://salsa.debian.org/myczko-guest/ministocks.git|gui main
+miwm|minimalist window manager with virtual workspaces|https://salsa.debian.org/debian/miwm.git|main
+mmake|Makefile generator for Java programs|https://salsa.debian.org/debian/mmake.git|java main
+moc|ncurses based console audio player|https://salsa.debian.org/debian/moc.git|cli main
+mod-dnssd|Zeroconf support for Apache 2 via avahi|https://salsa.debian.org/debian/mod-dnssd.git|main
+mod-mime-xattr|Apache2 module to get MIME info from filesystem extended attributes|https://salsa.debian.org/debian/mod-mime-xattr.git|main
+modest|pure C HTML renderer|https://salsa.debian.org/debian/modest.git|main
+mp3blaster|Full-screen console mp3 and Ogg Vorbis player|https://salsa.debian.org/multimedia-team/mp3blaster.git|cli main
+mp3burn|burn audio CDs directly from MP3, Ogg Vorbis, or FLAC files|https://salsa.debian.org/debian/mp3burn.git|main
+mp3info|MP3 technical info viewer and ID3 1.x tag editor|https://salsa.debian.org/debian/mp3info.git|main
+mp3rename|Rename mp3 files based on id3tags|https://salsa.debian.org/debian/mp3rename.git|main
+mp3roaster|Perl hack for burning audio CDs out of MP3/OGG/FLAC/WAV files|https://salsa.debian.org/debian/mp3roaster.git|main perl
+mpack|tools for encoding/decoding MIME messages|https://salsa.debian.org/debian/mpack.git|main
+mpc123|Command-line Musepack audio player|https://salsa.debian.org/debian/mpc123.git|cli main
+mpdtoys|small command line tools and toys for MPD|https://salsa.debian.org/debian/mpdtoys.git|cli main
+mpt-status|get RAID status out of mpt (and other) HW RAID controllers|https://salsa.debian.org/debian/mpt-status.git|main
+mrename|tool for easy and automatic renaming of many files|https://salsa.debian.org/debian/mrename.git|main
+mrtg-ping-probe|Ping probe for MRTG 2.x|https://salsa.debian.org/debian/mrtg-ping-probe.git|main
+mrtgutils|Utilities to generate statistics for mrtg|https://salsa.debian.org/debian/mrtgutils.git|main
+mstch|Mustache implementation in C++11|https://salsa.debian.org/debian/mstch.git|main
+mueller|Mueller English/Russian dictionary in dict format|https://salsa.debian.org/debian/mueller.git|main
+multimail|Offline reader for BW, QWK,OMEN and SOUP|https://salsa.debian.org/debian/multimail.git|main
+muttprofile|utility to choose profiles in Mutt|https://salsa.debian.org/debian/muttprofile.git|cli main
+mysql-connector-python|pure Python implementation of MySQL Client/Server protocol (Python3)|https://salsa.debian.org/python-team/packages/mysql-connector-python.git|main net python python-team
+mysqltcl|interface to the MySQL database for the Tcl language|https://salsa.debian.org/debian/mysqltcl.git|main
+nam|Network Animator for network simulation|https://salsa.debian.org/debian/nam.git|main net
+naspro-bridge-it|LV2 bridging helper library|https://salsa.debian.org/debian/naspro-bridge-it.git|lib main
+naspro-bridges|collection of bridges to LV2|https://salsa.debian.org/debian/naspro-bridges.git|main
+naspro-core|NASPRO core library|https://salsa.debian.org/debian/naspro-core.git|lib main
+nast|packet sniffer and lan analyzer|https://salsa.debian.org/debian/nast.git|main
+naturaldocs|extensible, multi-language documentation generator|https://salsa.debian.org/debian/naturaldocs.git|main
+nautilus-image-converter|nautilus extension to mass resize or rotate images|https://salsa.debian.org/debian/nautilus-image-converter.git|main
+ncap|network capture tool, library and Python bindings|https://salsa.debian.org/debian/ncap.git|lib main net python
+ncdt|Display directory tree|https://salsa.debian.org/debian/ncdt.git|main
+nedit|powerful, customizable, Motif based text editor|https://salsa.debian.org/debian/nedit.git|main
+net-luminis-build-plugin|Wrapper around Bnd to allow easy bundle creation from ant builds|https://salsa.debian.org/debian/net-luminis-build-plugin.git|main
+netcdf-fortran|creation, access, and sharing of scientific data in Fortran|https://salsa.debian.org/debian/netcdf-fortran.git|main
+netkit-bootparamd|Boot parameter server|https://salsa.debian.org/debian/netkit-bootparamd.git|main net
+netkit-ftp-ssl|FTP client with TLS support|https://salsa.debian.org/debian/netkit-ftp-ssl.git|main net
+netkit-ntalk|Chat with another user|https://salsa.debian.org/debian/netkit-ntalk.git|main
+netkit-rusers|Displays who is logged in to machines on local network|https://salsa.debian.org/debian/netkit-rusers.git|main net
+netkit-rwall|Send a message to users logged on a host|https://salsa.debian.org/debian/netkit-rwall.git|main
+netkit-rwho|Clients to query the rwho server|https://salsa.debian.org/debian/netkit-rwho.git|main net
+netkit-telnet-ssl|BSD-derived netkit-telnet with SSL patches|https://salsa.debian.org/debian/netkit-telnet-ssl.git|main
+netmate|netdude clone that shows pcap dump lines in network header style|https://salsa.debian.org/debian/netmate.git|main net
+netrik|text mode WWW browser with vi like keybindings|https://salsa.debian.org/debian/netrik.git|main
+newmail|Notificator for incoming mail|https://salsa.debian.org/debian/newmail.git|main
+nfsometer|performance measurement framework for running and reporting on NFS workloads|https://salsa.debian.org/debian/nfsometer.git|main
+nfstest|NFS Test Suite|https://salsa.debian.org/debian/nfstest.git|main
+ng|Common files used by ng-* packages|https://salsa.debian.org/debian/ng.git|main
+nield|generate logs related to network interfaces|https://salsa.debian.org/debian/nield.git|main net
+nim|Nim programming language - compiler|https://salsa.debian.org/debian/nim.git|main
+nitpic|simulator for the Microchip PIC16C84 microcontroller||main
+nmzmail|indexes and searches email in maildir folders|https://salsa.debian.org/debian/nmzmail.git|main
+node-bash-color|wrap strings in color codes for pretty printing in bash|https://salsa.debian.org/js-team/node-bash-color.git|main
+node-duration|time duration utilities for Node.js|https://salsa.debian.org/js-team/node-duration.git|javascript main
+node-node-sass|Wrapper around libsass|https://salsa.debian.org/js-team/node-node-sass.git|main
+notify-osd|daemon that displays passive pop-up notifications|https://salsa.debian.org/debian/notify-osd.git|main
+nslint|Lint for DNS files, checks integrity|https://salsa.debian.org/debian/nslint.git|main
+nsync|C library that exports various synchronization primitives|https://salsa.debian.org/science-team/nsync.git|lib main
+o3dgc|Open 3D Graphics Compression library|https://salsa.debian.org/debian/o3dgc.git|lib main
+obexftp|file transfer utility for devices that use the OBEX protocol|https://salsa.debian.org/debian/obexftp.git|cli main net
+obexpushd|program for receiving files via Bluetooth or IRDA|https://salsa.debian.org/debian/obexpushd.git|main
+olpc-powerd|OLPC XO power management support daemon|https://salsa.debian.org/debian/olpc-powerd.git|main
+ooo-thumbnailer|thumbnailer for OpenOffice.org documents|https://salsa.debian.org/debian/ooo-thumbnailer.git|main
+openclipart|Open Clip Art Library|https://salsa.debian.org/debian/openclipart.git|lib main
+openhpi|SAF's HPI: Abstracted interface for managing computer hardware||main
+openoffice.org-en-au|Australian English Thesaurus for OpenOffice.org|https://salsa.debian.org/debian/openoffice.org-en-au.git|main
+opentk|Open Toolkit wrapper for OpenGL, OpenAL and OpenCL|https://salsa.debian.org/dotnet-team/opentk.git|main
+openwince-include|Common include files for the open wince project|https://salsa.debian.org/debian/openwince-include.git|main
+openwince-jtag|allows programming jtag capable devices such as CPUs or FPGAs|https://salsa.debian.org/debian/openwince-jtag.git|main
+opt|Options Parsing Tool library|https://salsa.debian.org/debian/opt.git|lib main
+opticalraytracer|Virtual lens design workshop|https://salsa.debian.org/science-team/opticalraytracer.git|main
+oscpack|A C++ library for packing and unpacking OSC packets|https://salsa.debian.org/debian/oscpack.git|cpp lib main
+osdclock|Clock using the XOSD library|https://salsa.debian.org/debian/osdclock.git|lib main
+osdsh|overlays your screen with various system information|https://salsa.debian.org/debian/osdsh.git|main sys
+otp|Generator for One Time Pads or Passwords|https://salsa.debian.org/debian/otp.git|main
+ots|Open Text Summarizer (development)|https://salsa.debian.org/debian/ots.git|main
+p8-platform|Pulse-Eight's platform support library|https://salsa.debian.org/debian/p8-platform.git|lib main
+pal|command-line calendar program that can keep track of events|https://salsa.debian.org/debian/pal.git|cli main
+pam-krb5-migrate|PAM module for migrating to Heimdal Kerberos|https://anonscm.debian.org/cgit/collab-maint/pam-krb5-migrate.git|main
+pam-session-timelimit|PAM module to permit configuring time limits for user sessions|https://salsa.debian.org/debian/pam-session-timelimit.git|main
+pam-ssh-agent-auth|PAM Authentication via forwarded ssh-agent|https://salsa.debian.org/debian/pam-ssh-agent-auth.git|main
+papirus-icon-theme|Papirus open source icon theme for Linux|https://salsa.debian.org/debian/papirus-icon-theme.git|main
+parchive|Use PAR files to reconstruct missing parts of multi-part archives|https://salsa.debian.org/debian/parchive.git|main
+parprouted|transparent IP (Layer 3) proxy ARP bridging tool|https://salsa.debian.org/debian/parprouted.git|main
+parser-mysql|MySQL driver for Parser 3|https://salsa.debian.org/debian/parser-mysql.git|main sys
+parser|Parser 3, HTML-embedded scripting language (metapackage)|https://salsa.debian.org/debian/parser.git|main sys
+parsewiki|Documentation System Based on ASCII Text|https://salsa.debian.org/debian/parsewiki.git|main sys
+partimage-doc|documentation for partimage|https://salsa.debian.org/debian/partimage-doc.git|main
+partimage|disk cloning/backup utility|https://salsa.debian.org/debian/partimage.git|cli main
+pasmo|An easy to use Z80 cross-assembler|https://salsa.debian.org/debian/pasmo.git|main
+pconsole|parallel console shell for administering clusters|https://salsa.debian.org/debian/pconsole.git|cli main
+pct-scanner-scripts|scan and create merged DjVu and PDF|https://salsa.debian.org/debian/pct-scanner-scripts.git|main
+peek|Simple animated GIF screen recorder with GUI|https://salsa.debian.org/debian/peek.git|gui main
+pekwm-themes|themes for the pekwm window manager|https://salsa.debian.org/debian/pekwm-themes.git|main
+pekwm|very light window manager|https://salsa.debian.org/debian/pekwm.git|main
+perl-byacc|The Berkeley LALR parser generator, Perl version|https://salsa.debian.org/debian/perl-byacc.git|main perl perl-team
+persepolis-lib|Python library for easier and faster downloading|https://salsa.debian.org/python-team/packages/persepolis-lib.git|lib main python python-team
+persp-projectile|integrate perspective.el with projectile|https://salsa.debian.org/emacsen-team/persp-projectile.git|main
+pgpgpg|Wrapper for using GnuPG in programs designed for PGP|https://salsa.debian.org/debian/pgpgpg.git|main
+phabricator|Software engineering platform|https://salsa.debian.org/debian/phabricator.git|main
+photopc|Interface to digital still cameras|https://salsa.debian.org/debian/photopc.git|main
+php-fpdf|PHP class to generate PDF files|https://salsa.debian.org/debian/php-fpdf.git|main php
+php-htmlpurifier|Standards-compliant HTML filter|https://salsa.debian.org/tdtf-team/php-htmlpurifier.git|main php
+phpwebcounter-extra|extra graphical numbers to PHP Web Counter|https://salsa.debian.org/debian/phpwebcounter-extra.git|main php
+phpwebcounter|simple and light web hit counter|https://salsa.debian.org/debian/phpwebcounter.git|main
+pidgin-audacious|pidgin integration with Audacious|https://salsa.debian.org/debian/pidgin-audacious.git|main
+pidgin-blinklight|Blinks your ThinkPad's ThinkLight upon new messages|https://salsa.debian.org/debian/pidgin-blinklight.git|main
+pidgin-extprefs|extended preferences plugin for the instant messenger pidgin|https://salsa.debian.org/debian/pidgin-extprefs.git|main
+pidgin-privacy-please|plugin for enhanced privacy in pidgin|https://salsa.debian.org/debian/pidgin-privacy-please.git|main
+pinyin-database|PinYin database used by ibus-pinyin|https://salsa.debian.org/input-method-team/pinyin-database.git|main
+pkg-info-el|Emacs Lisp library providing information about Emacs packages|https://salsa.debian.org/emacsen-team/pkg-info-el.git|lib main
+pktstat|top-like utility for network connections usage|https://salsa.debian.org/debian/pktstat.git|cli main net
+plait|command-line jukebox|https://salsa.debian.org/debian/plait.git|cli main
+playmidi|MIDI player|https://salsa.debian.org/debian/playmidi.git|main
+ploticus|script driven business graphics package|https://salsa.debian.org/debian/ploticus.git|main
+plover-stroke|Stroke handling helper library for Plover|https://salsa.debian.org/python-team/packages/plover-stroke.git|lib main python-team
+plptools|Access EPOC device (Psion PDA) over a serial link|https://salsa.debian.org/debian/plptools.git|main
+plsense|Omni Completion Tool for Perl|https://salsa.debian.org/debian/plsense.git|main perl
+pmacct|promiscuous mode traffic accountant|https://salsa.debian.org/debian/pmacct.git|main
+png-definitive-guide|PNG: The Definitive Guide|https://salsa.debian.org/debian/png-definitive-guide.git|main
+png23d|Converts PNG images into three dimensional representations.|https://salsa.debian.org/debian/png23d.git|main
+png2html|transforms a PNG image to a web page|https://salsa.debian.org/debian/png2html.git|main
+poc-streamer|MP3/Ogg multicast/HTTP streamer and MP3 cutting tool|https://salsa.debian.org/debian/poc-streamer.git|main
+poco-doc|Documentation for POCO - The C++ Portable Components|https://salsa.debian.org/debian/poco-doc.git|cpp main
+poco|C++ Portable Components|https://salsa.debian.org/debian/poco.git|cpp main
+polygen|generator of random sentences from grammar definitions|https://salsa.debian.org/ocaml-team/polygen.git|main
+poppassd|password change server for Eudora and NUPOP|https://salsa.debian.org/debian/poppassd.git|main net
+popup-el|visual popup user interface library for Emacs|https://salsa.debian.org/emacsen-team/popup-el.git|lib main
+posixtestsuite|POSIX conformance test suite report log|https://git.hadrons.org/git/debian/pkgs/posixtestsuite.git|main
+poster|Create large posters out of PostScript pages|https://salsa.debian.org/debian/poster.git|main
+powerdebug|tool to display regulator, sensor and clock information|https://salsa.debian.org/debian/powerdebug.git|main
+powerline-taskwarrior|Powerline segment for showing Taskwarrior information|https://salsa.debian.org/tasktools-team/powerline-taskwarrior.git|main
+powerman|Centralized Power Distribution Unit (PDU) management|https://salsa.debian.org/debian/powerman.git|main
+pppconfig|A text menu based utility for configuring ppp|https://salsa.debian.org/debian/pppconfig.git|cli main
+procdump|Utility to create core dumps based on performance triggers|https://salsa.debian.org/debian/procdump.git|cli main
+procmail-lib|procmail library of plug-in recipes|https://salsa.debian.org/debian/procmail-lib.git|lib main
+profile-sync-daemon|Symlink and sync browser profile directories into RAM|https://salsa.debian.org/debian/profile-sync-daemon.git|main
+prototypejs|JavaScript Framework for dynamic web applications|https://salsa.debian.org/debian/prototypejs.git|javascript main
+proxsmtp|multi purpose SMTP Proxy|https://salsa.debian.org/debian/proxsmtp.git|main
+proxycheck|checks existence of open proxy|https://salsa.debian.org/debian/proxycheck.git|main
+prt|Command line Perl Refactoring Tool|https://salsa.debian.org/debian/prt.git|cli main perl
+psrip|Extract images from PostScript files|https://salsa.debian.org/debian/psrip.git|main
+psst|power stress and shaping tool||main
+publib|library of miscellaneous C functions|https://salsa.debian.org/debian/publib.git|lib main
+pugl|portable API for OpenGL graphical interfaces|https://salsa.debian.org/debian/pugl.git|main
+pulseeffects|Audio effects for PulseAudio applications|https://salsa.debian.org/debian/pulseeffects.git|main
+puppet-mode|Emacs major mode for Puppet manifests|https://salsa.debian.org/emacsen-team/puppet-mode.git|main
+purity|Automated purity testing software|https://salsa.debian.org/debian/purity.git|main
+purple-plugin-pack|collection of Pidgin plugins|https://salsa.debian.org/debian/purple-plugin-pack.git|main
+pwauth|authenticator for mod_authnz_external and the Apache HTTP Daemon|https://salsa.debian.org/debian/pwauth.git|main
+pwget|downloader utility which resembles wget (implemented in Perl)|https://salsa.debian.org/debian/pwget.git|cli main perl
+pwrkap|Energy use monitor and Power Cap enforcement tools - Core|git://git.kernel.org/pub/scm/linux/kernel/git/djwong/pwrkap|main
+pybeam|Python module to parse Erlang BEAM files|https://salsa.debian.org/python-team/packages/pybeam.git|main python python-team
+pyecm|integer factorization with the Elliptic Curve Method (ECM)|https://salsa.debian.org/python-team/packages/pyecm.git|main python-team
+pylint-django|Pylint plugin for analysing code using Django (Python 3)|https://salsa.debian.org/python-team/packages/pylint-django.git|main python python-team
+pylint-plugin-utils|Utilities and helpers for writing Pylint plugins (Python 3)|https://salsa.debian.org/python-team/packages/pylint-plugin-utils.git|main python python-team
+pytaglib|Python3 bindings for the TagLib audio metadata library|https://salsa.debian.org/python-team/packages/pytaglib.git|lib main python-team
+pytest-cookies|wrapper for the cookiecutter API for generating projects|https://salsa.debian.org/python-team/packages/pytest-cookies.git|main python-team
+pytest-instafail|plugin for py.test that shows failures and errors instantly|https://salsa.debian.org/python-team/packages/pytest-instafail.git|main python-team
+pytest-localserver|py.test plugin to test server connections locally|https://salsa.debian.org/python-team/packages/pytest-localserver.git|main net python-team
+python-ajpy|Python module to craft AJP requests|https://salsa.debian.org/python-team/packages/python-ajpy.git|main python python-team
+python-bayespy|variational Bayesian inference tools for Python|https://salsa.debian.org/science-team/python-bayespy.git|main python python-team
+python-bsddb3|Python interface for Berkeley DB|https://salsa.debian.org/debian/python-bsddb3.git|main python python-team
+python-characteristic|helper for implementing attribute-related object protocols|https://salsa.debian.org/debian/python-characteristic.git|main python python-team
+python-diaspy|unofficial interface to the Diaspora social network (Python 3)|https://salsa.debian.org/python-team/packages/python-diaspy.git|main net python python-team
+python-ebooklib|Python 3 E-book library for handling EPUB2/EPUB3/Kindle formats|https://salsa.debian.org/debian/python-ebooklib.git|lib main python python-team
+python-first|simple function that returns the first true value from an iterable|https://salsa.debian.org/debian/python-first.git|main python python-team
+python-gammu|Python module to communicate with mobile phones|https://salsa.debian.org/python-team/packages/python-gammu.git|main python python-team
+python-hgapi|module providing a pure-Python API to Mercurial (Python 3)|https://salsa.debian.org/python-team/packages/python-hgapi.git|main python python-team
+python-isoweek|Python module to provide the class Week (Python 3)|https://salsa.debian.org/python-team/packages/python-isoweek.git|main python python-team
+python-localzone|Low-calorie python library for managing DNS zones|https://salsa.debian.org/python-team/packages/python-localzone.git|lib main python python-team
+python-mbed-host-tests|module and utilities to flash, reset and test Mbed Enabled devices|https://salsa.debian.org/python-team/packages/python-mbed-host-tests.git|main python python-team
+python-mbed-ls|module listing mbed-enabled devices connected to host (Python 3)|https://salsa.debian.org/python-team/packages/python-mbed-ls.git|main python python-team
+python-memoize|Simple Python cache and memoizing module (Python3)|https://salsa.debian.org/debian/python-memoize.git|main python python-team
+python-minimock|simple library for Python mock objects|https://salsa.debian.org/python-team/packages/python-minimock.git|lib main python python-team
+python-mplexporter|general matplotlib exporter|https://salsa.debian.org/python-team/packages/python-mplexporter.git|main python python-team
+python-nudatus|module to remove comments from Python 3 scripts|https://salsa.debian.org/python-team/packages/python-nudatus.git|main python python-team
+python-ofxparse|parser for Open Financial Exchange (.ofx) format files|https://salsa.debian.org/debian/python-ofxparse.git|main python python-team
+python-openflow|low level library to parse OpenFlow messages|https://salsa.debian.org/debian/python-openflow.git|lib main python python-team
+python-orderedattrdict|Python OrderedDict with attribute-style access (Python3)|https://salsa.debian.org/debian/python-orderedattrdict.git|main python python-team
+python-paginate|Python module that helps dividing large lists of items into pages|https://salsa.debian.org/python-team/packages/python-paginate.git|main python python-team
+python-panwid|Useful widgets for urwid|https://salsa.debian.org/debian/python-panwid.git|main python python-team
+python-pex|library for generating Python executable zip files|https://salsa.debian.org/python-team/packages/python-pex.git|lib main python python-team
+python-phpserialize|Python port of PHP serialize and unserialize functions|https://salsa.debian.org/debian/python-phpserialize.git|main php python python-team
+python-plyer|platform-independent wrapper for platform-dependent APIs|https://salsa.debian.org/debian/python-plyer.git|main python python-team
+python-pmw|Pmw -- Python MegaWidgets|https://salsa.debian.org/python-team/packages/python-pmw.git|main python python-team
+python-project-generator-definitions|collection of target/MCU definitions for progen|https://salsa.debian.org/python-team/packages/python-project-generator-definitions.git|main python python-team
+python-project-generator|project generators for various embedded tools (IDE)|https://salsa.debian.org/python-team/packages/python-project-generator.git|main python python-team sys
+python-pyramid-multiauth|authentication policy for the Pyramid web framework|https://salsa.debian.org/debian/python-pyramid-multiauth.git|main python python-team
+python-restless|lightweight REST miniframework for Python|https://salsa.debian.org/python-team/packages/python-restless.git|main python python-team
+python-rply|pure Python based parser that also works with RPython|https://salsa.debian.org/python-team/packages/python-rply.git|main python python-team
+python-rst2ansi|Python module to render reStructuredText to ansi-escaped strings|https://salsa.debian.org/python-team/packages/python-rst2ansi.git|main python python-team
+python-rtf-tokenize|Simple RTF tokenizer for python|https://salsa.debian.org/python-team/packages/python-rtf-tokenize.git|main python python-team
+python-scrypt|bindings for the scrypt key derivation function library|https://salsa.debian.org/python-team/packages/python-scrypt.git|lib main python python-team
+python-spoon|Simple to use pre-forking server interface|https://salsa.debian.org/debian/python-spoon.git|main net python python-team
+python-srp|Secure Remote Password protocol implementation (Python 3)|https://salsa.debian.org/python-team/packages/python-srp.git|main net python python-team
+python-sshoot|manage multiple sshuttle VPN sessions|https://salsa.debian.org/debian/python-sshoot.git|main python python-team
+python-static3|Really simple WSGI way to serve static content (Python 3)|https://salsa.debian.org/debian/python-static3.git|main python python-team
+python-svg.path|SVG path objects and parser for Python|https://salsa.debian.org/python-team/packages/python-svg.path.git|main python python-team
+python-truncnorm|Moments for truncated multivariate normal distributions for Python|https://salsa.debian.org/science-team/python-truncnorm.git|main python python-team
+python-uflash|module and utility for flashing the BBC micro:bit|https://salsa.debian.org/python-team/packages/python-uflash.git|cli main python python-team
+python-urwid-utils|Collection of simple, straightforward, but extensible utilities for urwid|https://salsa.debian.org/debian/python-urwid-utils.git|main python python-team
+pytoolconfig|Python Tool Configuration Library|https://salsa.debian.org/python-team/packages/pytoolconfig.git|lib main python python-team
+qdbm|QDBM Database|https://salsa.debian.org/debian/qdbm.git|main
+qimgv|Qt5 image viewer with optional video support|https://salsa.debian.org/debian/qimgv.git|main
+qpsmtpd|Flexible SMTP daemon for network-level spam detection|https://salsa.debian.org/debian/qpsmtpd.git|main net
+qt-avif-image-plugin|Qt plug-in to read/write AVIF images|https://salsa.debian.org/debian/qt-avif-image-plugin.git|gui main
+qtdbusextended|Extended DBus interface for Qt|https://salsa.debian.org/debian/qtdbusextended.git|gui main
+qtop|windowed version of the console top command|https://salsa.debian.org/debian/qtop.git|cli main
+qtscrob|audioscrobbler submitter for portable media players|https://salsa.debian.org/debian/qtscrob.git|main
+qwo|An efficient input method for touch screens|https://salsa.debian.org/debian/qwo.git|main
+rabbitsign|application signing system for the TI-73/83+/84+ calculators|https://salsa.debian.org/debian/rabbitsign.git|main sys
+randomplay|command-line based shuffle music player that remembers songs between sessions|https://salsa.debian.org/debian/randomplay.git|cli main
+rapiddisk|Linux RAM Drive and Caching kernel modules|https://salsa.debian.org/debian/rapiddisk.git|main sys
+raptor2|Raptor 2 RDF syntax library development libraries and headers|https://salsa.debian.org/debian/raptor2.git|lib main
+rasqal|Rasqal RDF query library development libraries and headers|https://salsa.debian.org/debian/rasqal.git|lib main
+razercfg|Razer device configuration tool|https://salsa.debian.org/debian/razercfg.git|main
+rbootd|Remote Boot Daemon||main
+redland-bindings|Perl language bindings for the Redland RDF library|https://salsa.debian.org/debian/redland-bindings.git|lib main perl
+redland|Redland RDF library development libraries and headers|https://salsa.debian.org/debian/redland.git|lib main
+rednotebook|Modern desktop diary and personal journaling tool|https://salsa.debian.org/debian/rednotebook.git|main
+regionset|view and modify the region code of DVD drives|https://salsa.debian.org/debian/regionset.git|main
+renattach|Rename attachments on the fly|https://salsa.debian.org/debian/renattach.git|main
+renrot|Rename and rotate files according to EXIF tags|https://salsa.debian.org/debian/renrot.git|main
+rio|Command line Diamond Rio MP3 player controller|https://salsa.debian.org/debian/rio.git|cli main
+root-tail|Displays select log files in the X root window|https://salsa.debian.org/debian/root-tail.git|main
+rpmlint|RPM package checker|https://salsa.debian.org/pkg-rpm-team/rpmlint.git|main
+rtl-wmbus|software defined receiver for Wireless-M-Bus (EN13757 OMS) with RTL-SDR|https://salsa.debian.org/weetmuts/package-rtl-wmbus.git|main
+ruby-acts-as-tree|simple tree behaviour to active_record models|https://salsa.debian.org/ruby-team/ruby-acts-as-tree.git|main ruby ruby-team
+ruby-amazon-ec2|Ruby library for accessing Amazon EC2|https://salsa.debian.org/debian/ruby-amazon-ec2.git|lib main ruby ruby-team
+ruby-beaker-hostgenerator|command line utility designed to generate beaker host config files|https://salsa.debian.org/debian/ruby-beaker-hostgenerator.git|cli main ruby ruby-team
+ruby-cocoon|tool to handle nested forms using jQuery|https://salsa.debian.org/ruby-team/ruby-cocoon.git|main ruby ruby-team
+ruby-in-parallel|lightweight Ruby library with very simple syntax for parallelization|https://salsa.debian.org/debian/ruby-in-parallel.git|lib main ruby ruby-team
+ruby-joiner|builds activerecord joins from association paths|https://salsa.debian.org/ruby-team/ruby-joiner.git|main ruby ruby-team
+ruby-jquery-datatables-rails|jquery datatables for rails|https://salsa.debian.org/ruby-team/ruby-jquery-datatables-rails.git|main ruby ruby-team
+ruby-maruku|Markdown-superset interpreter written in Ruby|https://salsa.debian.org/ruby-team/ruby-maruku.git|main ruby ruby-team
+ruby-open-uri-redirections|openuri patch to allow redirections between HTTP and HTTPS|https://salsa.debian.org/debian/ruby-open-uri-redirections.git|main ruby ruby-team
+ruby-stringify-hash|ruby hash object that treats symbols and strings interchangeably|https://salsa.debian.org/debian/ruby-stringify-hash.git|main ruby ruby-team
+ruby-tioga|Ruby library for scientific graphs|https://salsa.debian.org/ruby-team/ruby-tioga.git|lib main ruby ruby-team
+ruli|Library for easily querying DNS SRV records - development files|https://salsa.debian.org/debian/ruli.git|lib main
+rust-json5|Rust JSON5 serializer and deserializer which speaks Serde|https://salsa.debian.org/rust-team/debcargo-conf.git [src/json5]|main rust
+s390-tools|fundamental utilities for Linux on S/390||main
+sachesi|BlackBerry 10 device utility|https://salsa.debian.org/debian/sachesi.git|cli main
+safe-iop|Safe integer operation library|https://github.com/seamlik/debianpkg-safe-iop.git|lib main
+sawfish-themes|Themes for the Sawfish window manager|https://salsa.debian.org/debian/sawfish-themes.git|main
+scanbd|Scanner button daemon|https://salsa.debian.org/debian/scanbd.git|main
+scid-rating-data|contains spelling corrections and ELO ratings for scid chess databases|https://salsa.debian.org/debian/scid-rating-data.git|main
+scid-spell-data|contains spelling corrections for scid chess databases|https://salsa.debian.org/debian/scid-spell-data.git|main
+scim-unikey|Vietnamese Input Method Engine for SCIM using Unikey Engine|https://salsa.debian.org/debian/scim-unikey.git|main
+screenie|Lightweight GNU screen(1) wrapper|https://salsa.debian.org/debian/screenie.git|main
+scriptaculous|JavaScript library for dynamic web applications|https://salsa.debian.org/debian/scriptaculous.git|javascript lib main
+scsitools|Collection of tools for SCSI hardware management|https://salsa.debian.org/debian/scsitools.git|main
+search-ccsb|BibTeX search tool|https://salsa.debian.org/debian/search-ccsb.git|main
+search-citeseer|BibTeX search tool|https://salsa.debian.org/debian/search-citeseer.git|main
+sendmail|powerful, efficient, and scalable Mail Transport Agent|https://salsa.debian.org/debian/sendmail.git|main
+sesman|session manager for Emacs IDEs|https://salsa.debian.org/emacsen-team/sesman.git|main
+seyon|Full-featured native X11 communications program|https://salsa.debian.org/debian/seyon.git|gui main
+sgml-base-doc|Documentation for sgml-base|https://salsa.debian.org/debian/sgml-base-doc.git|main
+sgml-base|SGML infrastructure and SGML catalog file support|https://salsa.debian.org/debian/sgml-base.git|main
+sgml-spell-checker|spell checker for SGML documents|https://salsa.debian.org/debian/sgml-spell-checker.git|main
+shake|Testing engine for the Lua language version 5.1|https://salsa.debian.org/debian/shake.git|main
+shhopt|Command line option parser - runtime|https://salsa.debian.org/debian/shhopt.git|cli main
+signify|Automatic, semi-random &quot;.signature&quot; rotator/generator|https://salsa.debian.org/debian/signify.git|main
+sigscheme|Scheme Interpreter to be embedded|https://salsa.debian.org/debian/sigscheme.git|main sys
+simba|next generation mirroring tool||main
+simple-tpm-pk11|simple library for using the TPM chip to secure SSH keys|https://salsa.debian.org/debian/simple-tpm-pk11.git|lib main
+simplemde-markdown-editor|JavaScript library providing a simple Markdown editor|https://salsa.debian.org/debian/simplemde-markdown-editor.git|javascript lib main
+simulavr|Atmel AVR simulator|https://salsa.debian.org/debian/simulavr.git|main
+singleapplication|Replacement of QtSingleApplication for Qt5|https://salsa.debian.org/debian/singleapplication.git|main
+sispmctl|Control Gembird SIS-PM programmable power outlet strips|https://salsa.debian.org/debian/sispmctl.git|main
+sitecopy|program for managing a WWW site via FTP, SFTP, DAV or HTTP|https://salsa.debian.org/debian/sitecopy.git|main
+skales|Boot image creation tools for qualcomm boards|https://salsa.debian.org/debian/skales.git|main
+slick|responsive carousel jQuery plugin|https://salsa.debian.org/debian/slick.git|main
+smbldap-tools|Scripts to manage Unix and Samba accounts stored on LDAP|https://salsa.debian.org/debian/smbldap-tools.git|main
+snmptrapfmt|A configurable snmp trap handler daemon for snmpd|https://salsa.debian.org/debian/snmptrapfmt.git|main
+sntop|A curses-based utility that polls hosts to determine connectivity|https://salsa.debian.org/debian/sntop.git|cli main
+spacefm|Multi-panel tabbed file manager|https://salsa.debian.org/debian/spacefm.git|main
+spamassassin-heatu|Heuristic Email Address Tracker Utility for Spamassassin|https://salsa.debian.org/debian/spamassassin-heatu.git|cli main
+spamprobe|Bayesian spam filter|https://salsa.debian.org/debian/spamprobe.git|main
+speaklater|lazy string useful for translations for Python 3|https://salsa.debian.org/python-team/packages/speaklater.git|main python python-team
+spectools|Utilities for using the Wi-Spy USB spectrum analyzer hardware|https://salsa.debian.org/debian/spectools.git|main
+speedcrunch|High precision calculator|https://salsa.debian.org/debian/speedcrunch.git|main
+speexdsp|DSP library derived from speex|https://salsa.debian.org/multimedia-team/speexdsp.git|lib main
+spellutils|Utilities to spell-check selectively|https://salsa.debian.org/debian/spellutils.git|main
+splint|tool for statically checking C programs for bugs|https://salsa.debian.org/debian/splint.git|main
+splitpatch|split the patch up into files or hunks|https://salsa.debian.org/debian/splitpatch.git|main
+splitvt|run two programs in a split screen|https://salsa.debian.org/debian/splitvt.git|main
+spnavcfg|configurator of 6-axes mice from 3Dconnexion|https://salsa.debian.org/science-team/spnavcfg.git|main
+sqlite-modern-cpp|Modern sqlite cpp wrapper|https://salsa.debian.org/debian/sqlite-modern-cpp.git|main
+sqlitecpp|C++ SQLite3 wrapper|https://salsa.debian.org/debian/sqlitecpp.git|cpp main
+srain|graphical IRC client based on GTK+|https://salsa.debian.org/debian/srain.git|gui main net
+ssh-askpass|under X, asks user for a passphrase for ssh-add|https://salsa.debian.org/debian/ssh-askpass.git|main
+sshtunnel|SSH tunnels to remote server|https://salsa.debian.org/python-team/packages/sshtunnel.git|main net python-team
+stardict-czech|Stardict package for Czech dictionary of foreign words|https://salsa.debian.org/debian/stardict-czech.git|main
+stardict-german-czech|Stardict package for German-Czech dictionary|https://git.dgit.debian.org/stardict-german-czech|non-free
+stardicter|Conversion tools from various formats to StarDict|https://salsa.debian.org/python-team/packages/stardicter.git|main python-team
+statsvn|SVN repository statistics|https://salsa.debian.org/java-team/statsvn.git|main
+stfl|structured terminal forms language/library|https://salsa.debian.org/debian/stfl.git|cli lib main
+stopwatch|Virtual stopwatch and timer|https://salsa.debian.org/debian/stopwatch.git|main
+storebackup|fancy compressing managing checksumming deduplicating hard-linking 'cp -ua'|https://salsa.debian.org/debian/storebackup.git|main
+stymulator|Curses based player and converter for the YM chiptune format|https://salsa.debian.org/debian/stymulator.git|main
+suede|Suede icon theme for GTK+ 2.x|https://salsa.debian.org/debian/suede.git|gui main
+sup|Software Upgrade Protocol implementation|https://salsa.debian.org/debian/sup.git|main net
+surfraw|fast unix command line interface to WWW|https://salsa.debian.org/debian/surfraw.git|cli main
+svn-buildpackage|helper programs to maintain Debian packages with Subversion|https://salsa.debian.org/debian/svn-buildpackage.git|main
+svtools|Utilities for daemontools and multilog|https://salsa.debian.org/debian/svtools.git|main
+swedish|Swedish dictionary for ispell|https://salsa.debian.org/debian/swedish.git|main
+swish++|Simple Document Indexing System for Humans: C++ version|https://salsa.debian.org/debian/swishplusplus.git|cpp main sys
+sysconftool|development tool to install and update configuration files|https://salsa.debian.org/debian/sysconftool.git|main
+sysnews|program to display system news|https://salsa.debian.org/debian/sysnews.git|main sys
+sysprofile|Modularized system wide shell configuration mechanism|https://salsa.debian.org/debian/sysprofile.git|main sys
+sysrqd|small daemon intended to manage Linux SysRq over network|https://salsa.debian.org/debian/sysrqd.git|main net
+systemtap|instrumentation system for Linux|https://salsa.debian.org/debian/systemtap.git|main sys
+t-code|Japanese direct input method environment for emacsen|https://salsa.debian.org/debian/t-code.git|main
+tardy|post-processor for tar command|https://salsa.debian.org/debian/tardy.git|main
+tart|versatile and feature-rich email signature generator|https://salsa.debian.org/debian/tart.git|main
+tcm|Toolkit for Conceptual Modeling (TCM)|https://salsa.debian.org/debian/tcm.git|main
+tcpspy|Incoming and Outgoing TCP/IP connections logger|https://salsa.debian.org/debian/tcpspy.git|main
+tdfsb|3D filesystem browser|https://salsa.debian.org/debian/tdfsb.git|main
+tegaki-zinnia-japanese|Japanese handwriting model for Zinnia|https://salsa.debian.org/debian/tegaki-zinnia-japanese.git|main
+tegaki-zinnia-simplified-chinese|Simplified Chinese handwriting model for Zinnia|https://salsa.debian.org/debian/tegaki-zinnia-simplified-chinese.git|main
+tenshi|https://tracker.debian.org/pkg/tenshi|https://salsa.debian.org/debian/tenshi.git|main
+tercpp|Translation Error Rate scoring tool - development files|https://salsa.debian.org/debian/tercpp.git|main
+ticker|configurable text scroller|https://salsa.debian.org/debian/ticker.git|main
+tinydyndns|pop-before-dyndns service using djbdns|https://salsa.debian.org/debian/tinydyndns.git|main
+tinyirc|tiny IRC client|https://salsa.debian.org/debian/tinyirc.git|main net
+tk-brief|GUI for easily writing letters with LaTeX|https://salsa.debian.org/debian/tk-brief.git|gui main
+tkcvs|Graphical front-end to CVS and Subversion|https://salsa.debian.org/debian/tkcvs.git|main
+tkdesk|Tk/tcl based X11 Desktop/File manager|https://salsa.debian.org/debian/tkdesk.git|gui main
+tkrzw-python|set of implementations of DBM - python binding|https://salsa.debian.org/python-team/packages/tkrzw-python.git|lib main python python-team
+tkrzw|set of implementations of DBM|https://salsa.debian.org/debian/tkrzw.git|main
+tla|GNU Arch revision control system|https://salsa.debian.org/debian/tla.git|main sys
+tmexpand|text-macro processing script to create HTML and SGML documents|https://salsa.debian.org/debian/tmexpand.git|main
+tnef|Tool to unpack MIME application/ms-tnef attachments|https://salsa.debian.org/debian/tnef.git|main
+toxic|curses Tox based instant messenging client|https://salsa.debian.org/debian/toxic.git|main net
+transaction|Transaction management for Python|https://salsa.debian.org/debian/transaction.git|main python
+trinity|system call fuzz tester||sys
+trueprint|pretty printing of source code|https://salsa.debian.org/debian/trueprint.git|main
+tse3|portable MIDI sequencer engine in C++ - development files|https://salsa.debian.org/debian/tse3.git|cpp main
+tsocks|transparent network access through a SOCKS 4 or 5 proxy|https://salsa.debian.org/debian/tsocks.git|main net
+tss2|IBM's TCG Software Stack (TSS) for TPM 2.0||main
+tstools|set of tools for reporting on and manipulating MPEG data|https://salsa.debian.org/debian/tstools.git|main
+tudu|Command line hierarchical ToDo list|https://gitlab.com/tudu/tudu.git|cli main
+tup|fast build system|https://salsa.debian.org/debian/tup.git|main sys
+tupi|2D Animation design and authoring tool|https://salsa.debian.org/debian/tupi.git|main
+tuxguitar|Multitrack guitar tablature editor and player (gp3 to gp5)|https://salsa.debian.org/java-team/tuxguitar.git|main
+tvtime|television display application|https://salsa.debian.org/debian/tvtime.git|main
+tweeper|web scraper to convert supported websites like Twitter.com to RSS|https://salsa.debian.org/debian/tweeper.git|main
+ucpp|embeddable, quick and light C preprocessor|https://salsa.debian.org/debian/ucpp.git|main
+ucspi-proxy|Connection proxy for UCSPI tools|https://salsa.debian.org/debian/ucspi-proxy.git|main
+udo|universal document - text processing utility|https://salsa.debian.org/debian/udo.git|cli main
+uhubctl|USB hub per-port power control|https://salsa.debian.org/debian/uhubctl.git|main
+ukopp|Full and incremental backup to disk or disk-like device|https://salsa.debian.org/debian/ukopp.git|main
+unac|The unac programming library - runtime version|https://salsa.debian.org/debian/unac.git|lib main
+unhtml|Remove the markup tags from an HTML file|https://salsa.debian.org/debian/unhtml.git|main
+unibetacode|convert polytonic Greek and Coptic between Beta Code and Unicode|https://salsa.debian.org/debian/unibetacode.git|main
+unicode-screensaver|screensaver displaying unicode characters|https://salsa.debian.org/debian/unicode-screensaver.git|main
+unmass|Extract game archive files|https://salsa.debian.org/debian/unmass.git|main
+unpaper|post-processing tool for scanned pages|https://salsa.debian.org/debian/unpaper.git|main
+untex|remove LaTeX commands from input|https://salsa.debian.org/debian/untex.git|main
+unworkable|efficient, simple and secure bittorrent client|https://salsa.debian.org/debian/unworkable.git|main net
+unyaffs|Extracts files from a YAFFS2 filesystem image|https://salsa.debian.org/debian/unyaffs.git|main
+upse|unix playstation sound emulator|https://salsa.debian.org/debian/upse.git|main
+utf8gen|generate well-formed UTF-8 characters|https://salsa.debian.org/debian/utf8gen.git|main
+utfcheck|check validity of UTF-8 in text files|https://salsa.debian.org/debian/utfcheck.git|main
+uucpsend|Alternative Frontend for UUCP Batching with INN|https://salsa.debian.org/debian/uucpsend.git|main
+uzbek-wordlist|The Uzbek dictionary for Hunspell|https://salsa.debian.org/debian/uzbek-wordlist.git|main
+v86d|daemon to run x86 code in an emulated environment|https://salsa.debian.org/debian/v86d.git|main
+valinor|generate IDE project files to debug ELF files|https://salsa.debian.org/python-team/packages/valinor.git|main python-team
+vamps|Tool to recompress and modify the structure of a DVD|https://salsa.debian.org/debian/vamps.git|main
+vbrfix|corrects MP3 files that have incorrect VBR information|https://salsa.debian.org/debian/vbrfix.git|main
+vdesk|manages virtual desktops for minimal window managers|https://salsa.debian.org/debian/vdesk.git|main
+videotrans|DVD authoring utilities|https://salsa.debian.org/debian/videotrans.git|main
+virtualenv-clone|script for cloning a non-relocatable virtualenv (Python3)|https://salsa.debian.org/debian/virtualenv-clone.git|main
+visual-regexp|Interactively debug regular expressions|https://salsa.debian.org/debian/visual-regexp.git|main
+w3c-markup-validator|W3C Markup Validator|https://salsa.debian.org/debian/w3c-markup-validator.git|main
+w3c-sgml-lib|w3.org DTD and catalog files|https://salsa.debian.org/debian/w3c-sgml-lib.git|main
+w3cam|a simple CGI to retrieve images from video4linux device|https://salsa.debian.org/debian/w3cam.git|main
+watchman|file watching service|https://salsa.debian.org/debian/watchman.git|main
+wav2cdr|Converts wav files into CD-ROM audio file format|https://salsa.debian.org/debian/wav2cdr.git|main
+wavesurfer|Sound Manipulation Program|https://salsa.debian.org/debian/wavesurfer.git|main
+wayfire-shadows|Window Shadows Plugin for Wayfire|https://salsa.debian.org/debian/wayfire-shadows.git|main
+wbox|HTTP testing tool and configuration-less HTTP server|https://salsa.debian.org/debian/wbox.git|main net
+wcd|saves time typing when you want to change directories|https://salsa.debian.org/debian/wcd.git|main
+wcm|Wayfire Config Manager|https://salsa.debian.org/debian/wcm.git|main
+webcamd|Capture images from video devices|https://salsa.debian.org/debian/webcamd.git|main
+weplab|tool designed to break WEP keys|https://salsa.debian.org/debian/weplab.git|main
+wf-config|Wayfire-specific library for managing config files|https://salsa.debian.org/debian/wf-config.git|lib main
+wf-shell|GTK-based panel and background client for Wayfire|https://salsa.debian.org/debian/wf-shell.git|gui main net
+whereami|Automatically reconfigure your (laptop) system for a new location|https://salsa.debian.org/debian/whereami.git|main sys
+wiggle|apply patches with conflicting changes|https://salsa.debian.org/debian/wiggle.git|main
+wiipdf|present a PDF file using your wiimote|https://salsa.debian.org/debian/wiipdf.git|main
+wily|A work-alike of the Acme programming environment for Plan 9|https://salsa.debian.org/debian/wily.git|main
+wireless-tools|Tools for manipulating Linux Wireless Extensions|https://salsa.debian.org/debian/wireless-tools.git|main
+wizznic|Implementation of the arcade classic Puzznic|https://salsa.debian.org/games-team/wizznic.git|main
+wlc|Command line utility for Weblate|https://salsa.debian.org/python-team/packages/wlc.git|cli main python-team
+wnn6-sdk|network-extensible Kana-to-Kanji conversion system|https://salsa.debian.org/debian/wnn6-sdk.git|main net sys
+wnn7egg|EGG Input Method with Wnn7 for Emacsen|https://salsa.debian.org/debian/wnn7egg.git|contrib
+wordpress-shibboleth|Shibboleth plugin for WordPress|https://anonscm.debian.org/git/users/dom/wordpress-shibboleth.git|main
+wraplinux|Utility to wrap a Linux kernel and initrd into an ELF or NBI file|https://salsa.debian.org/debian/wraplinux.git|cli main sys
+writegood-mode|Emacs minor mode that provides hints for common English writing problems|https://salsa.debian.org/emacsen-team/writegood-mode.git|main
+wsgicors|WSGI middleware to handle CORS preflight requests for Python 3|https://salsa.debian.org/debian/wsgicors.git|main python
+wsl|Wsman Shell Command Line &quot;whistle&quot;|https://salsa.debian.org/debian/dell-wsl.git|cli main
+wv|Programs for accessing Microsoft Word documents|https://salsa.debian.org/debian/wv.git|main
+wvdial|intelligent Point-to-Point Protocol dialer|https://salsa.debian.org/debian/wvdial.git|main net
+wvstreams|C++ network libraries for rapid application development|https://salsa.debian.org/debian/wvstreams.git|cpp main net
+x-loader|Board initialization helper for OMAP boards|https://salsa.debian.org/debian/x-loader.git|main
+x4d-icons|X4D Icon set for various online document types|https://salsa.debian.org/debian/x4d-icons.git|main
+x52pro|MFD and LED library for Saitek x52pro joysticks|https://salsa.debian.org/debian/x52pro.git|lib main
+xarclock|reversed xclock|https://salsa.debian.org/debian/xarclock.git|main
+xautomation|Control X from the command line, and find things on the screen|https://salsa.debian.org/debian/xautomation.git|cli main
+xbuffy|monitor mailboxes and/or newsgroups|https://salsa.debian.org/debian/xbuffy.git|main
+xcalib|Tiny monitor calibration loader for Xorg|https://salsa.debian.org/debian/xcalib.git|main
+xcb|Pigeon holes for your cut and paste selections|https://salsa.debian.org/debian/xcb.git|main
+xcolorsel|display colors and names in X|https://salsa.debian.org/debian/xcolorsel.git|main
+xdemorse|GUI to decode Morse signals to text|https://salsa.debian.org/debian/xdemorse.git|gui main
+xf86-input-wacom|X.Org X server -- Wacom input driver|https://salsa.debian.org/debian/xf86-input-wacom.git|main net sys
+xfonts-bolkhov|Cyrillic fonts for X|https://salsa.debian.org/debian/xfonts-bolkhov.git|main
+xfonts-cronyx|cyrillic BDF fonts|https://salsa.debian.org/debian/xfonts-cronyx.git|main
+xfonts-nexus|Nexus font for X|https://salsa.debian.org/debian/xfonts-nexus.git|main
+xfractint|UNIX-based fractal generator|https://salsa.debian.org/debian/xfractint.git|non-free
+xininfo|small helper program for monitor layouts|https://salsa.debian.org/debian/xininfo.git|main
+xless|file browsing tool for the X Window System|https://salsa.debian.org/debian/xless.git|main sys
+xmacro|Record / Play keystrokes and mouse movements in|https://salsa.debian.org/debian/xmacro.git|main
+xmix|X11-based interface to the Linux sound driver mixer|https://salsa.debian.org/debian/xmix.git|gui main sys
+xml-core|XML infrastructure and XML catalog file support|https://salsa.debian.org/xml-sgml-team/xml-core.git|main
+xml2|Convert between XML, HTML, CSV and a line-oriented format|https://salsa.debian.org/debian/xml2.git|main
+xmlrpc-epi|XML-RPC request library|https://salsa.debian.org/debian/xmlrpc-epi.git|lib main
+xmms2|Client/server based media player system|https://salsa.debian.org/debian/xmms2.git|main net sys
+xmotd|message of the day browser for X|https://salsa.debian.org/debian/xmotd.git|main
+xpaint|simple paint program for X|https://salsa.debian.org/debian/xpaint.git|main
+xplc|Universally Unique Identifier (UUID) generator|https://salsa.debian.org/debian/xplc.git|main
+xsecurelock|X11 screen lock utility with the primary goal of security|https://salsa.debian.org/debian/xsecurelock.git|cli gui main
+xtermcontrol|dynamic configuration of xterm properties|https://salsa.debian.org/debian/xtermcontrol.git|main
+xtitle|set window title and icon name for X terminal|https://salsa.debian.org/debian/xtitle.git|cli main
+xwrited|display write and wall messages as desktop notifications|https://salsa.debian.org/debian/xwrited.git|main
+xxkb|Keyboard state indicator and switcher for xkb|https://salsa.debian.org/debian/xxkb.git|main
+xzoom|magnify part of X display, with real-time updates|https://salsa.debian.org/debian/xzoom.git|main
+yafc|yet another FTP client|https://salsa.debian.org/debian/yafc.git|main net
+yamdi|a utility for adding metadata to flash video|https://salsa.debian.org/debian/yamdi.git|cli main
+yample|Yet Another Mail Processing Language|https://salsa.debian.org/debian/yample.git|main
+yank|interactively select and yank terminal output to stdout or xsel|https://salsa.debian.org/debian/yank.git|cli main
+yaskkserv|small and fast SKK dictionary server intended for embedded use|https://salsa.debian.org/debian/yaskkserv.git|main net sys
+yasm|modular assembler ith multiple syntaxes support|https://salsa.debian.org/debian/yasm.git|main
+yatex|Yet Another TeX mode for Emacs|https://salsa.debian.org/debian/yatex.git|main
+yatm|Command line audio file player with time stretching capabilities|https://salsa.debian.org/debian/yatm.git|cli main
+yc-el|Yet another Canna client for Emacsen|https://salsa.debian.org/debian/yc-el.git|main net
+ygl|A library that emulates SGI's GL routines under X11|https://salsa.debian.org/debian/ygl.git|gui lib main
+zc.buildout|system for managing development buildouts|https://salsa.debian.org/debian/zc.buildout.git|main sys
+zemberek-ooo|Turkish spell checker extension for LibreOffice|https://salsa.debian.org/debian/zemberek-ooo.git|main
+zemberek|Spell checker library for Turkic languages|https://salsa.debian.org/debian/zemberek.git|lib main
+zfs-fuse|ZFS on FUSE|https://salsa.debian.org/debian/zfs-fuse.git|main
+zinnia|online handwriting recognition system with machine learning|https://salsa.debian.org/debian/zinnia.git|main sys
+zlmdb|Object-relational in-memory database layer based on LMDB|https://salsa.debian.org/python-team/packages/zlmdb.git|main python-team
+zssh|interactive file transfers over ssh|https://salsa.debian.org/debian/zssh.git|main
+zsync|client-side implementation of the rsync algorithm|https://salsa.debian.org/debian/zsync.git|main net
+zthreads|Object-oriented synchronization library for C++|https://salsa.debian.org/debian/zthreads.git|cpp lib main
+zzuf|transparent application fuzzer|https://salsa.debian.org/debian/zzuf.git|main
